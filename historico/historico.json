@@ -1,0 +1,37 @@
+[
+    {
+        "date": "2026-05-11",
+        "cut_time": "09:00 BRT",
+        "summary": "Petróleo em alta pressionou inflação; DI curto e médio subiram; fluxo estrangeiro seletivo reduziu o índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "juros mais altos",
+                "petróleo caro",
+                "VIX em alta"
+            ],
+            "indfut": [
+                "bancos em queda",
+                "consumo pressionado",
+                "commodities sustentaram parcialmente"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "117.8 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "104.2",
+            "wti": "98.1",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IPCA IBGE 12/05",
+            "IGP-10 FGV 16/05"
+        ]
+    }
+]
