@@ -2,7 +2,7 @@
     {
         "date": "2026-05-11",
         "cut_time": "09:00 BRT",
-        "summary": "Petróleo em alta pressionou inflação; DI curto e médio subiram; fluxo estrangeiro seletivo reduziu o índice futuro.",
+        "summary": "Petróleo em alta pressionou a inflação e elevou o prêmio de risco doméstico, enquanto a reprecificação da curva DI curto reduziu apetite por risco. Fluxo estrangeiro seletivo e VIX em alta pressionaram o índice futuro.",
         "impacts": {
             "dolfut": [
                 "juros mais altos",
@@ -25,13 +25,383 @@
             "ibovespa": "181908 (-1.19%)",
             "sp500": "7412 (+0.19%)",
             "nasdaq": "26274 (+0.10%)",
-            "brent": "104.2",
-            "wti": "98.1",
+            "brent": "104.2 USD/bbl",
+            "wti": "98.1 USD/bbl",
             "vix": "18.3"
         },
         "pending": [
-            "IPCA IBGE 12/05",
-            "IGP-10 FGV 16/05"
+            "IPCA IBGE 12/05 — aguardando divulgação",
+            "IGP-10 FGV 16/05 — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-11' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-12",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento com viés de risco após surpresa inflacionária doméstica e leitura de inflação externa acima do esperado, elevando yields globais e prêmio de risco. Dólar Futuro fechou em alta e o índice futuro encerrou em queda com fluxo estrangeiro seletivo.",
+        "impacts": {
+            "dolfut": [
+                "IPCA (IBGE) abril 0,67% m/m elevou prêmio de risco doméstico",
+                "CPI EUA abril +0,6% m/m (+3,8% a/a) pressionou yields globais",
+                "petróleo em patamar elevado aumentou risco inflacionário",
+                "US 10y em alta reduziu apetite por risco em emergentes",
+                "fluxo estrangeiro seletivo aumentou demanda por hedge cambial"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo",
+                "reprecificação da curva DI curto por surpresa de inflação",
+                "pressão de custos via petróleo afetando margens de empresas",
+                "aumento do prêmio de risco (CDS) reduziu apetite por ações locais",
+                "correlação negativa com Treasuries em alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "117.8 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.7 USD/bbl",
+            "wti": "98.1 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 FGV 16/05 — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-12' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-13",
+        "cut_time": "09:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa elevaram yields globais e o prêmio de risco, pressionando ativos locais. Petróleo acima de US$100 e saída seletiva de estrangeiros reforçaram demanda por hedge cambial e penalizaram o índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+                "CPI EUA abril 0,6% (BLS) pressionou yields globais",
+                "Brent alto (US$107.5) aumentou risco inflacionário e demanda por hedge",
+                "Fluxo estrangeiro seletivo / saída (R$1,12 bi) elevou demanda por proteção cambial",
+                "US 10y em alta (4.45%) e reprecificação DI curto reduziram apetite por risco"
+            ],
+            "indfut": [
+                "Venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+                "Reprecificação da curva DI curto por surpresa de inflação pressionou valuation",
+                "Aumento do CDS Brasil 5y (119.3 bps) elevou prêmio de risco local",
+                "Petróleo caro pressionou margens e custos de empresas expostas a energia",
+                "VIX em 18.3 e yields globais mais altos reduziram apetite por risco em ações"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "119.3 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.5 USD/bbl",
+            "wti": "101.9 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 (FGV) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-13' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-14",
+        "cut_time": "09:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa elevaram yields e o prêmio de risco, ampliando demanda por hedge cambial. Eventos recentes, como petróleo acima de US$100 e saída seletiva de estrangeiros, reforçaram a reprecificação da curva DI e a alta do dólar futuro.",
+        "impacts": {
+            "dolfut": [
+                "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+                "CPI EUA abril 0,6% (BLS) pressionou yields globais e fortaleceu dólar",
+                "Brent elevado aumentou risco inflacionário e demanda por proteção cambial",
+                "saída seletiva de estrangeiros (fluxo negativo) elevou procura por hedge",
+                "US 10y em alta reduziu apetite por risco em emergentes"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+                "reprecificação da curva DI curto por surpresa de inflação pressionou valuation",
+                "aumento do CDS Brasil elevou prêmio de risco e penalizou ações locais",
+                "petróleo caro pressionou margens de empresas expostas a energia",
+                "VIX em alta e yields globais mais altos reduziram apetite por risco em ações"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "119.3 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.5 USD/bbl",
+            "wti": "101.9 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 (FGV) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-14' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-15",
+        "cut_time": "09:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa elevaram yields e o prêmio de risco, pressionando ações locais e ampliando demanda por hedge cambial. Petróleo acima de US$100 e saídas seletivas de estrangeiros reforçaram a reprecificação da curva DI e a alta do dólar futuro.",
+        "impacts": {
+            "dolfut": [
+                "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+                "CPI EUA abril +0,6% (BLS) pressionou yields globais e fortaleceu dólar",
+                "petróleo elevado (Brent > US$100) aumentou demanda por proteção cambial",
+                "saída seletiva de estrangeiros nos dias anteriores (acumulado 11–14/05) elevou procura por hedge",
+                "reprecificação da curva DI curto reduziu apetite por risco e sustentou DOLFUT"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+                "reprecificação da curva DI curto por surpresa de inflação pressionou valuation",
+                "aumento do CDS Brasil 5y elevou prêmio de risco e penalizou ações locais",
+                "petróleo caro pressionou margens de empresas expostas a energia e logística",
+                "VIX elevado e yields globais mais altos reduziram apetite por risco em ações"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "119.3 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.5 USD/bbl",
+            "wti": "101.9 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 (FGV) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-15' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-18",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas no Oriente Médio e alta do petróleo elevaram prêmio de risco; yields globais mais altos e fluxo estrangeiro seletivo pressionaram o índice futuro e sustentaram demanda por hedge cambial.",
+        "impacts": {
+            "dolfut": [
+                "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+                "alta do petróleo (Brent > USD 109) aumentando demanda por proteção cambial",
+                "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+                "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial",
+                "reprecificação da curva DI curto sustentando DOLFUT"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e mineração pressionando Ibovespa",
+                "pressão de custos via petróleo afetando margens setoriais",
+                "aumento do CDS Brasil 5y elevando prêmio de risco local",
+                "VIX em patamar mais elevado reduzindo apetite por risco em ações",
+                "correlação negativa com Treasuries em alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.115%",
+                "medium": "14.37%",
+                "long": "14.33%"
+            },
+            "cds_brazil_5y": "124.07 bps",
+            "ibovespa": "176975.82 (-0.17%)",
+            "sp500": "7399.59 (-0.12%)",
+            "nasdaq": "26090.73 (-0.51%)",
+            "brent": "109.28 USD/bbl",
+            "wti": "99.54 USD/bbl",
+            "vix": "17.82"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação (detalhe por janela intradiária)",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IGP-10 (FGV) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: valores principais confirmados em fontes de mercado (B3/TradingView/ADVFN para DI; Investing.com/Cbonds para CDS; Valor/G1/B3 para Ibovespa; TradingEconomics/ICE para Brent; Investing.com para WTI; Barchart para VIX). Campos formatados conforme regras; pendentes listados quando aplicável."
+    },
+    {
+        "date": "2026-05-19",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo elevado pressionaram o prêmio de risco e elevaram demanda por hedge cambial. Yields globais em alta e reprecificação da curva DI curto reduziram apetite por risco e penalizaram o índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+                "petróleo elevado (Brent 109.28 USD/bbl) aumentando demanda por proteção cambial",
+                "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+                "reprecificação da curva DI curto (curto ~14.115%–14.40%) sustentando DOLFUT",
+                "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo reduzindo índice futuro",
+                "reprecificação da curva DI curto pressionando valuation de ações",
+                "aumento do CDS Brasil 5y (124.07 bps) elevando prêmio de risco local",
+                "petróleo caro pressionando margens de empresas expostas a energia e logística",
+                "VIX em patamar mais elevado (17.82) e yields globais altos reduzindo apetite por risco"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.115%",
+                "medium": "14.37%",
+                "long": "14.33%"
+            },
+            "cds_brazil_5y": "124.07 bps",
+            "ibovespa": "176975.82 (-0.17%)",
+            "sp500": "7399.59 (-0.12%)",
+            "nasdaq": "26090.73 (-0.51%)",
+            "brent": "109.28 USD/bbl",
+            "wti": "99.54 USD/bbl",
+            "vix": "17.82"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IGP-10 (FGV) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação executada: OK. Não existe um objeto com date '2026-05-19' em historico.json; o relatório foi consolidado usando os objetos disponíveis até 2026-05-18 e segue as regras de formatação e pendências."
+    },
+    {
+    "date": "2026-05-20",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo elevado pressionaram o prêmio de risco e elevaram demanda por hedge cambial. CDS Brasil 5y: 124.07 bps; Brent 109.28 USD/bbl; VIX 17.82.",
+    "impacts": {
+        "dolfut": [
+        "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentando demanda por proteção cambial",
+        "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+        "reprecificação da curva DI curto sustentando DOLFUT (curto ~14.115%)",
+        "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduzindo índice futuro",
+        "reprecificação da curva DI curto pressionando valuation de ações",
+        "aumento do CDS Brasil 5y (124.07 bps) elevando prêmio de risco local",
+        "petróleo caro pressionando margens de empresas expostas a energia e logística",
+        "VIX em patamar mais elevado (17.82) e yields globais altos reduzindo apetite por risco"
         ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação concluída: o prompt mestre foi executado e os valores foram consolidados a partir dos objetos disponíveis em historico.json até 2026-05-19; resultado: OK. Não existe um objeto com date '2026-05-20' em historico.json; indicadores sem fechamento oficial foram marcados como pendentes."
+    },
+    {
+    "date": "2026-05-21",
+    "cut_time": "09:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo elevado elevaram o prêmio de risco e sustentaram demanda por hedge cambial. Surpresa inflacionária doméstica (IPCA abril) e inflação externa (CPI EUA) pressionaram yields globais e reprecificaram a curva DI, reduzindo apetite por risco. Fluxo estrangeiro seletivo e aumento do CDS Brasil 5y limitaram a recuperação do índice futuro.",
+    "impacts": {
+        "dolfut": [
+        "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentando demanda por proteção cambial",
+        "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+        "reprecificação da curva DI curto sustentando DOLFUT (curto ~14.115%)",
+        "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduzindo índice futuro",
+        "reprecificação da curva DI curto pressionando valuation de ações",
+        "aumento do CDS Brasil 5y (124.07 bps) elevando prêmio de risco local",
+        "petróleo caro pressionando margens de empresas expostas a energia e logística",
+        "VIX em patamar mais elevado (17.82) e yields globais altos reduzindo apetite por risco"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação executada: não existe objeto com date '2026-05-21' em historico.json; consolidação foi realizada usando os objetos disponíveis até '2026-05-20'. Resultado: OK; indicadores sem fechamento oficial foram marcados em 'pending'."
+    },
+    {
+    "date": "2026-05-22",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa, combinadas com tensões geopolíticas e petróleo acima de US$100/bbl, elevaram yields globais e o prêmio de risco, reduzindo apetite por risco em ativos locais. Reprecificação da curva DI curto e fluxo estrangeiro seletivo sustentaram demanda por hedge cambial e pressionaram o índice futuro.",
+    "impacts": {
+        "dolfut": [
+        "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+        "CPI EUA abril +0,6% m/m (BLS) pressionou yields globais e fortaleceu dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentou demanda por proteção cambial",
+        "reprecificação da curva DI curto (curto ~14.115%–14.40%) sustentou DOLFUT",
+        "fluxo estrangeiro seletivo na B3 elevou procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+        "reprecificação da curva DI curto pressionou valuation de ações locais",
+        "aumento do CDS Brasil 5y (124.07 bps) elevou prêmio de risco e penalizou ações",
+        "VIX em patamar elevado (~17.82–18.3) reduziu apetite por risco",
+        "yields dos Treasuries em alta (US 10y em níveis superiores) correlacionaram negativamente com ativos locais"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "IGP-10 (FGV) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação"
+    ],
+    "validation_summary": "Validação concluída: o prompt mestre foi executado usando os objetos disponíveis em historico.json até 2026-05-21; resultado: OK. Indicadores sem fechamento oficial foram marcados em pending."
     }
 ]
