@@ -1,0 +1,21 @@
+# Tipo: Descrição curta e clara
+
+## Contexto
+- Data: YYYY-MM-DD
+- Tipo de relatório: [Abertura / Fechamento / Atualização]
+
+## O que foi feito
+- Gerado relatório macro do dia
+- Atualização do historico.json
+- [Outras alterações]
+
+## Impacto
+- Viés do dia: [Viés de Risco / Proteção / Neutro]
+- Principais drivers: [ex: petróleo, yields, geopolítica]
+
+## Tipo de commit (escolha um):
+# feat:     Nova funcionalidade ou relatório
+# update:   Atualização de dados/histórico
+# fix:      Correção de dados ou prompt
+# docs:     Melhoria na documentação
+# chore:    Manutenção (gitignore, template, etc.)

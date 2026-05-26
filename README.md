@@ -33,7 +33,30 @@ analise-macro-brasil/
 ### 2. Atualizar Histórico
 Após gerar o relatório, copie a parte relevante e adicione ao `historico.json`.
 
-### 3. Commit no GitHub
+### 3.Comandos
+
+Inicio do dia
+
+Data de hoje: 26/05/2026
+Horário atual: 08:30 BRT
+Use o arquivo historico/historico.json como referência.
+
+Envie o prompt → Grok vai gerar o relatório intradiário completo.
+
+Fechamento
+
+Data de hoje: 26/05/2026
+Horário do corte: 17:30 BRT (fechamento)
+Gere o relatório de fechamento consolidado.
+
+### 4. Atualização do Histórico (Importante)
+Após gerar o relatório do dia, atualize o historico.json:
+
+Copie o bloco JSON gerado no final do relatório (ou peça ao Grok para gerar só o JSON).
+Cole no arquivo historico/historico.json como novo objeto.
+Faça commit no GitHub.
+
+### 5. Commit no GitHub
 ```bash
 git add .
 git commit -m "relatorio: 2026-05-26"
