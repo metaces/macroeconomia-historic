@@ -403,5 +403,46 @@
         "Leilões e operações do Banco Central — aguardando divulgação"
     ],
     "validation_summary": "Validação concluída: o prompt mestre foi executado usando os objetos disponíveis em historico.json até 2026-05-21; resultado: OK. Indicadores sem fechamento oficial foram marcados em pending."
+    },
+    {
+    "date": "2026-05-25",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo acima de US$100/bbl mantiveram prêmio de risco elevado e sustentaram demanda por hedge cambial. Yields globais e reprecificação da curva DI curto limitaram apetite por risco, enquanto o índice futuro seguiu pressionado por fluxo estrangeiro seletivo e CDS Brasil em nível elevado.",
+    "impacts": {
+        "dolfut": [
+        "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+        "CPI EUA abril +0,6% m/m pressionou yields globais e fortaleceu dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentou demanda por proteção cambial",
+        "reprecificação da curva DI curto (curto ~14.115%–14.40%) sustentou DOLFUT",
+        "fluxo estrangeiro seletivo na B3 elevou procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+        "reprecificação da curva DI curto pressionou valuation de ações locais",
+        "aumento do CDS Brasil 5y (124.07 bps) elevou prêmio de risco e penalizou ações",
+        "VIX em patamar elevado (~17.82–18.3) reduziu apetite por risco",
+        "yields dos Treasuries em alta correlacionaram negativamente com ativos locais"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação executada: não existe objeto com date '2026-05-25' em historico.json; consolidação foi realizada usando os objetos disponíveis até 2026-05-22 e indicadores sem fechamento oficial foram marcados em pending."
     }
 ]

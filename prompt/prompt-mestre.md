@@ -1,5 +1,5 @@
 Instrução:  
-Gerar relatório macrofinanceiro intradiário para o mercado brasileiro com corte às 17:00 BRT na data de hoje. Seguir estritamente as regras abaixo:
+Gerar relatório macrofinanceiro intradiário para o mercado brasileiro com corte na data de hoje e horario atual BRT. Seguir estritamente as regras abaixo:
 
 Fontes obrigatórias
 Primeiro nível: consultar calendários oficiais: Banco Central do Brasil, IBGE, FGV, Tesouro Nacional, BLS, BEA, Federal Reserve, U.S. Treasury.
