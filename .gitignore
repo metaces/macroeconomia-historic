@@ -1,0 +1,13 @@
+# Arquivos grandes ou sensíveis
+*.log
+.DS_Store
+Thumbs.db
+
+# Relatórios muito grandes (opcional)
+relatorios/*.pdf
+
+# Cache
+__pycache__/
+*.pyc
+venv/
+.env
