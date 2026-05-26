@@ -444,5 +444,46 @@
         "IGP-10 (FGV) — aguardando divulgação"
     ],
     "validation_summary": "Validação executada: não existe objeto com date '2026-05-25' em historico.json; consolidação foi realizada usando os objetos disponíveis até 2026-05-22 e indicadores sem fechamento oficial foram marcados em pending."
-    }
+    },
+    {
+    "date": "2026-05-26",
+    "cut_time": "17:30 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado: forte realização no petróleo e sinais de distensão geopolítica no Oriente Médio trouxeram alívio no prêmio de risco. Yields globais ainda elevados e resquícios inflacionários limitaram recuperação mais robusta. Fluxo estrangeiro seletivo continuou, com suporte em commodities e pressão em bancos/consumo.",
+    "impacts": {
+        "dolfut": [
+            "realização acentuada no petróleo (Brent -4%+) reduzindo demanda por hedge cambial",
+            "sinais de distensão geopolítica no Oriente Médio aliviando prêmio de risco",
+            "yields Treasuries com leve recuo (US 10y ~4.48-4.52%)",
+            "fluxo estrangeiro seletivo na B3 mantendo pressão moderada",
+            "reprecificação moderada da curva DI curto"
+        ],
+        "indfut": [
+            "recuperação técnica no Ibovespa impulsionada por commodities",
+            "venda seletiva em bancos e consumo limitando alta",
+            "alívio via petróleo beneficiando margens de empresas energéticas",
+            "VIX em patamar baixo (~16.5) favorecendo apetite por risco",
+            "correlação com Treasuries ainda influenciando valuation"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+            "short": "14.15-14.30%",
+            "medium": "14.15-14.35%",
+            "long": "13.95-14.25%"
+        },
+        "cds_brazil_5y": "119.5 bps",
+        "ibovespa": "178.500 (+0.85%)",
+        "sp500": "7420 (+0.25%)",
+        "nasdaq": "26150 (+0.25%)",
+        "brent": "98.7 USD/bbl",
+        "wti": "91.8 USD/bbl",
+        "vix": "16.5"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-26' gerado com base no relatório de fechamento. Campos formatados corretamente; pendentes padronizados."
+}
 ]
