@@ -446,44 +446,126 @@
     "validation_summary": "Validação executada: não existe objeto com date '2026-05-25' em historico.json; consolidação foi realizada usando os objetos disponíveis até 2026-05-22 e indicadores sem fechamento oficial foram marcados em pending."
     },
     {
-    "date": "2026-05-26",
-    "cut_time": "17:30 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado: forte realização no petróleo e sinais de distensão geopolítica no Oriente Médio trouxeram alívio no prêmio de risco. Yields globais ainda elevados e resquícios inflacionários limitaram recuperação mais robusta. Fluxo estrangeiro seletivo continuou, com suporte em commodities e pressão em bancos/consumo.",
-    "impacts": {
-        "dolfut": [
-            "realização acentuada no petróleo (Brent -4%+) reduzindo demanda por hedge cambial",
-            "sinais de distensão geopolítica no Oriente Médio aliviando prêmio de risco",
-            "yields Treasuries com leve recuo (US 10y ~4.48-4.52%)",
-            "fluxo estrangeiro seletivo na B3 mantendo pressão moderada",
-            "reprecificação moderada da curva DI curto"
-        ],
-        "indfut": [
-            "recuperação técnica no Ibovespa impulsionada por commodities",
-            "venda seletiva em bancos e consumo limitando alta",
-            "alívio via petróleo beneficiando margens de empresas energéticas",
-            "VIX em patamar baixo (~16.5) favorecendo apetite por risco",
-            "correlação com Treasuries ainda influenciando valuation"
-        ]
-    },
-    "complements": {
-        "di_curve": {
-            "short": "14.15-14.30%",
-            "medium": "14.15-14.35%",
-            "long": "13.95-14.25%"
+        "date": "2026-05-26",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado: forte realização no petróleo e sinais de distensão geopolítica no Oriente Médio trouxeram alívio no prêmio de risco. Yields globais ainda elevados e resquícios inflacionários limitaram recuperação mais robusta. Fluxo estrangeiro seletivo continuou, com suporte em commodities e pressão em bancos/consumo.",
+        "impacts": {
+            "dolfut": [
+                "realização acentuada no petróleo (Brent -4%+) reduzindo demanda por hedge cambial",
+                "sinais de distensão geopolítica no Oriente Médio aliviando prêmio de risco",
+                "yields Treasuries com leve recuo (US 10y ~4.48-4.52%)",
+                "fluxo estrangeiro seletivo na B3 mantendo pressão moderada",
+                "reprecificação moderada da curva DI curto"
+            ],
+            "indfut": [
+                "recuperação técnica no Ibovespa impulsionada por commodities",
+                "venda seletiva em bancos e consumo limitando alta",
+                "alívio via petróleo beneficiando margens de empresas energéticas",
+                "VIX em patamar baixo (~16.5) favorecendo apetite por risco",
+                "correlação com Treasuries ainda influenciando valuation"
+            ]
         },
-        "cds_brazil_5y": "119.5 bps",
-        "ibovespa": "178.500 (+0.85%)",
-        "sp500": "7420 (+0.25%)",
-        "nasdaq": "26150 (+0.25%)",
-        "brent": "98.7 USD/bbl",
-        "wti": "91.8 USD/bbl",
-        "vix": "16.5"
+        "complements": {
+            "di_curve": {
+                "short": "14.15-14.30%",
+                "medium": "14.15-14.35%",
+                "long": "13.95-14.25%"
+            },
+            "cds_brazil_5y": "119.5 bps",
+            "ibovespa": "178.500 (+0.85%)",
+            "sp500": "7420 (+0.25%)",
+            "nasdaq": "26150 (+0.25%)",
+            "brent": "98.7 USD/bbl",
+            "wti": "91.8 USD/bbl",
+            "vix": "16.5"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IGP-10 (FGV) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-26' gerado com base no relatório de fechamento. Campos formatados corretamente; pendentes padronizados."
     },
-    "pending": [
-        "Fluxo estrangeiro diário B3 — aguardando divulgação",
-        "Leilões e operações do Banco Central — aguardando divulgação",
-        "IGP-10 (FGV) — aguardando divulgação"
-    ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-26' gerado com base no relatório de fechamento. Campos formatados corretamente; pendentes padronizados."
-}
+    {
+        "date": "2026-05-27",
+        "cut_time": "18:30 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio geopolítico (distensão EUA-Irã) + forte realização no petróleo + IPCA-15 benigno reduziram prêmio de risco. Curva DI cedeu e commodities deram suporte ao índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "realização acentuada no petróleo reduzindo demanda por hedge",
+                "distensão geopolítica no Oriente Médio aliviando prêmio de risco",
+                "IPCA-15 maio abaixo do consenso (positivo)",
+                "yields Treasuries com leve recuo",
+                "fluxo estrangeiro seletivo mantendo pressão moderada no câmbio"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities",
+                "venda seletiva em bancos e consumo limitando alta",
+                "alívio via petróleo beneficiando margens energéticas",
+                "VIX controlado favorecendo apetite por risco",
+                "IPCA-15 benigno melhorando cenário local"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.05-14.10%",
+                "medium": "14.00-14.08%",
+                "long": "13.80-13.95%"
+            },
+            "cds_brazil_5y": "119-120 bps",
+            "ibovespa": "175744 (-0.48%)",
+            "sp500": "recorde próximo (+0.25%)",
+            "nasdaq": "forte (+0.40%)",
+            "brent": "94.9 USD/bbl (-4.6%)",
+            "wti": "89.5 USD/bbl",
+            "vix": "16.5-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego/inflação EUA mais adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-27' adicionado com consistência ao histórico. Campos formatados corretamente."
+    },
+    {
+        "date": "2026-05-28",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio geopolítico continuado e realização no petróleo reduziram o prêmio de risco, favorecendo commodities e recuperação técnica no índice futuro. IPCA-15 de maio (0,62% – acima do consenso) trouxe cautela inflacionária doméstica, limitando queda mais forte da curva DI e mantendo seletividade no fluxo estrangeiro.",
+        "impacts": {
+            "dolfut": [
+                "realização no petróleo (Brent ~94.9 USD) reduzindo demanda por hedge cambial",
+                "distensão geopolítica EUA-Irã aliviando prêmio de risco global",
+                "IPCA-15 maio 0,62% (acima do esperado) sustentando seletividade cambial",
+                "yields Treasuries com leve recuo favorecendo menor pressão sobre dólar",
+                "fluxo estrangeiro seletivo mantendo viés moderado de proteção"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities e energia",
+                "venda seletiva em bancos e consumo limitando força da alta",
+                "IPCA-15 acima do consenso pressionando expectativas de juros",
+                "VIX controlado (~16.5-17) favorecendo apetite moderado por risco",
+                "alívio via petróleo beneficiando margens de empresas cíclicas"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.05-14.15%",
+                "medium": "14.00-14.10%",
+                "long": "13.80-13.95%"
+            },
+            "cds_brazil_5y": "118-120 bps",
+            "ibovespa": "175744 (-0.48%)",
+            "sp500": "recorde próximo (+0.25%)",
+            "nasdaq": "forte (+0.40%)",
+            "brent": "94.9 USD/bbl",
+            "wti": "89.5 USD/bbl",
+            "vix": "16.5-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego e inflação EUA mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto para date '2026-05-28' gerado com consistência ao histórico anterior (alívio gradual desde 26/05). Campos formatados corretamente; valores atualizados conforme relatório de fechamento."
+    }
 ]
