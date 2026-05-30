@@ -567,5 +567,46 @@
             "Dados de emprego e inflação EUA mais adiante na semana"
         ],
         "validation_summary": "Validação concluída: OK. Objeto para date '2026-05-28' gerado com consistência ao histórico anterior (alívio gradual desde 26/05). Campos formatados corretamente; valores atualizados conforme relatório de fechamento."
+    },
+    {
+        "date": "2026-05-29",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo. PIB 1T26 (+1,1% QoQ) veio resiliente e acima do esperado, mas IPCA-15 de maio (0,62% – acima do consenso) trouxe forte cautela inflacionária, elevando yields da curva DI e pressionando o apetite por risco local. Saídas seletivas de estrangeiros e dólar em alta limitaram a performance do Ibovespa.",
+        "impacts": {
+            "dolfut": [
+                "IPCA-15 maio 0,62% (acima do consenso) sustentando seletividade cambial",
+                "saídas de estrangeiros em maio elevando demanda por hedge",
+                "inflação doméstica pressionando curva DI e yields",
+                "dólar fortalecido por fluxo de proteção",
+                "alívio geopolítico e petróleo em realização oferecendo suporte parcial"
+            ],
+            "indfut": [
+                "IPCA-15 acima do esperado pressionando expectativas de juros",
+                "venda seletiva de estrangeiros em bancos e consumo",
+                "PIB resiliente (+1,1%) dando suporte parcial via commodities",
+                "reprecificação da curva DI curto limitando recuperação",
+                "cautela inflacionária doméstica reduzindo apetite por risco"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.10-14.25%",
+                "long": "13.80-14.00%"
+            },
+            "cds_brazil_5y": "118-120 bps",
+            "ibovespa": "173000-175000 (-0.4% a -0.8%)",
+            "sp500": "recorde próximo (+0.2%)",
+            "nasdaq": "positivo (+0.3%)",
+            "brent": "92-94 USD/bbl",
+            "wti": "88-90 USD/bbl",
+            "vix": "15.5-16.5"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IPCA cheio de maio (IBGE) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-29' gerado com base no relatório de fechamento consolidado. Campos formatados corretamente; consistência mantida com histórico (transição de alívio para cautela inflacionária)."
     }
 ]
