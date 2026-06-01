@@ -608,5 +608,46 @@
             "IPCA cheio de maio (IBGE) — aguardando divulgação"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-29' gerado com base no relatório de fechamento consolidado usando nova versão do prompt-mestre. Consistência mantida com histórico (transição de alívio gradual para cautela inflacionária)."
+    },
+    {
+        "date": "2026-06-01",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo: alívio geopolítico continuado e realização no petróleo reduziram o prêmio de risco, favorecendo commodities e recuperação técnica no índice futuro. Focus elevou IPCA 2026, trazendo cautela inflacionária e sustentando seletividade na curva DI e fluxo estrangeiro.",
+        "impacts": {
+            "dolfut": [
+                "realização no petróleo reduzindo demanda por hedge cambial",
+                "distensão geopolítica continuada aliviando prêmio de risco global",
+                "Focus com IPCA 2026 mais alto sustentando seletividade cambial",
+                "yields Treasuries estáveis favorecendo menor pressão sobre dólar",
+                "fluxo estrangeiro seletivo positivo mantendo viés moderado de apreciação do Real"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities e energia",
+                "venda seletiva em bancos e consumo limitando força da alta",
+                "Focus elevando inflação 2026 pressionando expectativas de juros",
+                "VIX controlado favorecendo apetite moderado por risco",
+                "alívio via petróleo beneficiando margens de empresas cíclicas"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.33%",
+                "medium": "14.20-14.28%",
+                "long": "14.15-14.20%"
+            },
+            "cds_brazil_5y": "119-120 bps",
+            "ibovespa": "172.000 (-0.80%)",
+            "sp500": "recorde próximo (+0.30%)",
+            "nasdaq": "forte (+0.45%)",
+            "brent": "95.3 USD/bbl",
+            "wti": "92.0 USD/bbl",
+            "vix": "15.8-16.0"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando consolidação final",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego/inflação EUA mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-01' gerado com base no relatório de fechamento consolidado. Campos formatados corretamente; consistência mantida com alívio gradual desde maio/2026."
     }
 ]
