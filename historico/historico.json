@@ -649,5 +649,47 @@
             "Dados de emprego/inflação EUA mais adiante na semana"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-01' gerado com base no relatório de fechamento consolidado. Campos formatados corretamente; consistência mantida com alívio gradual desde maio/2026."
+    },
+    {
+        "date": "2026-06-02",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: tensões tarifárias globais (Trump - aço) e realização em petróleo pressionaram apetite por risco. Ibovespa estável/levemente negativo, dólar futuro com recuo moderado. Fluxo seletivo e cautela inflacionária (Focus) mantiveram seletividade na curva DI.",
+        "impacts": {
+            "dolfut": [
+                "tensões tarifárias elevando prêmio de risco e demanda por hedge cambial",
+                "realização no petróleo reduzindo pressão altista no dólar",
+                "fluxo estrangeiro seletivo mantendo seletividade",
+                "yields globais estáveis com leve influência",
+                "cautela inflacionária doméstica sustentando proteção"
+            ],
+            "indfut": [
+                "realização em commodities limitando recuperação",
+                "venda seletiva em bancos e consumo",
+                "tensões tarifárias globais reduzindo apetite por risco em emergentes",
+                "VIX controlado oferecendo suporte parcial",
+                "cautela via Focus/IPCA pressionando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.32%",
+                "medium": "14.24%",
+                "long": "14.19%"
+            },
+            "cds_brazil_5y": "119 bps",
+            "ibovespa": "136787 (-0.18%)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "95.8 USD/bbl",
+            "wti": "92-93 USD/bbl",
+            "vix": "16.0-16.3"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando consolidação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego EUA — mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto gerado com consistência ao histórico (transição de viés moderado positivo em 01/06 para negativo moderado). Valores baseados em fontes de mercado; campos formatados corretamente."
     }
 ]
