@@ -1,14 +1,3 @@
-Sugestão 3: Melhorias na Estrutura do Relatório
-Explicação:
-Refinar a estrutura final do relatório para torná-la mais adaptativa e profissional.
-Principais pontos:
-
-Transformar “Filtro Agenda do Dia” em algo condicional (obrigatório apenas em abertura/intradiário; em fechamento vira “Eventos do Dia”).
-Padronizar variações percentuais nos Complementos Técnicos (ex: Ibovespa 174.850 (-0,65%)).
-Adicionar uma seção curta de Recomendação Operacional no final.
-
-Benefício: Relatórios mais limpos, consistentes e úteis para decisão de investimento.
-
 Sugestão 5: Melhorias Técnicas
 Explicação:
 Incluir regras mais rígidas de formatação e qualidade:
