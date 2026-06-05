@@ -775,5 +775,47 @@
             "Dados de emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Objeto para date '2026-06-04' gerado com consistência ao histórico (manutenção de viés moderado negativo desde 02/06). Valores baseados em fontes oficiais/market (B3, Bloomberg, etc.); campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-05",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa e demanda por hedge cambial sustentada por yields resilientes e cautela inflacionária. Petróleo em realização ofereceu suporte parcial; fluxo seletivo negativo reforçou assimetria. Consolidação da pressão observada no dia anterior.",
+        "impacts": {
+            "dolfut": [
+                "yields globais resilientes e fluxo seletivo negativo sustentando hedge cambial",
+                "realização em petróleo aliviando parcialmente mas insuficiente",
+                "cautela inflacionária doméstica (Focus/IPCA resquícios)",
+                "reprecificação moderada da curva DI",
+                "demanda por proteção em emergentes"
+            ],
+            "indfut": [
+                "realização técnica continuada no Ibovespa pressionando índice futuro",
+                "pressão em bancos e consumo via juros e fluxo",
+                "suporte parcial em commodities/energia",
+                "VIX controlado mas prêmio de risco local elevado",
+                "correlação negativa com Treasuries"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "120 bps",
+            "ibovespa": "169050-170000 (-0.5% a -1% aprox.)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "94-95 USD/bbl",
+            "wti": "~90-92 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-05' gerado com consistência ao histórico (manutenção viés moderado negativo). Valores baseados em dados de mercado disponíveis; campos formatados corretamente."
     }
 ]
