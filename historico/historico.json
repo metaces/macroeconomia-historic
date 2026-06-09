@@ -817,5 +817,47 @@
             "Dados de emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-05' gerado com consistência ao histórico (manutenção viés moderado negativo). Valores baseados em dados de mercado disponíveis; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-08",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: realização em bancos/Vale e disparada da curva DI (precificando alta Selic) pressionaram Ibovespa (-0,21% ~168.669 pts). DOLFUT em alta moderada refletiu demanda por hedge em yields resilientes e cautela inflacionária. Fluxo seletivo e prêmio de risco local sustentaram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "juros futuros em alta sustentando hedge cambial",
+                "yields globais resilientes (~US10y 4.55%)",
+                "cautela inflacionária doméstica (Focus/IPCA resquícios)",
+                "fluxo estrangeiro seletivo mantendo demanda por proteção",
+                "realização parcial em petróleo oferecendo alívio limitado"
+            ],
+            "indfut": [
+                "realização técnica em bancos e Vale pressionando Ibovespa",
+                "disparada da curva DI reduzindo apetite por risco",
+                "suporte parcial em commodities insuficiente",
+                "baixa liquidez ampliando oscilação negativa",
+                "prêmio de risco local (CDS ~123 bps) penalizando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123 bps",
+            "ibovespa": "168669 (-0.21%)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "93-95 USD/bbl",
+            "wti": "90-92 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-08' gerado com consistência ao histórico (manutenção viés moderado negativo). Valores baseados em fontes de mercado (B3/Valor/Investing); campos formatados corretamente."
     }
 ]
