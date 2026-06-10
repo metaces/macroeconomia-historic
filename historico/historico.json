@@ -859,5 +859,47 @@
             "Dados de emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-08' gerado com consistência ao histórico (manutenção viés moderado negativo). Valores baseados em fontes de mercado (B3/Valor/Investing); campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-09",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio no petróleo (realização acentuada) e moderação de yields globais reduziram prêmio de risco, favorecendo recuperação técnica no WIN via commodities. DOLFUT com hedge residual mas pressão limitada. Fluxo seletivo e cautela inflacionária doméstica mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "realização forte no Brent (~91.6 USD) reduzindo demanda por hedge cambial",
+                "yields Treasuries com leve recuo (~4.53-4.56%) aliviando pressão em emergentes",
+                "fluxo estrangeiro seletivo mantendo seletividade cambial",
+                "cautela inflacionária doméstica (Focus/IPCA pendente) limitando queda mais forte do DOLFUT",
+                "alívio geopolítico parcial oferecendo suporte moderado"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração",
+                "venda seletiva em bancos/consumo limitando força da alta",
+                "suporte setorial em energia via petróleo em realização controlada",
+                "VIX em recuo (~18-19) favorecendo apetite moderado por risco",
+                "compressão moderada na curva DI melhorando valuation seletivo"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123-124 bps",
+            "ibovespa": "recuperação moderada vs. 168669 pts (var. positiva ~0.5-1%)",
+            "sp500": "estável/misto",
+            "nasdaq": "misto",
+            "brent": "91.6 USD/bbl (-~3%)",
+            "wti": "88-89 USD/bbl",
+            "vix": "18.2-19"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-09' gerado com consistência ao histórico (transição de viés moderado negativo em 08/06 para positivo moderado com alívio commodities). Valores baseados em fontes de mercado; campos formatados corretamente."
     }
 ]
