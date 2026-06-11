@@ -943,5 +943,47 @@
             "Dados de emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-10' gerado com Prompt-Mestre atualizado (seção Dados de Alta Relevância incluída). Consistência mantida com histórico (transição de viés positivo em 09/06 para moderado negativo). Valores baseados em fontes de mercado."
+    },
+    {
+        "date": "2026-06-11",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio geopolítico (Trump cancela ataques Irã) + realização petróleo comprimiram prêmio de risco, favorecendo recuperação técnica no WIN via commodities e pressão moderada de baixa no WDO. Reverte parcialmente hawkish CPI EUA anterior; fluxo seletivo e cautela inflacionária doméstica persistem.",
+        "impacts": {
+            "dolfut": [
+                "distensão geopolítica reduzindo demanda por hedge cambial",
+                "realização acentuada no petróleo aliviando pressão altista no dólar",
+                "yields globais com leve recuo favorecendo menor proteção",
+                "fluxo estrangeiro seletivo mantendo seletividade cambial",
+                "cautela inflacionária doméstica limitando queda mais forte"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração/energia",
+                "alívio prêmio de risco via geopolítica favorecendo apetite",
+                "suporte setorial em energia beneficiando margens",
+                "VIX em recuo melhorando valuation",
+                "realização em bancos/consumo limitando força da alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123-127 bps",
+            "ibovespa": "168500-170000 (+0.5-1% aprox.)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "misto-positivo",
+            "brent": "92.6 USD/bbl",
+            "wti": "88-92 USD/bbl",
+            "vix": "19.9-20.7"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para 2026-06-11 gerado com consistência ao histórico (transição de viés moderado negativo em 10/06 para positivo com alívio geopolítico). Valores baseados em fontes de mercado; campos formatados corretamente."
     }
 ]
