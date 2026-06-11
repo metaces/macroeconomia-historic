@@ -6,13 +6,17 @@ Todos os relatórios devem adotar um tom profundamente analítico. Em cada seç�
 ### Instruções de Coleta de Dados (OBRIGATÓRIO - Executar SEMPRE primeiro)
 
 1. Leia o último registro completo do arquivo `historico.json`.
-2. Consulte fontes atualizadas usando as ferramentas disponíveis:
+2. **DETEÇÃO OBRIGATÓRIA DE DADOS DE ALTA RELEVÂNCIA** (sempre priorizar):
+   - Verifique agenda econômica do dia (CPI EUA, IPCA IBGE, Focus BCB, Payroll, Produção Industrial, etc.).
+   - Compare resultado real vs. consenso vs. leitura anterior.
+   - Analise impacto causal imediato em: yields globais (US10y), DXY, VIX, demanda por hedge cambial, fluxo estrangeiro, curva DI, commodities e assimetria WDO vs WIN.
+3. Consulte fontes atualizadas usando as ferramentas disponíveis:
    - B3 (Ibovespa, DOLFUT/WDO, INDFUT/WIN, volume, fluxo estrangeiro)
    - BCB (Boletim Focus, Curva DI, Selic)
    - IBGE / FGV (IPCA, IPCA-15, etc.)
    - Bloomberg / Reuters / Investing.com / Valor Econômico (Brent, WTI, VIX, US10y, DXY, S&P500, Nasdaq, CDS Brasil)
-3. Nunca invente números. Marque claramente dados ausentes como “aguardando divulgação” ou “estimativa de consenso”.
-4. Identifique claramente as mudanças de cenário em relação ao dia anterior (viés de risco, prêmio, fluxo, commodities, inflação).
+4. Nunca invente números. Marque claramente dados ausentes como “aguardando divulgação” ou “estimativa de consenso”.
+5. Identifique claramente as mudanças de cenário em relação ao dia anterior (viés de risco, prêmio, fluxo, commodities, inflação).
 
 ---
 
@@ -39,6 +43,11 @@ Fontes consultadas: BCB, B3, IBGE, FGV, Bloomberg/Reuters, Investing.com, etc.
 
 **Resumo Executivo:**  
 Síntese clara e causal do cenário (viés de risco dominante + principais drivers). Contextualize com o dia anterior e destaque implicações imediatas para WDO e WIN.
+
+**Dados de Alta Relevância + Impacto Operacional** (OBRIGATÓRIO quando houver divulgação):
+- Liste os principais dados do dia com comparação (real vs consenso vs anterior).
+- Inclua tabela de impacto em WDO / WIN (magnitude, viés, razão principal e ajuste operacional).
+- Destaque se o dado alterou ou reforçou o viés do dia e a demanda por hedge cambial.
 
 **Tabela de Probabilidades:**
 

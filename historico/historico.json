@@ -901,5 +901,47 @@
             "Dados de emprego/inflação EUA adiante na semana"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-09' gerado com consistência ao histórico (transição de viés moderado negativo em 08/06 para positivo moderado com alívio commodities). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-10",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: CPI EUA hawkish anual (+4,2% a/a) reforçou yields resilientes e demanda por hedge cambial, revertendo parcialmente recuperação de 09/06. Ibovespa caiu -0,70% (~168.619 pts) com realização em bancos; commodities ofereceram suporte parcial. DOLFUT sustentado por proteção.",
+        "impacts": {
+            "dolfut": [
+                "CPI EUA hawkish elevou demanda por hedge cambial",
+                "yields Treasuries resilientes (~4.55%) sustentando proteção",
+                "realização técnica limitando alívio em commodities",
+                "fluxo estrangeiro seletivo negativo reforçando assimetria",
+                "cautela inflacionária doméstica pendente"
+            ],
+            "indfut": [
+                "realização em bancos e defensivos pressionando WIN",
+                "suporte parcial via commodities/mineração insuficiente",
+                "correlação negativa com yields globais",
+                "VIX controlado-alto limitando apetite por risco",
+                "CPI EUA reforçando cautela valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.36%",
+                "medium": "14.33-14.34%",
+                "long": "14.39-14.48%"
+            },
+            "cds_brazil_5y": "123-124 bps",
+            "ibovespa": "168619 (-0.70%)",
+            "sp500": "misto",
+            "nasdaq": "misto",
+            "brent": "94.5-95 USD/bbl",
+            "wti": "92-93 USD/bbl",
+            "vix": "18-20"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-10' gerado com Prompt-Mestre atualizado (seção Dados de Alta Relevância incluída). Consistência mantida com histórico (transição de viés positivo em 09/06 para moderado negativo). Valores baseados em fontes de mercado."
     }
 ]
