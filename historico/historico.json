@@ -1069,5 +1069,131 @@
             "Dados de emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-15' gerado com consistência ao histórico (manutenção viés moderado positivo com ênfase em alívio commodities vs. Focus). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-16",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: cautela pré-Copom/Fed + realização em petróleo pressionaram WIN (-0.45% ~169.648 pts); DOLFUT sustentado por hedge residual (dólar ~R$5.08-5.09). Alívio geopolítico parcial e VIX controlado (~15.8-16.1) ofereceram amortecimento insuficiente. Fluxo seletivo negativo e CDS ~123.56 bps mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando mas hedge residual sustentando",
+                "cautela pré-Copom/Fed elevando demanda moderada por proteção",
+                "yields globais resilientes (~US10y 4.47%)",
+                "fluxo estrangeiro seletivo negativo",
+                "alívio geopolítico parcial limitando alta mais forte"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "cautela pré-juros reduzindo apetite por risco",
+                "suporte parcial commodities insuficiente",
+                "VIX controlado (~15.8-16.1) mas correlação negativa com yields",
+                "seletividade de fluxo penalizando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.29-14.35%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123.56 bps",
+            "ibovespa": "169648 (-0.45%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "82.96 USD/bbl",
+            "wti": "80-81 USD/bbl",
+            "vix": "15.8-16.1"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Copom decisão amanhã — aguardando",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para 2026-06-16 gerado com consistência ao histórico (transição de viés moderado positivo em 15/06 para negativo com cautela pré-juros). Campos formatados corretamente; dados de fontes confiáveis."
+    },
+    {
+        "date": "2026-06-17",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: cautela pré-Copom/Fed + realização em petróleo pressionaram WIN (-0.45% ~169.648 pts); DOLFUT sustentado por hedge residual (dólar ~R$5.08-5.09). Alívio geopolítico parcial e VIX controlado ofereceram amortecimento insuficiente. Fluxo seletivo negativo e CDS ~122 bps mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando mas hedge residual sustentando",
+                "cautela pré-Copom/Fed elevando demanda moderada por proteção",
+                "yields globais resilientes",
+                "fluxo estrangeiro seletivo negativo",
+                "alívio geopolítico parcial limitando alta mais forte"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "cautela pré-juros reduzindo apetite por risco",
+                "suporte parcial commodities insuficiente",
+                "VIX controlado mas correlação negativa com yields",
+                "seletividade de fluxo penalizando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.29-14.35%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "122-123 bps",
+            "ibovespa": "169648 (-0.45%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "79 USD/bbl (realização)",
+            "wti": "76 USD/bbl",
+            "vix": "16.0-16.4"
+        },
+        "pending": [
+            "Decisão Copom/Fed detalhada — aguardando",
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-17' gerado com consistência ao histórico (manutenção viés moderado negativo de 16/06). Campos formatados corretamente; dados de fontes de mercado."
+    },
+    {
+    "date": "2026-06-18",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: realização em petróleo e yields resilientes mantiveram pressão no WIN (~168.454 pts, -0.70%), com hedge residual sustentando WDO. CDS ~122 bps e fluxo seletivo negativo reforçaram assimetria; alívio commodities insuficiente.",
+    "impacts": {
+        "dolfut": [
+        "realização petróleo aliviando mas hedge residual sustentando",
+        "yields globais resilientes (~US10y 4.46-4.49%)",
+        "fluxo estrangeiro seletivo negativo",
+        "cautela inflacionária/Focus limitando alívio",
+        "distensão geopolítica parcial"
+        ],
+        "indfut": [
+        "realização técnica em bancos/consumo pressionando WIN",
+        "suporte parcial commodities insuficiente",
+        "VIX controlado (~16-17) mas prêmio de risco local",
+        "correlação negativa com yields",
+        "seletividade de fluxo penalizando valuation"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.29-14.35%",
+        "medium": "14.20-14.30%",
+        "long": "14.10-14.25%"
+        },
+        "cds_brazil_5y": "122 bps",
+        "ibovespa": "168454 (-0.70%)",
+        "sp500": "misto/positivo leve",
+        "nasdaq": "misto",
+        "brent": "78-84 USD/bbl",
+        "wti": "76-84 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-18' gerado com consistência ao histórico (manutenção viés moderado negativo de 17/06). Campos formatados corretamente; dados de fontes de mercado."
     }
 ]
