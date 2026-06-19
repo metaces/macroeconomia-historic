@@ -1195,5 +1195,47 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-18' gerado com consistência ao histórico (manutenção viés moderado negativo de 17/06). Campos formatados corretamente; dados de fontes de mercado."
+    },
+    {
+    "date": "2026-06-19",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Ibovespa praticamente estável (-0.10% a 168.278 pts) após realização anterior, com alívio técnico marginal em liquidez reduzida (US feriado). Realização em petróleo e yields resilientes mantiveram pressão seletiva no WIN; hedge cambial sustentou WDO. CDS ~122 bps e fluxo seletivo negativo reforçaram assimetria.",
+    "impacts": {
+        "dolfut": [
+        "realização petróleo aliviando mas hedge residual sustentando",
+        "yields globais resilientes mantendo demanda por proteção",
+        "fluxo estrangeiro seletivo negativo",
+        "cautela inflacionária/Focus limitando alívio",
+        "distensão geopolítica parcial"
+        ],
+        "indfut": [
+        "estabilização técnica próxima a suporte 168k",
+        "suporte parcial commodities insuficiente para reversão",
+        "VIX controlado (~16) mas prêmio de risco local",
+        "correlação negativa com yields",
+        "seletividade de fluxo penalizando valuation em bancos/consumo"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.30%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122 bps",
+        "ibovespa": "168278 (-0.10%)",
+        "sp500": "positivo leve (dia anterior, US fechado)",
+        "nasdaq": "positivo (dia anterior)",
+        "brent": "78-82 USD/bbl (realização)",
+        "wti": "~74-78 USD/bbl",
+        "vix": "16"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-19' gerado com consistência ao histórico (manutenção viés moderado negativo de 18/06 com Delta levemente positivo em consolidação). Campos formatados corretamente; dados de fontes de mercado (B3/Rio Times/etc.)."
     }
 ]
