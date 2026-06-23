@@ -1279,5 +1279,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-22' gerado com consistência ao histórico (manutenção viés moderado negativo de 19/06). Campos formatados corretamente; dados de fontes de mercado; Delta vs. anterior destacado."
+    },
+    {
+    "date": "2026-06-23",
+    "cut_time": "17:30 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: recuperação técnica no WIN (+1,21% Ibovespa ~170.370 pts) via fluxo estrangeiro em bancos/Petrobras e alívio commodities. Hedge residual sustentou WDO; cautela inflacionária (Focus) e CDS limitam força. Delta positivo vs. 22/06.",
+    "impacts": {
+        "dolfut": [
+        "fluxo estrangeiro seletivo positivo reduzindo demanda por hedge cambial",
+        "realização controlada em petróleo aliviando pressão altista",
+        "yields globais resilientes mantendo seletividade",
+        "cautela inflacionária doméstica sustentando proteção residual",
+        "alívio geopolítico parcial favorecendo Real"
+        ],
+        "indfut": [
+        "recuperação técnica impulsionada por bancos e commodities",
+        "entrada de fluxo estrangeiro melhorando apetite seletivo",
+        "suporte setorial em energia/Petrobras",
+        "VIX controlado favorecendo valuation moderado",
+        "realização em consumo limitando alta ampla"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122-125 bps",
+        "ibovespa": "170370 (+1.21%)",
+        "sp500": "misto",
+        "nasdaq": "misto",
+        "brent": "78-82 USD/bbl",
+        "wti": "74-78 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-23' gerado com consistência ao histórico (manutenção/consolidação viés moderado positivo de 22/06). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes de mercado (B3/Investing)."
     }
 ]
