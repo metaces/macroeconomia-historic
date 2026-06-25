@@ -1363,5 +1363,47 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-24' gerado com consistência ao histórico (reversão moderada vs. 23/06). Campos formatados corretamente; dados de fontes B3/Investing/etc.; Delta vs. anterior destacado."
+    },
+    {
+    "date": "2026-06-25",
+    "cut_time": "17:30 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: IPCA-15 mensal benigno (0,41%) + recuperação técnica em bancos/commodities sustentaram WIN (~172.170 pts, +0.98%). RPM BCB elevou PIB 2026 (2,0%) mas inflação projetada 5,2% reforçou cautela e hedge residual em WDO. Delta positivo vs. realização 24/06.",
+    "impacts": {
+        "dolfut": [
+        "IPCA-15 mensal abaixo consenso aliviando mas 12m acelerado (4,80%) sustentando hedge",
+        "RPM BCB com inflação pior (5,2%) elevando prêmio de risco",
+        "realização petróleo oferecendo suporte parcial",
+        "fluxo seletivo em bancos/commodities",
+        "yields globais estáveis"
+        ],
+        "indfut": [
+        "recuperação técnica em bancos e commodities",
+        "IPCA-15 mensal benigno favorecendo apetite seletivo",
+        "RPM com PIB forte suportando atividade",
+        "VIX controlado melhorando valuation",
+        "realização em consumo limitando força ampla"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122-126 bps",
+        "ibovespa": "172170 (+0.98%)",
+        "sp500": "misto/positivo leve (~7358)",
+        "nasdaq": "misto",
+        "brent": "73-75 USD/bbl",
+        "wti": "69-70 USD/bbl",
+        "vix": "18"
+    },
+    "pending": [
+        "IPCA cheio IBGE — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "PCE EUA e dados emprego adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-25' gerado com consistência ao histórico (Delta positivo vs. 24/06; campos formatados; pendentes padronizados; dados de fontes oficiais)."
     }
 ]
