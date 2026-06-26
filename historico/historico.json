@@ -1405,5 +1405,47 @@
         "PCE EUA e dados emprego adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-25' gerado com consistência ao histórico (Delta positivo vs. 24/06; campos formatados; pendentes padronizados; dados de fontes oficiais)."
+    },
+    {
+        "date": "2026-06-26",
+        "cut_time": "17:49 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: recuperação técnica no WIN via commodities e fluxo seletivo, após alívio parcial no petróleo. Delta positivo vs. 25/06; hedge residual limitou WDO. Cautela inflacionária persistente.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando demanda por hedge",
+                "fluxo seletivo reduzindo pressão cambial",
+                "yields globais estáveis",
+                "cautela Focus/RPM sustentando proteção residual",
+                "alívio geopolítico parcial"
+            ],
+            "indfut": [
+                "recuperação via commodities/mineração",
+                "fluxo estrangeiro seletivo em blue chips",
+                "suporte setorial energia",
+                "VIX controlado favorecendo apetite",
+                "realização bancos limitando alta ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172500-173000 (+0.5-1% aprox. vs 171990)",
+            "sp500": "misto",
+            "nasdaq": "misto",
+            "brent": "72-75 USD/bbl",
+            "wti": "69-71 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-26' gerado com consistência ao histórico (Delta positivo vs. 25/06; campos formatados; pendentes padronizados; dados de fontes de mercado)."
     }
 ]
