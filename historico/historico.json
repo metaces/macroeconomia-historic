@@ -1531,5 +1531,47 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-30' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação). Campos formatados corretamente; Delta vs. anterior e fontes de mercado incorporados."
+    },
+    {
+        "date": "2026-07-01",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: abertura da curva DI, dólar forte e cautela eleitoral (AtlasIntel + sanções) pressionaram WIN (-0,20% ~171.689 pts, Delta negativo vs. 30/06); WDO sustentado por hedge (~+0,90%). Alívio parcial em commodities e Warsh dovish insuficientes para reversão.",
+        "impacts": {
+            "dolfut": [
+                "abertura curva DI e yields resilientes sustentando hedge cambial",
+                "cautela eleitoral/política elevando prêmio de risco",
+                "dólar forte (DXY +0,22%) reforçando proteção",
+                "fluxo seletivo negativo",
+                "realização petróleo aliviando parcialmente"
+            ],
+            "indfut": [
+                "realização técnica e aversão em bancos/consumo pressionando WIN",
+                "baixa liquidez ampliando oscilação negativa",
+                "suporte parcial commodities insuficiente",
+                "reprecificação DI reduzindo apetite por risco",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.45% (abertura)",
+                "medium": "14.25-14.35%",
+                "long": "14.10-14.30%"
+            },
+            "cds_brazil_5y": "126-128 bps",
+            "ibovespa": "171689 (-0.20%)",
+            "sp500": "misto",
+            "nasdaq": "misto",
+            "brent": "71.3-72 USD/bbl (-2% aprox.)",
+            "wti": "68-69 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-01' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes B3/Valor/Investing."
     }
 ]
