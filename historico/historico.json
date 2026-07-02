@@ -1573,5 +1573,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-01' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes B3/Valor/Investing."
+    },
+    {
+        "date": "2026-07-02",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo: payroll EUA misto (dovish parcial) sustentou recuperação técnica no WIN via commodities e fluxo seletivo. Dólar retomou alta (R$5,22) com hedge residual; Delta positivo moderado vs. 01/07 (~171.689 pts). Alívio global limitado por cautela inflacionária doméstica.",
+        "impacts": {
+            "dolfut": [
+                "payroll EUA fraco aliviando yields mas hedge residual sustentando",
+                "DXY forte reforçando proteção cambial",
+                "realização petróleo controlada",
+                "fluxo seletivo positivo em blue chips",
+                "curva DI elevada mantendo prêmio"
+            ],
+            "indfut": [
+                "recuperação técnica commodities/bancos",
+                "payroll dovish parcial favorecendo apetite",
+                "suporte setorial energia/mineração",
+                "VIX controlado melhorando valuation",
+                "Delta positivo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.15-14.30%",
+                "medium": "14.10-14.30%",
+                "long": "14.00-14.25%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172.200-173.000 (+0.3-0.8% aprox.)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "misto",
+            "brent": "71.5 USD/bbl",
+            "wti": "68.5 USD/bbl",
+            "vix": "16-17"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-02' gerado com consistência ao histórico (transição viés moderado negativo 01/07 para positivo moderado). Campos formatados; Delta destacado; dados de fontes confiáveis (B3/UOL/Investing)."
     }
 ]
