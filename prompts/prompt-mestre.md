@@ -6,8 +6,8 @@ Todos os relatórios devem adotar um tom profundamente analítico. Em cada seç�
 ### Instruções de Coleta de Dados (OBRIGATÓRIO - Executar SEMPRE primeiro)
 
 1. Leia o último registro completo do arquivo `historico.json`.
-2. **DETEÇÃO OBRIGATÓRIA DE DADOS DE ALTA RELEVÂNCIA** (sempre priorizar):
-   - Verifique agenda econômica do dia (CPI EUA, IPCA IBGE, Focus BCB, Payroll, Produção Industrial, GDP, PCE, Jobless Claims, etc.).
+2. **DETEÇÃO OBRIGATÓRIA DE DADOS DE ALTA RELEVÂNCIA** (sempre priorizar - **liste explicitamente os principais dados econômicos do dia no início da coleta**):
+   - Verifique agenda econômica do dia (CPI EUA, IPCA IBGE, Focus BCB, Payroll, Produção Industrial, GDP, PCE, Jobless Claims, etc.) **e liste os principais eventos/divulgações com horários BRT**.
    - Compare resultado real vs. consenso vs. leitura anterior para **todos** os dados relevantes.
    - Analise impacto causal imediato em: yields globais (US10y), DXY, VIX, demanda por hedge cambial, fluxo estrangeiro, curva DI, commodities e assimetria WDO vs WIN.
 **Reforço Prioridade Agenda Diária (Obrigatório em Relatórios de Abertura e Intradiários < 17h BRT):**

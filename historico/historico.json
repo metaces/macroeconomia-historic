@@ -1615,5 +1615,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-02' gerado com consistência ao histórico (transição viés moderado negativo 01/07 para positivo moderado). Campos formatados; Delta destacado; dados de fontes confiáveis (B3/UOL/Investing)."
+    },
+    {
+    "date": "2026-07-03",
+    "cut_time": "17:40 BRT",
+    "summary": "Fechamento com viés de risco moderado positivo: produção industrial fraca (-0,2% m/m) sinalizou desaceleração mas PMI serviços forte e commodities sustentaram recuperação técnica no WIN (Delta positivo vs. 02/07). Dólar recuou com hedge residual; CDS estável e VIX controlado. Asimetria favorável a risco seletivo via blue chips.",
+    "impacts": {
+        "dolfut": [
+        "produção industrial fraca aliviando curva DI curto",
+        "dólar externo recuando reduzindo pressão",
+        "hedge residual e yields resilientes",
+        "fluxo seletivo negativo recente",
+        "baixa liquidez limitando movimentos"
+        ],
+        "indfut": [
+        "recuperação técnica via commodities/bancos",
+        "PMI serviços forte favorecendo apetite",
+        "suporte setorial energia/mineração",
+        "industrial fraco limitando força ampla",
+        "VIX controlado melhorando valuation"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "174.000-174.400 (+0,9% aprox.)",
+        "sp500": "misto (feriado EUA)",
+        "nasdaq": "misto",
+        "brent": "71-72 USD/bbl",
+        "wti": "69 USD/bbl",
+        "vix": "16"
+    },
+    "pending": [
+        "Balança Comercial Junho — aguardando",
+        "IPCA maio cheio (IBGE) — aguardando",
+        "Fluxo estrangeiro consolidado B3",
+        "Leilões e operações BCB"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (transição de viés moderado negativo/positivo recente); dados de fontes oficiais/market; campos formatados; Delta e agenda priorizados."
     }
 ]
