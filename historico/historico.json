@@ -1657,5 +1657,47 @@
         "Leilões e operações BCB"
     ],
     "validation_summary": "Validação concluída: OK. Consistência com histórico (transição de viés moderado negativo/positivo recente); dados de fontes oficiais/market; campos formatados; Delta e agenda priorizados."
+    },
+    {
+        "date": "2026-07-06",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Focus hawkish (IPCA 2026 em 5.30%) + realização técnica pressionaram WIN (~172.487 pts, -0.91%, Delta negativo vs. 03/07); WDO sustentado por hedge residual. Realização em petróleo aliviou parcialmente; fluxo seletivo negativo e CDS estável mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "Focus hawkish sustentando hedge cambial e reprecificação DI moderada",
+                "realização petróleo aliviando custos mas yields resilientes",
+                "fluxo estrangeiro seletivo negativo",
+                "cautela inflacionária doméstica",
+                "Delta negativo vs. dia anterior"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "suporte parcial commodities insuficiente",
+                "Focus elevando expectativas de juros reduzindo apetite",
+                "VIX controlado mas prêmio de risco local",
+                "liquidez baixa ampliando oscilação negativa"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172487 (-0.91%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "72 USD/bbl",
+            "wti": "68-69 USD/bbl",
+            "vix": "15-16"
+        },
+        "pending": [
+            "IPCA maio cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-06' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 03/07). Campos formatados corretamente; Delta vs. anterior e fontes de mercado incorporados; Focus priorizado na agenda."
     }
 ]
