@@ -1741,5 +1741,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-07' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 06/07). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes oficiais/market."
+    },
+    {
+        "date": "2026-07-08",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: disparada do petróleo (~5% Brent) por tensões geopolíticas elevou prêmio de risco e hedge cambial, pressionando WIN (realização em construtoras) enquanto WDO sustentado. Delta negativo vs. 07/07; seletividade setorial.",
+        "impacts": {
+            "dolfut": [
+                "tensões geopolíticas e petróleo +5% elevando demanda por hedge cambial",
+                "yields resilientes sustentando proteção",
+                "fluxo estrangeiro seletivo negativo",
+                "cautela inflacionária via commodities",
+                "realização técnica parcial"
+            ],
+            "indfut": [
+                "realização forte em construtoras/bancos pressionando WIN",
+                "suporte parcial em energia/Petro insuficiente",
+                "prêmio de risco e CDS mantendo aversão",
+                "VIX controlado mas correlação negativa com yields",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.15-14.30%",
+                "medium": "14.10-14.30%",
+                "long": "14.00-14.25%"
+            },
+            "cds_brazil_5y": "124-125 bps",
+            "ibovespa": "172190 (-0.8/-1.1% aprox.)",
+            "sp500": "misto/negativo leve",
+            "nasdaq": "negativo (tech)",
+            "brent": "~+5% (disparo geopolítico)",
+            "wti": "alta correspondente",
+            "vix": "controlado (~16)"
+        },
+        "pending": [
+            "IPCA cheio IBGE (10/07) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Oriente Médio"
+        ],
+        "validation_summary": "Validação concluída: OK. Consistência com histórico (manutenção viés moderado negativo com driver geopolítico/commodities); dados de B3/Investing/Genial validados; campos formatados corretamente; Delta destacado."
     }
 ]
