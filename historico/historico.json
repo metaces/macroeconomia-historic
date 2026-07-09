@@ -1783,5 +1783,26 @@
             "Evolução geopolítica Oriente Médio"
         ],
         "validation_summary": "Validação concluída: OK. Consistência com histórico; Top Tier X (opapoeconomico, crisinveste) e Genial corroborados por B3/Investing; campos formatados corretamente."
+    },
+    {
+    "date": "2026-07-09",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: apetite seletivo via commodities e fluxo em blue chips sustentou recuperação no WIN (Delta positivo ~1% vs. 08/07). Hedge residual geopolítica limitou alívio em WDO (dólar ~R$5,12). Focus com IPCA 2026 a 5,30% manteve cautela inflacionária.",
+    "impacts": {
+        "dolfut": ["realização petróleo aliviando hedge mas geopolítica residual sustentando", "Focus hawkish moderado", "fluxo seletivo reduzindo pressão cambial", "yields resilientes", "alívio parcial DXY"],
+        "indfut": ["recuperação técnica commodities/Vale/bancos", "fluxo estrangeiro seletivo positivo", "suporte setorial energia", "VIX controlado favorecendo apetite", "realização defensivos limitando força"]
+    },
+    "complements": {
+        "di_curve": {"short": "14.20-14.35%", "medium": "14.15-14.35%", "long": "14.10-14.40%"},
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "172000-172500 (+~1% Delta)",
+        "sp500": "misto/positivo leve",
+        "nasdaq": "positivo moderado",
+        "brent": "77-78 USD/bbl (realização)",
+        "wti": "73 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": ["IPCA maio/jun IBGE — aguardando", "Fluxo estrangeiro B3 consolidado", "Leilões BCB", "Evolução geopolítica"],
+    "validation_summary": "Validação concluída: OK. Consistência com último registro (07-08); Delta destacado; campos formatados; dados de fontes primárias + Genial corroborados."
     }
 ]
