@@ -1745,10 +1745,10 @@
     {
         "date": "2026-07-08",
         "cut_time": "18:00 BRT",
-        "summary": "Fechamento com viés de risco moderado negativo: disparada do petróleo (~5% Brent) por tensões geopolíticas elevou prêmio de risco e hedge cambial, pressionando WIN (realização em construtoras) enquanto WDO sustentado. Delta negativo vs. 07/07; seletividade setorial.",
+        "summary": "Fechamento com viés de risco moderado negativo: disparada do petróleo (~5-6,4% Brent) por tensões geopolíticas elevou prêmio de risco e hedge cambial, pressionando WIN (realização em construtoras) enquanto WDO sustentado por proteção. Delta negativo vs. 07/07.",
         "impacts": {
             "dolfut": [
-                "tensões geopolíticas e petróleo +5% elevando demanda por hedge cambial",
+                "tensões geopolíticas e petróleo +5-6,4% elevando demanda por hedge cambial",
                 "yields resilientes sustentando proteção",
                 "fluxo estrangeiro seletivo negativo",
                 "cautela inflacionária via commodities",
@@ -1772,7 +1772,7 @@
             "ibovespa": "172190 (-0.8/-1.1% aprox.)",
             "sp500": "misto/negativo leve",
             "nasdaq": "negativo (tech)",
-            "brent": "~+5% (disparo geopolítico)",
+            "brent": "~+5-6.4% (disparo geopolítico)",
             "wti": "alta correspondente",
             "vix": "controlado (~16)"
         },
@@ -1782,6 +1782,6 @@
             "Leilões e operações do Banco Central",
             "Evolução geopolítica Oriente Médio"
         ],
-        "validation_summary": "Validação concluída: OK. Consistência com histórico (manutenção viés moderado negativo com driver geopolítico/commodities); dados de B3/Investing/Genial validados; campos formatados corretamente; Delta destacado."
+        "validation_summary": "Validação concluída: OK. Consistência com histórico; Top Tier X (opapoeconomico, crisinveste) e Genial corroborados por B3/Investing; campos formatados corretamente."
     }
 ]
