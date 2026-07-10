@@ -1804,5 +1804,47 @@
     },
     "pending": ["IPCA maio/jun IBGE — aguardando", "Fluxo estrangeiro B3 consolidado", "Leilões BCB", "Evolução geopolítica"],
     "validation_summary": "Validação concluída: OK. Consistência com último registro (07-08); Delta destacado; campos formatados; dados de fontes primárias + Genial corroborados."
+    },
+    {
+        "date": "2026-07-10",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: IPCA junho abaixo do esperado aliviou prêmio de risco e sustentou forte recuperação no WIN (~+3%, ~177k pts, Delta positivo forte vs. 09/07). Hedge cambial reduziu no WDO com alívio inflação doméstica; commodities e fluxo seletivo em blue chips prevaleceram sobre yields resilientes e geopolítica residual.",
+        "impacts": {
+            "dolfut": [
+                "IPCA benigno reduzindo demanda por hedge cambial",
+                "realização petróleo aliviando custos mas yields limitando",
+                "fluxo seletivo positivo em blue chips",
+                "Focus moderação IPCA 2026 sustentando seletividade",
+                "alívio geopolítico parcial via mediadores"
+            ],
+            "indfut": [
+                "recuperação técnica forte via commodities/bancos",
+                "IPCA abaixo consenso favorecendo apetite por risco",
+                "fluxo estrangeiro seletivo em blue chips",
+                "VIX controlado melhorando valuation",
+                "realização defensivos limitando alta ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "~177000 (+~3%)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "77-78 USD/bbl",
+            "wti": "~73 USD/bbl",
+            "vix": "16-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Oriente Médio",
+            "IPCA consolidação / dados emprego EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-10' gerado com consistência ao histórico (Delta positivo forte pós-IPCA benigno vs. 09/07). Campos formatados corretamente; dados de fontes primárias + vídeo Genial/X corroborados; pendentes padronizados."
     }
 ]
