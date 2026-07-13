@@ -1846,5 +1846,47 @@
             "IPCA consolidação / dados emprego EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-10' gerado com consistência ao histórico (Delta positivo forte pós-IPCA benigno vs. 09/07). Campos formatados corretamente; dados de fontes primárias + vídeo Genial/X corroborados; pendentes padronizados."
+    },
+    {
+    "date": "2026-07-13",
+    "cut_time": "19:00 BRT",
+    "summary": "Fechamento com viés de risco moderado negativo em consolidação: Focus aliviou IPCA 2026 marginalmente (5.16%), mas alta do petróleo (Brent +3-4% geopolítica) elevou prêmio de risco e hedge cambial, pressionando WIN com realização técnica (Delta moderado negativo vs. 10/07 ~177.866 pts). Commodities deram suporte parcial insuficiente.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo (tensões Ormuz) sustentando demanda por hedge cambial",
+        "Focus dovish marginal (IPCA 2026 5.16%) aliviando parcialmente",
+        "yields resilientes e fluxo seletivo mantendo proteção",
+        "realização técnica limitando alívio",
+        "cautela inflacionária residual"
+        ],
+        "indfut": [
+        "realização técnica em bancos/consumo pressionando WIN",
+        "suporte parcial commodities/mineração insuficiente",
+        "prêmio de risco geopolítico reduzindo apetite amplo",
+        "VIX controlado mas assimetria negativa",
+        "Delta moderado negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "~177.5k (var. moderada negativa vs. 177.866 pts)",
+        "sp500": "misto",
+        "nasdaq": "misto",
+        "brent": "~78+ USD/bbl",
+        "wti": "~74+ USD/bbl",
+        "vix": "16-18"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Evolução geopolítica Oriente Médio",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-13' gerado com consistência ao histórico (manutenção/consolidação viés moderado negativo pós-10/07; Delta destacado; Focus e geopolítica priorizados). Campos formatados corretamente; dados de fontes primárias + Genial corroborados."
     }
 ]
