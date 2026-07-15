@@ -1888,5 +1888,47 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-13' gerado com consistência ao histórico (manutenção/consolidação viés moderado negativo pós-10/07; Delta destacado; Focus e geopolítica priorizados). Campos formatados corretamente; dados de fontes primárias + Genial corroborados."
+    },
+    {
+        "date": "2026-07-14",
+        "cut_time": "22:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo em consolidação: CPI EUA benigno (deflação) + Focus IPCA 2026 a 5,16% comprimiram prêmio de risco e aliviaron hedge cambial. WIN +0,51% (~176.641 pts, Delta positivo vs. 13/07) via commodities/fluxo seletivo; WDO recuou com menor proteção. Geopolítica Ormuz residual sustentou Brent mas apetite externo prevaleceu.",
+        "impacts": {
+            "dolfut": [
+                "CPI EUA dovish reduzindo yields globais e demanda por hedge",
+                "Focus IPCA 2026 5,16% (recuo) aliviando prêmio doméstico",
+                "Brent alta geopolítica residual sustentando proteção parcial",
+                "fluxo seletivo positivo em blue chips reduzindo pressão cambial",
+                "DXY recuo favorecendo Real"
+            ],
+            "indfut": [
+                "recuperação técnica commodities/bancos pós-CPI benigno",
+                "alívio prêmio de risco via Focus e yields globais",
+                "suporte setorial energia/mineração",
+                "VIX recuo (~16,5) melhorando apetite seletivo",
+                "realização defensivos limitando força ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "176641 (+0.51%)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "+0.90%",
+            "brent": "84-86 USD/bbl",
+            "wti": "~74+ USD/bbl",
+            "vix": "16.5"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Ormuz/Oriente Médio",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Consistência com último registro (13/07 viés negativo moderado → positivo consolidação); Delta destacado; campos formatados; dados de fontes primárias + X top-tier corroborados."
     }
 ]
