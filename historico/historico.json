@@ -1930,5 +1930,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Consistência com último registro (13/07 viés negativo moderado → positivo consolidação); Delta destacado; campos formatados; dados de fontes primárias + X top-tier corroborados."
+    },
+    {
+        "date": "2026-07-15",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: PPI EUA benigno + serviços IBGE comprimiram prêmio de risco e aliviaron hedge. WIN com leve realização seletiva (~175.847 pts, -0,45% Delta vs. 14/07), commodities/fluxo suportando; WDO recuou com menor proteção. Geopolítica residual limitou força.",
+        "impacts": {
+            "dolfut": [
+                "PPI EUA dovish reduzindo yields/DXY e demanda hedge",
+                "Focus/IPCA doméstico consistente aliviando parcialmente",
+                "geopolítica Ormuz/petróleo sustentando proteção residual",
+                "fluxo seletivo blue chips reduzindo pressão cambial",
+                "realização técnica limitando alívio amplo"
+            ],
+            "indfut": [
+                "recuperação/consolidação commodities/bancos",
+                "alívio externo via PPI favorecendo apetite seletivo",
+                "suporte setorial energia/mineração",
+                "VIX recuo melhorando valuation",
+                "realização defensivos + cautela eleitoral/tarifaço"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "175847 (-0.45%)",
+            "sp500": "~7572 (+0.38%)",
+            "nasdaq": "positivo",
+            "brent": "~80+ USD/bbl",
+            "wti": "~74+ USD/bbl",
+            "vix": "recuo ~16"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Ormuz/tarifaço EUA",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-15' gerado com consistência ao histórico (14/07 positivo → consolidação leve negativa Delta); campos formatados; agenda/PPI priorizados; fontes primárias + X top-tier corroborados."
     }
 ]
