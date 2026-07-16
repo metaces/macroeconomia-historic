@@ -1972,5 +1972,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-15' gerado com consistência ao histórico (14/07 positivo → consolidação leve negativa Delta); campos formatados; agenda/PPI priorizados; fontes primárias + X top-tier corroborados."
+    },
+    {
+        "date": "2026-07-16",
+        "cut_time": "19:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: tarifaço EUA (25%) elevou prêmio de risco e hedge cambial, pressionando WIN com realização (Delta negativo leve vs. 15/07). Varejo maio +0,1% (IBGE) ofereceu suporte parcial via consumo; Brent estável sustentou commodities seletivamente. Focus residual hawkish e yields mantiveram cautela.",
+        "impacts": {
+            "dolfut": [
+                "tarifaço EUA 25% elevando demanda por hedge cambial",
+                "DXY/yields resilientes sustentando proteção",
+                "varejo resiliente (+0,1%) aliviando parcialmente",
+                "Focus IPCA 2026 ~5.16% mantendo seletividade",
+                "fluxo seletivo negativo"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo via tarifa",
+                "suporte parcial commodities insuficiente",
+                "prêmio de risco local reduzindo apetite amplo",
+                "VIX controlado mas assimetria negativa",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "123-125 bps",
+            "ibovespa": "175093-176011 (-0.4/-0.5% aprox.)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "85 USD/bbl",
+            "wti": "~74 USD/bbl",
+            "vix": "16-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução tarifaço/geopolítica",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-16' gerado com consistência ao histórico (transição viés moderado positivo/consolidação 15/07 para negativo por tarifa). Campos formatados; Delta e agenda priorizados; fontes primárias + X top-tier corroboradas."
     }
 ]
