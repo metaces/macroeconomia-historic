@@ -2014,5 +2014,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-16' gerado com consistência ao histórico (transição viés moderado positivo/consolidação 15/07 para negativo por tarifa). Campos formatados; Delta e agenda priorizados; fontes primárias + X top-tier corroboradas."
+    },
+    {
+    "date": "2026-07-17",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: alta do petróleo (Brent +4%+ geopolítica Hormuz) elevou prêmio de risco e hedge cambial, pressionando WDO enquanto WIN fechou estável (~173.651 pts, -0,10% Delta vs. 16/07) com suporte energia e realização técnica. IGP-10/IBC-Br trouxeram alívio marginal mas commodities prevaleceram.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo/geopolítica sustentando demanda por hedge cambial",
+        "yields resilientes e fluxo seletivo",
+        "IGP-10 benigno aliviando parcialmente",
+        "realização técnica limitando alívio",
+        "Delta neutro/negativo leve vs. anterior"
+        ],
+        "indfut": [
+        "suporte setorial energia/mineração vs. realização bancos/tech",
+        "alívio IGP-10 mas prêmio risco geopolítico",
+        "VIX alta reduzindo apetite amplo",
+        "fluxo seletivo positivo commodities",
+        "Delta leve negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "123-126 bps",
+        "ibovespa": "173651 (-0.10%)",
+        "sp500": "misto/negativo leve (~7458)",
+        "nasdaq": "negativo (~25520)",
+        "brent": "~87-88 USD/bbl (+4%+)",
+        "wti": "alta correspondente",
+        "vix": "18.4"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Evolução geopolítica Ormuz/tarifas",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-17' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 16/07; Delta destacado). Campos formatados; Genial/X e fontes primárias (B3/FGV) corroborados; agenda priorizada."
     }
 ]
