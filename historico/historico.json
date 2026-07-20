@@ -2056,5 +2056,48 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-17' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 16/07; Delta destacado). Campos formatados; Genial/X e fontes primárias (B3/FGV) corroborados; agenda priorizada."
+    },
+    {
+        "date": "2026-07-20",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: Focus (IPCA 2026 ~5,15%, leve alívio) + entrada de dólares/gringo derrubaram câmbio (WDO ~R$5,08) e reduziram hedge, enquanto commodities e blue chips sustentaram recuperação seletiva no WIN (Delta positivo moderado vs. 17/07 ~173.651 pts). Geopolítica residual e hawkish Focus (Selic 14%) limitaram força ampla.",
+        "impacts": {
+            "dolfut": [
+                "Focus leve dovish IPCA + entrada dólares/gringo reduzindo demanda por hedge cambial",
+                "yields resilientes e fluxo seletivo positivo em blue chips",
+                "realização/controlada petróleo sustentando seletividade",
+                "geopolítica Ormuz residual limitando alívio maior",
+                "Delta WDO baixa vs. dia anterior"
+            ],
+            "indfut": [
+                "recuperação técnica commodities/bancos via fluxo gringo",
+                "Focus alívio marginal favorecendo apetite seletivo",
+                "suporte setorial energia/mineração",
+                "VIX controlado melhorando valuation",
+                "realização defensivos/consumo limitando alta ampla; Delta positivo moderado"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "123-126 bps",
+            "ibovespa": "~174000-175000 (+0.5-1% Delta vs. 173651)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "~88 USD/bbl (residual geopolítica)",
+            "wti": "~81 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA cheio IBGE — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Ormuz/tarifas EUA",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-20' gerado com rigorosa consistência ao histórico (transição viés moderado negativo/consolidação 17/07 para positivo seletivo via Focus + fluxo gringo). Campos formatados corretamente (strings com unidades); Delta vs. anterior e fontes (BCB Focus, B3, Genial/X) incorporados; pendentes padronizados."
     }
 ]
