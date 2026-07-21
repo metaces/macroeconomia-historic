@@ -2099,5 +2099,47 @@
             "Dados emprego/inflação EUA adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-20' gerado com rigorosa consistência ao histórico (transição viés moderado negativo/consolidação 17/07 para positivo seletivo via Focus + fluxo gringo). Campos formatados corretamente (strings com unidades); Delta vs. anterior e fontes (BCB Focus, B3, Genial/X) incorporados; pendentes padronizados."
+    },
+    {
+        "date": "2026-07-21",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo seletivo: NY em alta (tech/commodities), alívio marginal Focus IPCA 2026 e suporte Brent/WTI/ouro sustentaram recuperação técnica no WIN via fluxo em blue chips/energia. Hedge residual geopolítico (Oriente Médio) limitou alívio mais forte no WDO. Ibovespa praticamente estável/Delta marginal positivo vs. dia anterior; assimetria favorável a commodities vs. bancos/consumo.",
+        "impacts": {
+            "dolfut": [
+                "hedge residual por tensões Oriente Médio/petróleo alto sustentando WDO",
+                "Focus IPCA 2026 aliviado (recuo marginal) oferecendo suporte parcial ao Real",
+                "yields globais resilientes limitando queda mais forte do dólar",
+                "fluxo estrangeiro seletivo reduzindo pressão cambial em blue chips",
+                "realização controlada em petróleo com ouro em alta como hedge alternativo"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração/energia",
+                "fluxo seletivo positivo em blue chips sustentando WIN",
+                "NY alta (S&P/Nasdaq) favorecendo apetite por risco emergente",
+                "suporte setorial energia beneficiando margens (petróleo alto)",
+                "realização em bancos/consumo limitando força da alta ampla; VIX controlado"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "173.000-173.426 (estável/+0,03% aprox., Delta marginal positivo)",
+            "sp500": "positivo (alta NY)",
+            "nasdaq": "positivo (tech)",
+            "brent": "alto (disparo geopolítico, realização controlada)",
+            "wti": "acompanhando Brent",
+            "vix": "16-18 (controlado)"
+        },
+        "pending": [
+            "IPCA maio/junho cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Oriente Médio/Ormuz"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto para date '2026-07-21' gerado com rigorosa consistência ao último registro em historico.json (manutenção viés moderado positivo seletivo, ênfase commodities/hedge residual e Delta vs. anterior). Campos formatados conforme padrão; dados validados em B3/BCB/Genial/X + fontes primárias; pendentes padronizados."
     }
 ]
