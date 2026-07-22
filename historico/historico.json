@@ -2141,5 +2141,47 @@
             "Evolução geopolítica Oriente Médio/Ormuz"
         ],
         "validation_summary": "Validação concluída: OK. Objeto para date '2026-07-21' gerado com rigorosa consistência ao último registro em historico.json (manutenção viés moderado positivo seletivo, ênfase commodities/hedge residual e Delta vs. anterior). Campos formatados conforme padrão; dados validados em B3/BCB/Genial/X + fontes primárias; pendentes padronizados."
+    },
+    {
+    "date": "2026-07-22",
+    "cut_time": "19:53 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: alta Brent (>3%) + balanços robustos (WEG, siderúrgicas, Vale/Petro) sustentaram forte recuperação WIN (+2,44% ~177.547 pts, Delta positivo vs. anterior). Dólar recuou a R$5,05 (-0,4%) com menor hedge; plano socorro tarifaço mitigou aversão. Fluxo seletivo commodities prevaleceu sobre Focus residual hawkish.",
+    "impacts": {
+        "dolfut": [
+        "alta Brent sustentando Real e reduzindo demanda hedge",
+        "balanços domésticos + fluxo blue chips aliviando pressão cambial",
+        "geopolítica residual/tarifaço limitando queda mais forte",
+        "yields globais estáveis",
+        "Delta positivo consolidação vs. dias anteriores"
+        ],
+        "indfut": [
+        "suporte commodities/mineração/energia (Vale, PETR, siderúrgicas)",
+        "balanços fortes (WEG +10%) impulsionando apetite risco",
+        "fluxo estrangeiro seletivo em blue chips",
+        "VIX controlado favorecendo valuation",
+        "plano Brasil Soberano III mitigando tarifaço"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "177547 (+2.44%)",
+        "sp500": "misto/estável",
+        "nasdaq": "leve baixa",
+        "brent": "~94+ USD/bbl (+3%)",
+        "wti": "alta correspondente",
+        "vix": "16-17"
+    },
+    "pending": [
+        "Fluxo estrangeiro B3 consolidado — aguardando",
+        "Leilões BCB",
+        "Evolução geopolítica/tarifaço EUA",
+        "Balanços Alphabet/Tesla EUA"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (transição positiva commodities-driven); dados de B3/Investing/X corroborados; campos formatados; Delta e drivers priorizados."
     }
 ]
