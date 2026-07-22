@@ -2145,21 +2145,21 @@
     {
     "date": "2026-07-22",
     "cut_time": "19:53 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado positivo: alta Brent (>3%) + balanços robustos (WEG, siderúrgicas, Vale/Petro) sustentaram forte recuperação WIN (+2,44% ~177.547 pts, Delta positivo vs. anterior). Dólar recuou a R$5,05 (-0,4%) com menor hedge; plano socorro tarifaço mitigou aversão. Fluxo seletivo commodities prevaleceu sobre Focus residual hawkish.",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: alta Brent (>3%, ~US$94+) + balanços robustos (WEG +10%, siderúrgicas, Vale/Petro) sustentaram forte recuperação no WIN (+2,44% ~177.547 pts, Delta positivo vs. anterior). Dólar recuou a R$5,05 (-0,40%) com menor demanda por hedge; plano Brasil Soberano III mitigou aversão ao tarifaço. Fluxo seletivo em commodities prevaleceu.",
     "impacts": {
         "dolfut": [
-        "alta Brent sustentando Real e reduzindo demanda hedge",
-        "balanços domésticos + fluxo blue chips aliviando pressão cambial",
-        "geopolítica residual/tarifaço limitando queda mais forte",
+        "alta Brent sustentando Real e reduzindo demanda por hedge cambial",
+        "balanços domésticos + fluxo blue chips aliviando pressão",
+        "geopolítica/tarifaço residual limitando queda mais forte",
         "yields globais estáveis",
-        "Delta positivo consolidação vs. dias anteriores"
+        "Delta positivo vs. dias de realização anterior"
         ],
         "indfut": [
-        "suporte commodities/mineração/energia (Vale, PETR, siderúrgicas)",
-        "balanços fortes (WEG +10%) impulsionando apetite risco",
+        "suporte forte commodities/mineração/energia (Vale, PETR, siderúrgicas)",
+        "resultados corporativos robustos (WEG, CSNA3, BRKM5) impulsionando apetite",
         "fluxo estrangeiro seletivo em blue chips",
         "VIX controlado favorecendo valuation",
-        "plano Brasil Soberano III mitigando tarifaço"
+        "mitigação via plano socorro tarifaço"
         ]
     },
     "complements": {
@@ -2172,16 +2172,16 @@
         "ibovespa": "177547 (+2.44%)",
         "sp500": "misto/estável",
         "nasdaq": "leve baixa",
-        "brent": "~94+ USD/bbl (+3%)",
+        "brent": "~94+ USD/bbl (+>3%)",
         "wti": "alta correspondente",
         "vix": "16-17"
     },
     "pending": [
         "Fluxo estrangeiro B3 consolidado — aguardando",
-        "Leilões BCB",
+        "Leilões e operações BCB",
         "Evolução geopolítica/tarifaço EUA",
-        "Balanços Alphabet/Tesla EUA"
+        "Balanços Alphabet/Tesla (EUA)"
     ],
-    "validation_summary": "Validação concluída: OK. Consistência com histórico (transição positiva commodities-driven); dados de B3/Investing/X corroborados; campos formatados; Delta e drivers priorizados."
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (transição positiva commodities-driven); dados B3/Investing/X corroborados; campos formatados; Delta e drivers priorizados (v2.9.2)."
     }
 ]
