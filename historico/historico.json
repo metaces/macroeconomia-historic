@@ -2183,5 +2183,47 @@
         "Balanços Alphabet/Tesla (EUA)"
     ],
     "validation_summary": "Validação concluída: OK. Consistência com histórico (transição positiva commodities-driven); dados B3/Investing/X corroborados; campos formatados; Delta e drivers priorizados (v2.9.2)."
-    }
+    },
+    {
+    "date": "2026-07-23",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: tensão no Oriente Médio elevou petróleo (Brent ~94-100 USD/bbl) e prêmio de risco, ampliando aversão e hedge cambial. WIN com realização/pressão seletiva (Delta negativo vs. pregão anterior); WDO sustentado por proteção. Fluxo seletivo e yields resilientes reforçaram assimetria.",
+    "impacts": {
+        "dolfut": [
+            "tensão Oriente Médio e petróleo elevado sustentando demanda por hedge cambial",
+            "yields globais resilientes e DXY firme reforçando proteção",
+            "Focus hawkish residual e cautela inflacionária",
+            "fluxo estrangeiro seletivo negativo",
+            "realização técnica limitando upside"
+        ],
+        "indfut": [
+            "realização técnica em bancos/consumo via prêmio de risco geopolítico",
+            "suporte parcial commodities/mineração insuficiente",
+            "reprecificação DI e yields reduzindo apetite",
+            "VIX controlado-moderado mas correlação negativa",
+            "Delta negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+            "short": "14.20-14.35%",
+            "medium": "14.15-14.35%",
+            "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122-126 bps",
+        "ibovespa": "~176500-177500 (variação moderada negativa, Delta negativo)",
+        "sp500": "misto/positivo leve",
+        "nasdaq": "misto",
+        "brent": "~94-100+ USD/bbl",
+        "wti": "~89-92+ USD/bbl",
+        "vix": "~16-18"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Oriente Médio / dados emprego/inflação EUA adiante",
+        "IPCA consolidação / agenda Focus próxima"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-23' adicionado com consistência ao histórico (viés moderado negativo via geopolítica/petróleo). Campos formatados conforme regras; Delta vs. anterior destacado; fontes B3/Genial/Investing corroboradas (v2.9.2)."
+}
 ]
