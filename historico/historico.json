@@ -2185,45 +2185,87 @@
     "validation_summary": "Validação concluída: OK. Consistência com histórico (transição positiva commodities-driven); dados B3/Investing/X corroborados; campos formatados; Delta e drivers priorizados (v2.9.2)."
     },
     {
-    "date": "2026-07-23",
+        "date": "2026-07-23",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: tensão no Oriente Médio elevou petróleo (Brent ~94-100 USD/bbl) e prêmio de risco, ampliando aversão e hedge cambial. WIN com realização/pressão seletiva (Delta negativo vs. pregão anterior); WDO sustentado por proteção. Fluxo seletivo e yields resilientes reforçaram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "tensão Oriente Médio e petróleo elevado sustentando demanda por hedge cambial",
+                "yields globais resilientes e DXY firme reforçando proteção",
+                "Focus hawkish residual e cautela inflacionária",
+                "fluxo estrangeiro seletivo negativo",
+                "realização técnica limitando upside"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo via prêmio de risco geopolítico",
+                "suporte parcial commodities/mineração insuficiente",
+                "reprecificação DI e yields reduzindo apetite",
+                "VIX controlado-moderado mas correlação negativa",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "~176500-177500 (variação moderada negativa, Delta negativo)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "~94-100+ USD/bbl",
+            "wti": "~89-92+ USD/bbl",
+            "vix": "~16-18"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando",
+            "Evolução geopolítica Oriente Médio / dados emprego/inflação EUA adiante",
+            "IPCA consolidação / agenda Focus próxima"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-23' adicionado com consistência ao histórico (viés moderado negativo via geopolítica/petróleo). Campos formatados conforme regras; Delta vs. anterior destacado; fontes B3/Genial/Investing corroboradas (v2.9.2)."
+    },
+    {
+    "date": "2026-07-24",
     "cut_time": "18:00 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado negativo: tensão no Oriente Médio elevou petróleo (Brent ~94-100 USD/bbl) e prêmio de risco, ampliando aversão e hedge cambial. WIN com realização/pressão seletiva (Delta negativo vs. pregão anterior); WDO sustentado por proteção. Fluxo seletivo e yields resilientes reforçaram assimetria.",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: tarifas Trump (10-12,5%) + realização petróleo pressionaram WIN (Delta ~-1,5% vs. 176.724 pts); hedge residual sustentou WDO. Alívio commodities insuficiente para reversão ampla; CDS e yields mantiveram assimetria.",
     "impacts": {
         "dolfut": [
-            "tensão Oriente Médio e petróleo elevado sustentando demanda por hedge cambial",
-            "yields globais resilientes e DXY firme reforçando proteção",
-            "Focus hawkish residual e cautela inflacionária",
-            "fluxo estrangeiro seletivo negativo",
-            "realização técnica limitando upside"
+        "tarifas EUA elevando prêmio de risco e demanda hedge cambial",
+        "realização petróleo (Brent ~-4-5%) aliviando parcialmente custos",
+        "yields globais resilientes",
+        "fluxo seletivo negativo",
+        "geopolítica residual sustentando proteção"
         ],
         "indfut": [
-            "realização técnica em bancos/consumo via prêmio de risco geopolítico",
-            "suporte parcial commodities/mineração insuficiente",
-            "reprecificação DI e yields reduzindo apetite",
-            "VIX controlado-moderado mas correlação negativa",
-            "Delta negativo vs. dia anterior"
+        "realização técnica blue chips/bancos/consumo pressionando WIN",
+        "tarifas impactando exportações e apetite risco",
+        "suporte parcial commodities insuficiente",
+        "VIX ~18.7 reduzindo apetite amplo",
+        "Delta negativo vs. dia anterior"
         ]
     },
     "complements": {
         "di_curve": {
-            "short": "14.20-14.35%",
-            "medium": "14.15-14.35%",
-            "long": "14.10-14.40%"
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
         },
-        "cds_brazil_5y": "122-126 bps",
-        "ibovespa": "~176500-177500 (variação moderada negativa, Delta negativo)",
-        "sp500": "misto/positivo leve",
-        "nasdaq": "misto",
-        "brent": "~94-100+ USD/bbl",
-        "wti": "~89-92+ USD/bbl",
-        "vix": "~16-18"
+        "cds_brazil_5y": "124-125 bps",
+        "ibovespa": "174.042-174.900 (-1.5% aprox.)",
+        "sp500": "7408 (-1.2%)",
+        "nasdaq": "pressionado",
+        "brent": "95-97 USD/bbl",
+        "wti": "88-90 USD/bbl",
+        "vix": "18.7"
     },
     "pending": [
-        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
-        "Leilões e operações do Banco Central — aguardando",
-        "Evolução geopolítica Oriente Médio / dados emprego/inflação EUA adiante",
-        "IPCA consolidação / agenda Focus próxima"
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações BCB",
+        "Evolução tarifas/geopolítica",
+        "Dados emprego/inflação EUA adiante"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-23' adicionado com consistência ao histórico (viés moderado negativo via geopolítica/petróleo). Campos formatados conforme regras; Delta vs. anterior destacado; fontes B3/Genial/Investing corroboradas (v2.9.2)."
-}
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (manutenção viés moderado negativo); Delta destacado; dados de B3/Investing/Genial corroborados; campos formatados."
+    }
 ]
