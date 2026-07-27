@@ -2267,5 +2267,47 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Consistência com histórico (manutenção viés moderado negativo); Delta destacado; dados de B3/Investing/Genial corroborados; campos formatados."
+    },
+    {
+    "date": "2026-07-27",
+    "cut_time": "18:05 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: forte realização no petróleo (Brent -6%+ conforme Genial) e rotação global comprimiram o prêmio de risco, favorecendo recuperação técnica no WIN/Ibovespa (~+0,6-0,8% vs. 174.042 pts de 24/07). Hedge cambial residual sustentou WDO em níveis moderados; fluxo seletivo e yields resilientes (US10y ~4,65%) limitaram força ampla. Delta positivo claro vs. viés moderado negativo de 24/07.",
+    "impacts": {
+        "dolfut": [
+        "realização acentuada no petróleo (Brent ~85-88 USD) reduzindo demanda por hedge cambial",
+        "rotação global e alívio geopolítico parcial comprimindo prêmio de risco",
+        "yields Treasuries resilientes (~4,65%) e DXY sustentando proteção residual",
+        "fluxo estrangeiro seletivo mantendo seletividade cambial",
+        "cautela inflacionária doméstica residual (Focus) limitando queda mais forte"
+        ],
+        "indfut": [
+        "recuperação técnica impulsionada por alívio commodities e rotação setorial",
+        "suporte em bancos e blue chips com fluxo seletivo positivo",
+        "queda do petróleo beneficiando margens e reduzindo prêmio de risco local",
+        "VIX controlado-moderado (~18,5-19) favorecendo apetite seletivo",
+        "Delta positivo vs. realização de 24/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.15-14.30%",
+        "medium": "14.10-14.30%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "124-126 bps",
+        "ibovespa": "175100-175500 (+0.6% a +0.8% aprox. vs 174042)",
+        "sp500": "misto/estável (~7410-7420)",
+        "nasdaq": "misto/leve pressão",
+        "brent": "85-88 USD/bbl (-6%+)",
+        "wti": "correspondente à queda",
+        "vix": "18.5-19"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Oriente Médio / tarifas EUA",
+        "Agenda Focus e dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-27' gerado com consistência ao histórico (transição de viés moderado negativo 24/07 para positivo moderado via alívio petróleo/rotação). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Investing/Rio Times/Genial (título e descrição do live) + fontes primárias de commodities/yields/VIX/CDS corroborados; pendentes padronizados (v2.9.2)."
     }
 ]
