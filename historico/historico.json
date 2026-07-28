@@ -2309,5 +2309,47 @@
         "Agenda Focus e dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-27' gerado com consistência ao histórico (transição de viés moderado negativo 24/07 para positivo moderado via alívio petróleo/rotação). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Investing/Rio Times/Genial (título e descrição do live) + fontes primárias de commodities/yields/VIX/CDS corroborados; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-07-28",
+    "cut_time": "20:05 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: IPCA-15 julho +0,06% (vs consenso 0,20-0,21%; 12m 4,52%) + forte realização no petróleo comprimiram o prêmio de risco e reforçaram apostas de corte Selic. Ibovespa +0,70% a 176.565 pts; dólar leve alta residual a R$5,122. Delta positivo claro vs. consolidação de 27/07.",
+    "impacts": {
+        "dolfut": [
+        "IPCA-15 dovish reduzindo demanda por hedge cambial",
+        "realização acentuada no petróleo aliviando custos e prêmio",
+        "yields/DXY resilientes e pré-Fed sustentando proteção residual",
+        "fluxo seletivo mantendo seletividade cambial",
+        "cautela fiscal residual limitando queda mais forte"
+        ],
+        "indfut": [
+        "recuperação técnica impulsionada por IPCA benigno e bancos/blue chips",
+        "alívio prêmio de risco via petróleo e curva DI cedeu",
+        "suporte setorial commodities/energia",
+        "VIX controlado favorecendo apetite seletivo",
+        "Delta positivo vs. 27/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.15%",
+        "medium": "14.10-14.30%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "123-124 bps",
+        "ibovespa": "176565 (+0.70%)",
+        "sp500": "misto/estável (~7410-7430)",
+        "nasdaq": "misto",
+        "brent": "82-88 USD/bbl (-4%+)",
+        "wti": "correspondente à queda",
+        "vix": "18-19"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Decisão Fed 29/07 e evolução Copom",
+        "Evolução geopolítica Oriente Médio residual"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-28' gerado com rigorosa consistência ao último registro (27/07 viés moderado positivo seletivo → reforço via IPCA dovish + petróleo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Investing/Valor/CNN + Genial live e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
