@@ -2351,5 +2351,47 @@
         "Evolução geopolítica Oriente Médio residual"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-28' gerado com rigorosa consistência ao último registro (27/07 viés moderado positivo seletivo → reforço via IPCA dovish + petróleo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Investing/Valor/CNN + Genial live e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-07-29",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: Fed manteve juros (3,50-3,75%) com 3 dissents hawkish + disparada do petróleo (Brent +4-7% geopolítica) elevaram prêmio de risco e pressionaram o índice futuro (~-0,9% a -1,0%). Hedge residual sustentou WDO; Delta negativo claro vs. +0,70% de 28/07.",
+    "impacts": {
+        "dolfut": [
+        "Fed hold com dissents hawkish e yields resilientes sustentando hedge residual",
+        "alta forte do petróleo (geopolítica Oriente Médio) elevando demanda por proteção cambial",
+        "fluxo seletivo negativo/neutro reforçando seletividade",
+        "DXY estável/leve alívio limitando alta mais forte do WDO",
+        "cautela inflacionária residual (energia)"
+        ],
+        "indfut": [
+        "realização técnica pós-Fed e balanços (Santander) pressionando WIN",
+        "disparada do Brent elevando prêmio de risco e custos setoriais",
+        "correlação negativa com yields e commodities voláteis",
+        "VIX moderado-elevado reduzindo apetite amplo",
+        "Delta negativo vs. recuperação de 28/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.15-14.30%",
+        "medium": "14.10-14.30%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "124-126 bps",
+        "ibovespa": "174800-175000 (-0.9% a -1.0%)",
+        "sp500": "misto/pressionado pós-Fed",
+        "nasdaq": "misto/pressionado",
+        "brent": "85-90 USD/bbl (+4-7%)",
+        "wti": "correspondente à alta",
+        "vix": "17-19"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "Evolução geopolítica Oriente Médio",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (reversão de viés moderado positivo de 28/07 para moderado negativo); dados de B3/Investing/UOL/Fed/Genial + X top-tier corroborados; campos formatados corretamente; Delta e agenda Fed priorizados."
     }
 ]
