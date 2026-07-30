@@ -2393,5 +2393,47 @@
         "Dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Consistência com histórico (reversão de viés moderado positivo de 28/07 para moderado negativo); dados de B3/Investing/UOL/Fed/Genial + X top-tier corroborados; campos formatados corretamente; Delta e agenda Fed priorizados."
+    },
+    {
+    "date": "2026-07-30",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: forte recuperação do Ibovespa (+1,88% a 177.158,86 pts) impulsionada por ambiente global de apetite a risco (S&P 500 +1,74% com disparada de chips e guidance excelente da Microsoft), realização moderada no petróleo e fluxo seletivo em bancos/blue chips. Delta positivo claro e amplo vs. realização de 29/07 (-1,52% a 173.885 pts). Hedge cambial reduziu com dólar em queda (~R$5,06-5,07); curva DI cedeu seletivamente e CDS estabilizou em patamar elevado. Commodities deram suporte parcial, mas o caminho de menor resistência favoreceu risco local via correlação positiva com exterior.",
+    "impacts": {
+        "dolfut": [
+        "ambiente global risk-on e S&P forte reduziram demanda por hedge cambial",
+        "realização moderada no Brent (~-1,9% a ~US$89) aliviando prêmio de commodities",
+        "dólar comercial em queda firme (~-0,9%) refletindo menor proteção",
+        "fluxo seletivo positivo e yields resilientes limitando queda mais profunda",
+        "cautela residual pós-Fed e geopolítica mantendo seletividade"
+        ],
+        "indfut": [
+        "recuperação técnica ampla via bancos, Vale e blue chips acompanhando exterior",
+        "apetite global por risco (Microsoft/IA/chips) favorecendo valuation local",
+        "suporte setorial commodities/energia mesmo com petróleo em realização",
+        "VIX em recuo moderado melhorando apetite seletivo",
+        "Delta positivo forte vs. queda de 29/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "127.73 bps",
+        "ibovespa": "177158.86 (+1.88%)",
+        "sp500": "+1.74%",
+        "nasdaq": "positivo forte (chips/IA)",
+        "brent": "89.03 USD/bbl (-1.88%)",
+        "wti": "correspondente à queda",
+        "vix": "19-20 (recuo vs. 20.66 de 29/07)"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Detalhamento completo curva DI fechamento oficial",
+        "Evolução geopolítica Oriente Médio residual e dados PCE/emprego EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-30' gerado com rigorosa consistência ao último registro completo (28/07 viés moderado positivo → 29/07 realização → 30/07 recuperação forte). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/UOL/Reuters/Investing/WorldGovernmentBonds + live Genial (WwvOOkqQRos) e fontes primárias de commodities/yields/VIX/CDS corroborados; pendentes padronizados (v2.9.2)."
     }
 ]
