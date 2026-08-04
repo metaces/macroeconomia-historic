@@ -2435,5 +2435,47 @@
         "Evolução geopolítica Oriente Médio residual e dados PCE/emprego EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-30' gerado com rigorosa consistência ao último registro completo (28/07 viés moderado positivo → 29/07 realização → 30/07 recuperação forte). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/UOL/Reuters/Investing/WorldGovernmentBonds + live Genial (WwvOOkqQRos) e fontes primárias de commodities/yields/VIX/CDS corroborados; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-04",
+    "cut_time": "20:18 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo/misto: produção industrial junho -1,8% m/m (pior que consenso -0,8%) e queda firme do petróleo (Brent -5,3% a US$79,36 por esperanças diplomáticas Ormuz) pressionaram o Ibovespa (-0,06% a 177.894,97 pts após máxima 180.679), com realização em Itaú e Petrobras. Dólar comercial +0,86% a R$5,13 e WDO +0,67% a ~5.157 sustentados por tensão EUA-Brasil (cancelamento de visto da embaixadora) e hedge residual pré-Copom. Wall Street em forte alta (S&P ~+1,8%, Nasdaq +2,6%) descolou, mas fluxo seletivo e cautela doméstica limitaram apetite local. Delta negativo claro vs. recuperação forte de 30/07 (+1,88% a 177.158 pts).",
+    "impacts": {
+        "dolfut": [
+        "tensão EUA-Brasil (sanções/vistos) elevando demanda por hedge cambial",
+        "produção industrial fraca reforçando seletividade e prêmio de risco residual",
+        "queda do petróleo (-5,3% Brent) aliviando parcialmente mas insuficiente frente a yields e fluxo",
+        "pré-Copom (corte 25 bps esperado) mantendo volatilidade cambial",
+        "descolamento vs. risk-on global (S&P/Nasdaq fortes) sustentando proteção"
+        ],
+        "indfut": [
+        "realização técnica em Itaú (pré-balanço) e Petrobras (petróleo) pressionando índice",
+        "produção industrial -1,8% m/m pior que consenso reduzindo apetite por risco cíclico",
+        "suporte parcial Vale insuficiente para compensar bancos/energia",
+        "VIX moderado e exterior positivo limitando queda, mas correlação local negativa prevaleceu",
+        "Delta negativo vs. recuperação ampla de 30/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps (estável/elevado)",
+        "ibovespa": "177894.97 (-0.06%)",
+        "sp500": "+1.7% a +1.9% (recorde/próximo)",
+        "nasdaq": "+2.6%",
+        "brent": "79.36 USD/bbl (-5.3%)",
+        "wti": "75.77 USD/bbl (-5.7%)",
+        "vix": "16-17 (controlado)"
+    },
+    "pending": [
+        "Decisão Copom 05/08 (corte 25 bps esperado) — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Ormuz/tensão EUA-Brasil e balanços corporativos (Itaú etc.)"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-04' gerado com rigorosa consistência ao último registro completo (30/07 viés moderado positivo → 04/08 misto/negativo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/UOL + produção industrial IBGE + live Genial (uSkzknSBtjU) e top-tier X (@opapoeconomico, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
