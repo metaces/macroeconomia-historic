@@ -2477,5 +2477,47 @@
         "Evolução geopolítica Ormuz/tensão EUA-Brasil e balanços corporativos (Itaú etc.)"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-04' gerado com rigorosa consistência ao último registro completo (30/07 viés moderado positivo → 04/08 misto/negativo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/UOL + produção industrial IBGE + live Genial (uSkzknSBtjU) e top-tier X (@opapoeconomico, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-05",
+    "cut_time": "21:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo/misto pós-Copom: corte unânime Selic para 14,00% (-0,25 pp, porta aberta data-dependent) aliviou prêmio residual e hedge cambial. Ibovespa ~177.726 (-0,09%) com sessão cautelosa pré-decisão (pressão Petrobras vs. suporte Itaú/Vale); dólar estável ~R$5,12-5,13. Petróleo estabilizou após realização anterior. Delta positivo vs. 04/08 (viés misto/negativo por industrial fraca e tensão EUA-Brasil).",
+    "impacts": {
+        "dolfut": [
+        "corte Selic esperado + porta aberta reduzindo demanda residual por hedge cambial",
+        "tensão EUA-Brasil (visto embaixadora) mantendo seletividade e proteção moderada",
+        "estabilização petróleo pós-queda aliviando custos mas yields limitando baixa",
+        "fluxo seletivo e descolamento vs. risk-on global sustentando proteção residual",
+        "compressão moderada curva DI favorecendo menor pressão cambial"
+        ],
+        "indfut": [
+        "alívio pós-Copom e compressão DI favorecendo apetite seletivo",
+        "suporte Itaú (balanço) e Vale vs. pressão Petrobras",
+        "sessão cautelosa pré-decisão limitando alta ampla",
+        "VIX controlado e commodities seletivas melhorando valuation",
+        "Delta positivo moderado vs. realização/misto de 04/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps",
+        "ibovespa": "177726 (-0.09%)",
+        "sp500": "misto/positivo leve (records parciais)",
+        "nasdaq": "positivo moderado",
+        "brent": "78-80 USD/bbl (estabilização)",
+        "wti": "75-76 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução tensão diplomática EUA-Brasil e geopolítica Ormuz",
+        "Dados emprego/inflação EUA e balanços residual adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-05' gerado com rigorosa consistência ao último registro (04/08 viés misto/negativo → 05/08 positivo/misto pós-Copom). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BCB/B3/Reuters/Investing/Valor/Agência Brasil + vídeo Genial (4vzzMO9w1Dg) e top-tier corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
