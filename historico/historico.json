@@ -2519,5 +2519,47 @@
         "Dados emprego/inflação EUA e balanços residual adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-05' gerado com rigorosa consistência ao último registro (04/08 viés misto/negativo → 05/08 positivo/misto pós-Copom). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BCB/B3/Reuters/Investing/Valor/Agência Brasil + vídeo Genial (4vzzMO9w1Dg) e top-tier corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-06",
+    "cut_time": "19:25 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: Ibovespa -1,23% a 175.546 pts pressionado por realização em bancos (Bradesco/BB) após balanços e leitura cautelosa do Copom (corte 25 bps sem guidance + desancoragem). Rebound petróleo (~+4% Brent ~82,5-82,7) elevou prêmio residual; dólar cedeu a ~R$5,10-5,12 (WDO ~5.125). Delta negativo claro vs. 05/08 (estável -0,09% com viés positivo/misto pós-corte).",
+    "impacts": {
+        "dolfut": [
+        "alívio cambial residual pós-corte Selic + recuo dólar externo",
+        "cautela Copom (sem guidance) e desancoragem mantendo hedge residual",
+        "rebound petróleo elevando prêmio seletivo",
+        "fluxo seletivo e tensão diplomática residual",
+        "compressão moderada curva DI limitando alta mais forte"
+        ],
+        "indfut": [
+        "realização técnica em bancos (Bradesco/BB) e blue chips após balanços",
+        "ausência de forward guidance Copom reduzindo apetite por risco",
+        "suporte parcial Petrobras via petróleo insuficiente",
+        "descolamento vs. exterior (S&P/Nasdaq levemente negativos)",
+        "Delta negativo vs. consolidação positiva/mista de 05/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps",
+        "ibovespa": "175546 (-1.23%)",
+        "sp500": "~7709.96 (-0.2%)",
+        "nasdaq": "~-0.1%",
+        "brent": "82.5-82.7 USD/bbl (+~4%)",
+        "wti": "correspondente à alta",
+        "vix": "15.15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução tensão diplomática EUA-Brasil e geopolítica Ormuz/petróleo",
+        "Dados emprego/inflação EUA e balanços residual (Petrobras) adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-06' gerado com rigorosa consistência ao último registro completo (05/08 viés moderado positivo/misto pós-Copom → 06/08 realização negativa). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/UOL/FRED + live Genial (S9pzg6ZiWYQ) e X top-tier (@opapoeconomico, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
