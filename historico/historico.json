@@ -2561,5 +2561,47 @@
         "Dados emprego/inflação EUA e balanços residual (Petrobras) adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-06' gerado com rigorosa consistência ao último registro completo (05/08 viés moderado positivo/misto pós-Copom → 06/08 realização negativa). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/UOL/FRED + live Genial (S9pzg6ZiWYQ) e X top-tier (@opapoeconomico, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-07",
+    "cut_time": "22:42 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: payroll EUA dovish (−23k vs +80k) comprimiu yields/VIX e sustentou S&P, mas Ibovespa descolou em realização forte (−1,73/−1,76% ~172.455–172.513 pts) por cena corporativa (Petrobras) e fluxo seletivo. WDO recuou (~−0,55% a ~5.113,50) com menor hedge. Delta negativo vs. 05/08 (viés positivo/misto pós-Copom).",
+    "impacts": {
+        "dolfut": [
+        "payroll EUA dovish (−23k) reduzindo yields e demanda residual por hedge cambial",
+        "alívio pós-Copom e compressão DI favorecendo Real",
+        "fluxo seletivo e descolamento local limitando baixa mais profunda",
+        "estabilização petróleo (Brent ~82–83) aliviando custos",
+        "VIX em recuo (~14,90) e risk-on global seletivo"
+        ],
+        "indfut": [
+        "realização técnica e corporativa (Petrobras) pressionando WIN",
+        "descolamento vs. S&P positivo reduzindo apetite local",
+        "fluxo seletivo negativo em blue chips",
+        "suporte parcial commodities insuficiente",
+        "Delta negativo vs. consolidação pós-Copom de 05/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps",
+        "ibovespa": "172455-172513 (-1.73/-1.76%)",
+        "sp500": "~7757 (+0.6%)",
+        "nasdaq": "positivo moderado",
+        "brent": "82-83 USD/bbl",
+        "wti": "77-78 USD/bbl",
+        "vix": "14.90"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Ormuz e tensão diplomática residual",
+        "Dados emprego/inflação EUA e balanços residual adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-07' gerado com rigorosa consistência ao último registro (05/08 viés positivo/misto pós-Copom → 07/08 negativo moderado por realização corporativa). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BLS/Reuters/Bloomberg/Investing/B3 + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
