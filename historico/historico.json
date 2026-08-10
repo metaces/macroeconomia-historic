@@ -2603,5 +2603,47 @@
         "Dados emprego/inflação EUA e balanços residual adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-07' gerado com rigorosa consistência ao último registro (05/08 viés positivo/misto pós-Copom → 07/08 negativo moderado por realização corporativa). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BLS/Reuters/Bloomberg/Investing/B3 + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-10",
+    "cut_time": "18:42 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: alta forte do petróleo (Brent +4–5% a ~US$87–88 por incerteza residual Ormuz) elevou prêmio de risco e hedge cambial residual, enquanto Ibovespa recuou modestamente (~172.265–172.323 pts, –0,11% a –0,19%) na 5ª sessão negativa. Embraer e Petrobras sustentaram; bancos/consumo limitaram. Delta vs. 07/08 (realização corporativa –1,73%): magnitude da queda do índice aliviada, mas reforço de pressão via commodities energéticas e descolamento local. Pré-IPCA/CPI mantém cautela.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo (Brent ~87–88) elevando demanda residual por hedge cambial",
+        "incerteza Ormuz e DXY sustentando proteção",
+        "fluxo seletivo e descolamento local limitando baixa mais profunda",
+        "compressão residual curva DI pós-Copom favorecendo menor pressão",
+        "pré-IPCA/CPI mantendo seletividade"
+        ],
+        "indfut": [
+        "5ª queda consecutiva e failed breakout técnico pressionando WIN",
+        "suporte parcial Petrobras/Embraer insuficiente para reversão",
+        "descolamento vs. S&P misto reduzindo apetite local",
+        "prêmio de risco via commodities/geopolítica",
+        "Delta de magnitude aliviada vs. –1,73% de 07/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.20%",
+        "medium": "13.90-14.30%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "122-126 bps",
+        "ibovespa": "172265-172323 (-0.11% a -0.19%)",
+        "sp500": "~7753 (misto/-0.06%)",
+        "nasdaq": "leve negativo",
+        "brent": "87-88 USD/bbl (+4-5%)",
+        "wti": "correspondente alta",
+        "vix": "15.3-15.4"
+    },
+    "pending": [
+        "IPCA julho (IBGE) 11/08 — aguardando divulgação",
+        "Ata Copom 11/08 e CPI EUA 12/08 — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Evolução geopolítica Ormuz / negociações EUA-Irã"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-10' gerado com rigorosa consistência ao último registro completo (07/08 viés moderado negativo → consolidação com alívio de magnitude e reforço petróleo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/CNN/G1 + top-tier X (@opapoeconomico, @LucasCostaAT, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
