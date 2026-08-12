@@ -2687,5 +2687,47 @@
         "Follow-up pesquisa eleitoral e balanços residuais"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-11' gerado com rigorosa consistência ao último registro completo (10/08 viés moderado negativo consolidação → 11/08 negativo forte pós-IPCA/ata/JPMorgan). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de IBGE/BCB/B3/Reuters/Investing/G1/Folha + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-12",
+    "cut_time": "19:38 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: 7ª queda consecutiva do Ibovespa (~167.236–167.491 pts, –0,23% a –0,38%) apesar de CPI EUA em linha (+0,1% m/m / +3,4% a/a). Descolamento local por outflow estrangeiro (~R$ 5,5 bi+ em agosto) e cautela fiscal/eleitoral sustentou hedge residual no WDO (~+0,33% a 5.199–5.200). Delta vs. 11/08: magnitude da queda aliviada, mas ausência de catch-up com o externo e reforço de seletividade.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro e descolamento local elevando demanda residual por hedge cambial",
+        "CPI EUA em linha aliviando yields/DXY mas insuficiente para reverter proteção",
+        "petróleo residual (Brent ~88,5-89,5) e VIX em baixa oferecendo suporte parcial",
+        "cautela fiscal/eleitoral e ata Copom residual sustentando seletividade",
+        "vencimentos de opções amplificando oscilação no fechamento"
+        ],
+        "indfut": [
+        "7ª queda consecutiva e failed breakout técnico pressionando WIN",
+        "fluxo estrangeiro negativo (R$ 5,5 bi+ agosto) e realização setorial (Braskem)",
+        "descolamento vs. S&P/Nasdaq positivos reduzindo apetite local",
+        "suporte parcial Petrobras/Embraer/Vale insuficiente para reversão",
+        "Delta de magnitude aliviada vs. –2,5% de 11/08 mas tendência intacta"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.90-14.25%",
+        "medium": "14.00-14.40%",
+        "long": "14.20-14.60%"
+        },
+        "cds_brazil_5y": "122-125 bps",
+        "ibovespa": "167236-167491 (-0.23% a -0.38%)",
+        "sp500": "~7748.50 (+0.26%)",
+        "nasdaq": "+0.5% aproximado",
+        "brent": "88.5-89.5 USD/bbl",
+        "wti": "correspondente",
+        "vix": "14.55"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Ormuz e tensão residual — monitorar",
+        "Dados emprego/inflação EUA e balanços residuais adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-12' gerado com rigorosa consistência ao último registro completo (11/08 viés negativo forte pós-IPCA/ata/JPMorgan → 12/08 negativo moderado consolidação com 7ª queda e CPI em linha). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BLS/Reuters/Bloomberg/Investing/B3 + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
