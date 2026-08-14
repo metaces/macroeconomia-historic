@@ -2729,5 +2729,89 @@
         "Dados emprego/inflação EUA e balanços residuais adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-12' gerado com rigorosa consistência ao último registro completo (11/08 viés negativo forte pós-IPCA/ata/JPMorgan → 12/08 negativo moderado consolidação com 7ª queda e CPI em linha). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BLS/Reuters/Bloomberg/Investing/B3 + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-13",
+    "cut_time": "20:45 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Ibovespa 167.101 (-0,23%, 8ª queda consecutiva) pressionado por outflow estrangeiro (~R$11,9 bi ago até 11/08) e cautela fiscal/eleitoral, apesar de PPI EUA dovish (0,0% m/m). WDO residual alta (dólar R$5,193); descolamento vs. máximas externas. Delta vs. 12/08: sequência negativa se estende com magnitude semelhante.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro e descolamento local elevando demanda residual por hedge cambial",
+        "PPI EUA dovish (0,0% m/m) aliviando yields/DXY mas insuficiente para reverter proteção",
+        "dólar comercial R$5,193 (+0,25%) maior em >1 mês sustentando WDO",
+        "cautela fiscal/eleitoral e curva DI seletiva sustentando seletividade",
+        "petróleo residual (Brent ~87-88) oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "8ª queda consecutiva e realização setorial (BB/Sabesp) pressionando WIN",
+        "fluxo estrangeiro negativo (~R$11,9 bi ago) e descolamento vs. S&P/Nasdaq máximas",
+        "suporte parcial commodities/Embraer insuficiente para reversão",
+        "PPI dovish e VIX baixo (~14,5) insuficientes frente a prêmio local",
+        "Delta de sequência negativa estendida vs. 12/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.75-13.95%",
+        "medium": "13.90-14.25%",
+        "long": "14.20-14.65%"
+        },
+        "cds_brazil_5y": "123-125 bps",
+        "ibovespa": "167101 (-0.23%)",
+        "sp500": "máximas (+0.2-0.5% aprox.)",
+        "nasdaq": "positivo/máximas",
+        "brent": "87-88 USD/bbl (-1-2%)",
+        "wti": "correspondente",
+        "vix": "14.5-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (13/08) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução fiscal/eleitoral e geopolítica residual — monitorar",
+        "Dados emprego/inflação EUA e balanços residuais adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-13' gerado com rigorosa consistência ao último registro (12/08 viés negativo moderado consolidação 7ª queda → 13/08 8ª queda + PPI dovish insuficiente). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/UOL/BLS/Investing + vídeo Genial (sRxkjgj9D-M) e top-tier corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-14",
+    "cut_time": "20:12 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação forte: Ibovespa 166.934 (-0,10%, 9ª queda consecutiva, semana -3,23%) pressionado por outflow estrangeiro (~R$13,56 bi ago até 12/08) e aversão pré-eleitoral/fiscal, apesar de Retail Sales EUA (-0,6% m/m) e Michigan (51) dovish. WDO residual alta (~5.258 +1%); descolamento vs. máximas externas. Delta vs. 13/08: sequência negativa estendida com magnitude diária aliviada.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro e descolamento local elevando demanda residual por hedge cambial",
+        "Retail Sales e Michigan EUA dovish aliviando yields/DXY mas insuficiente para reverter proteção",
+        "dólar comercial ~R$5,21-5,22 e WDO ~5.258 (+1%) sustentando proteção",
+        "cautela fiscal/eleitoral e Treasury 30y 5,22% sustentando seletividade",
+        "petróleo residual (Brent ~87-88) oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "9ª queda consecutiva e quebra suporte 167.500 pressionando WIN",
+        "fluxo estrangeiro negativo (~R$13,56 bi ago) e realização setorial (Hapvida -33%)",
+        "descolamento vs. S&P/Nasdaq máximas reduzindo apetite local",
+        "suporte parcial commodities/Nubank insuficiente para reversão",
+        "Delta de sequência negativa estendida vs. 13/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.75-13.95%",
+        "medium": "13.90-14.25%",
+        "long": "14.20-14.65%"
+        },
+        "cds_brazil_5y": "124.24 bps",
+        "ibovespa": "166934 (-0.10%)",
+        "sp500": "máximas residual (+0.1-0.3% aprox.)",
+        "nasdaq": "positivo/máximas",
+        "brent": "87-88 USD/bbl",
+        "wti": "correspondente",
+        "vix": "14.5-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (13-14/08) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução fiscal/eleitoral e geopolítica residual — monitorar",
+        "Dados emprego/inflação EUA e balanços residuais adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-14' gerado com rigorosa consistência ao último registro completo (13/08 viés moderado negativo consolidação 8ª queda → 14/08 9ª queda + dados EUA dovish insuficientes). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/WorldGovernmentBonds + vídeo Genial (J_nY1CJ3ZnI) e top-tier X (@opapoeconomico, @LucasCostaAT) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
