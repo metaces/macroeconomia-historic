@@ -2813,5 +2813,47 @@
         "Dados emprego/inflação EUA e balanços residuais adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-14' gerado com rigorosa consistência ao último registro completo (13/08 viés moderado negativo consolidação 8ª queda → 14/08 9ª queda + dados EUA dovish insuficientes). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/WorldGovernmentBonds + vídeo Genial (J_nY1CJ3ZnI) e top-tier X (@opapoeconomico, @LucasCostaAT) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-17",
+    "cut_time": "20:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação forte: Ibovespa 166.784 (-0,09%, 10ª queda consecutiva) pressionado por realização em bancos após RJ da Casas Bahia e outflow estrangeiro residual, apesar de suporte de Petrobras via petróleo. Dólar à vista ~R$5,20 (-0,36%/-0,41%) e WDO ~5.218-5.219 (-0,3%/-0,5%) reverteram parcialmente a alta recente. IBC-Br junho -0,6% m/m (pior que consenso) confirmou desaceleração no 2T (+0,2%). Focus manteve IPCA 2026 em 5,02% e Selic terminal 13,75%. Brent 91,07 (+2,68%) por tensões Oriente Médio. Delta vs. 14/08: sequência negativa se estende (9ª→10ª), magnitude diária aliviada; dólar reverte pressão cambial.",
+    "impacts": {
+        "dolfut": [
+        "reversão técnica pós-alta recente e DXY mais fraco reduzindo demanda por hedge cambial",
+        "IBC-Br fraco (-0,6%) e Focus estável limitando alívio mais amplo",
+        "dólar à vista ~R$5,20 (-0,36%/-0,41%) e WDO ~5.218-5.219 (-0,3%/-0,5%)",
+        "petróleo elevado (Brent 91,07) e tensões Oriente Médio oferecendo suporte residual à proteção",
+        "outflow estrangeiro residual e cautela fiscal/eleitoral mantendo seletividade"
+        ],
+        "indfut": [
+        "10ª queda consecutiva e realização em bancos (RJ Casas Bahia) pressionando WIN",
+        "fluxo estrangeiro residual negativo e descolamento vs. S&P/Nasdaq máximas",
+        "suporte parcial de Petrobras via petróleo insuficiente para reversão",
+        "IBC-Br -0,6% reforçando leitura de desaceleração e cautela valuation",
+        "Delta de sequência negativa estendida vs. 14/08 com magnitude diária aliviada"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.75-13.95%",
+        "medium": "13.90-14.25%",
+        "long": "14.20-14.65%"
+        },
+        "cds_brazil_5y": "126 bps",
+        "ibovespa": "166784 (-0.09%)",
+        "sp500": "~7745 (-0.5%)",
+        "nasdaq": "baixa moderada (-0.3% aprox.)",
+        "brent": "91.07 USD/bbl (+2.68%)",
+        "wti": "correspondente (~+2.5-3%)",
+        "vix": "15.19 (+6.60%)"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (15-17/08) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução fiscal/eleitoral e geopolítica Oriente Médio — monitorar",
+        "Ata FOMC (quarta) e dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-17' gerado com rigorosa consistência ao último registro completo (14/08 viés moderado negativo consolidação 9ª queda → 17/08 10ª queda + IBC-Br fraco + RJ Casas Bahia + petróleo em alta). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/BCB (IBC-Br + Focus) + top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
