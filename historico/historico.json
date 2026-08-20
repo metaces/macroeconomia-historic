@@ -2855,5 +2855,89 @@
         "Ata FOMC (quarta) e dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-17' gerado com rigorosa consistência ao último registro completo (14/08 viés moderado negativo consolidação 9ª queda → 17/08 10ª queda + IBC-Br fraco + RJ Casas Bahia + petróleo em alta). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/BCB (IBC-Br + Focus) + top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-08-18",
+        "cut_time": "22:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: Ibovespa encerrou a 11ª sessão consecutiva de queda (~166.335 pts, -0,27%), sem sustentar recuperação acima de 168k. Saída acelerada de estrangeiros em agosto (~R$15,6–18 bi negativo parcial), pressão em bancos (crédito + RJ Casas Bahia) e aversão global por yields longos dos Treasuries + tensões Oriente Médio (Brent ~US$91) sustentaram demanda residual por hedge cambial. Dólar comercial fechou em alta (~R$5,222). Commodities deram suporte parcial insuficiente. Delta negativo vs. 17/08 (quase estável → nova legada de queda + dólar revertendo baixa anterior).",
+        "impacts": {
+            "dolfut": [
+                "fuga de capital estrangeiro em agosto elevando demanda por hedge cambial",
+                "yields longos EUA em alta (US10y ~4,71–4,74%) e DXY resiliente sustentando proteção",
+                "tensões geopolíticas Oriente Médio / Hormuz + petróleo elevado (~US$91) pressionando prêmio de risco",
+                "reprecificação residual da curva DI e cautela pré-ata FOMC",
+                "fluxo seletivo negativo reforçando assimetria cambial"
+            ],
+            "indfut": [
+                "11ª queda consecutiva do Ibovespa com realização em bancos e consumo",
+                "saída acelerada de estrangeiros (~R$15,6–18 bi parcial em agosto) reduzindo apetite por risco",
+                "pressão setorial de crédito e RJ Casas Bahia limitando recuperação técnica",
+                "suporte parcial de commodities (Petrobras/Vale) insuficiente para reverter viés",
+                "correlação negativa com yields globais e VIX controlado mas prêmio local elevado (CDS ~126,7 bps)"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "13.90-14.30%",
+                "medium": "14.00-14.40%",
+                "long": "14.10-14.75%"
+            },
+            "cds_brazil_5y": "126.7 bps",
+            "ibovespa": "166335 (-0.27%)",
+            "sp500": "7692 (-0.7%)",
+            "nasdaq": "forte queda (~-1.3%)",
+            "brent": "90.9-91.3 USD/bbl",
+            "wti": "84-85 USD/bbl",
+            "vix": "15.8"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado de 18/08 e fechamento mensal de agosto — aguardando",
+            "Ata FOMC (19/08) — aguardando divulgação",
+            "Evolução geopolítica Oriente Médio / impacto em petróleo",
+            "Leilões e operações do Banco Central — aguardando detalhamento"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-18' gerado com consistência ao último registro (17/08). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Valor/Investing/MarketWatch/CEPEA + Focus BCB + Elos Ayta (fluxo) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-08-19",
+        "cut_time": "23:45 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo de curto prazo (repique técnico): Ibovespa +0,90% a 167.830,27 pts interrompeu a maior sequência de 11 quedas consecutivas desde 2023, impulsionado por forte alívio nos yields dos Treasuries após anúncio do Tesouro EUA de dobrar recompras de títulos longos. Dólar à vista ~R$5,176–5,178 (-0,86%) e WDO ~5.191–5.192 (-0,75% a -0,81%). Outflow estrangeiro residual em agosto (~R$18 bi+) e CDS elevado limitaram força da reversão. Delta vs. 18/08: de consolidação negativa (11ª queda) para repique técnico com alívio externo dominante.",
+        "impacts": {
+            "dolfut": [
+                "alívio yields Treasuries (US10y ~4,65%) e DXY mais fraco reduzindo demanda por hedge cambial",
+                "Real mais forte com dólar à vista ~R$5,176–5,178 (-0,86%)",
+                "outflow estrangeiro residual em agosto mantendo seletividade",
+                "petróleo elevado (~US$91,6) oferecendo suporte residual à proteção",
+                "cautela fiscal/eleitoral limitando queda mais ampla do WDO"
+            ],
+            "indfut": [
+                "repique técnico interrompendo 11 quedas consecutivas (maior desde 2023)",
+                "alívio yields globais e blue chips (Petrobras/Vale/bancos seletivos) impulsionando WIN",
+                "suporte parcial de commodities via petróleo",
+                "fluxo estrangeiro ainda negativo (~R$18 bi+ parcial em agosto) limitando sustentabilidade",
+                "Delta positivo claro vs. 18/08 com magnitude de recuperação moderada"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "13.90-14.20%",
+                "medium": "14.00-14.40%",
+                "long": "14.10-14.70%"
+            },
+            "cds_brazil_5y": "126-127 bps",
+            "ibovespa": "167830.27 (+0.90%)",
+            "sp500": "positivo leve (~+0.2%)",
+            "nasdaq": "misto/positivo leve",
+            "brent": "91.62 USD/bbl (+0.66% aprox.)",
+            "wti": "correspondente (~85-86 USD)",
+            "vix": "15.0-15.9"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado de 18-19/08 e fechamento mensal de agosto — aguardando",
+            "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
+            "Leilões e operações do Banco Central — aguardando detalhamento",
+            "Dados emprego/inflação EUA e balanços residuais adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-19' gerado com rigorosa consistência ao último registro completo (18/08 viés moderado negativo 11ª queda → 19/08 repique técnico + alívio yields). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/UOL/Investing/YCharts/FRED + Focus residual e fluxo (Elos Ayta/Valor) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
