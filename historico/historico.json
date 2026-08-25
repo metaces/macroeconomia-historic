@@ -2941,45 +2941,87 @@
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-19' gerado com rigorosa consistência ao último registro completo (18/08 viés moderado negativo 11ª queda → 19/08 repique técnico + alívio yields). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/UOL/Investing/YCharts/FRED + Focus residual e fluxo (Elos Ayta/Valor) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     },
     {
-    "date": "2026-08-20",
-    "cut_time": "18:37 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado negativo/lateral: Ibovespa quase estável em 167.927 (+0,06%) após repique técnico da véspera, com dólar +0,31% a R$5,1937 e Brent +2,36% a ~US$93,78. Yields Treasuries voltaram a subir (US10y ~4,69%) e VIX avançou, limitando continuidade do alívio. Bancos pressionados; commodities (Petro/Vale) deram suporte parcial. Delta vs. 19/08: de repique claro (+0,90% e Real forte) para consolidação com reversão cambial e prêmio de risco residual.",
+        "date": "2026-08-20",
+        "cut_time": "18:37 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo/lateral: Ibovespa quase estável em 167.927 (+0,06%) após repique técnico da véspera, com dólar +0,31% a R$5,1937 e Brent +2,36% a ~US$93,78. Yields Treasuries voltaram a subir (US10y ~4,69%) e VIX avançou, limitando continuidade do alívio. Bancos pressionados; commodities (Petro/Vale) deram suporte parcial. Delta vs. 19/08: de repique claro (+0,90% e Real forte) para consolidação com reversão cambial e prêmio de risco residual.",
+        "impacts": {
+            "dolfut": [
+            "yields Treasuries em alta (US10y ~4,69%) e DXY resiliente sustentando demanda por hedge",
+            "petróleo elevado (~US$93,78) reforçando proteção residual",
+            "outflow estrangeiro residual de agosto mantendo seletividade cambial",
+            "reversão parcial do alívio do Real observado em 19/08",
+            "incertezas eleitorais/fiscais limitando queda mais ampla do WDO"
+            ],
+            "indfut": [
+            "consolidação após repique técnico (falha de continuação acima de 169-170k)",
+            "pressão residual em bancos e consumo via crédito/inadimplência",
+            "suporte parcial de commodities (Petrobras/Vale) insuficiente para reversão",
+            "correlação negativa com yields globais e VIX em alta moderada",
+            "fluxo estrangeiro ainda negativo limitando sustentabilidade de alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+            "short": "13.90-14.20%",
+            "medium": "14.00-14.40%",
+            "long": "14.10-14.70%"
+            },
+            "cds_brazil_5y": "125.9-126.7 bps",
+            "ibovespa": "167927 (+0.06%)",
+            "sp500": "baixa moderada (~-0.5% a -0.9%)",
+            "nasdaq": "pressão moderada",
+            "brent": "93.78 USD/bbl (+2.36%)",
+            "wti": "~86+ USD/bbl",
+            "vix": "15.99-16.0"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado de 18-20/08 e fechamento mensal de agosto — aguardando",
+            "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
+            "Leilões e operações do Banco Central — aguardando detalhamento",
+            "Dados emprego/inflação EUA e balanços residuais adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-20' gerado com rigorosa consistência ao último registro completo (19/08 viés moderado positivo de curto prazo/repique → 20/08 consolidação lateral-negativa com reversão parcial de alívio). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Investing/FRED/YCharts + validação @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+        },
+        {
+    "date": "2026-08-21",
+    "cut_time": "22:56 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação técnica: Ibovespa +1,85% a 171.031,73 pts (semana +2,45%) via bancos e Vale, com dólar -1% a R$5,14 e DIs em queda. Alívio DXY + conversa Lula-Trump e compressão CDS (~124,2 bps) prevaleceram sobre outflow residual (~R$22 bi mês) e yields/Brent elevados. Delta vs. 20/08: de consolidação lateral (+0,06%, dólar +0,31%) para recuperação ampla e assimetria favorável a risco seletivo no WIN com WDO em baixa moderada.",
     "impacts": {
         "dolfut": [
-        "yields Treasuries em alta (US10y ~4,69%) e DXY resiliente sustentando demanda por hedge",
-        "petróleo elevado (~US$93,78) reforçando proteção residual",
-        "outflow estrangeiro residual de agosto mantendo seletividade cambial",
-        "reversão parcial do alívio do Real observado em 19/08",
-        "incertezas eleitorais/fiscais limitando queda mais ampla do WDO"
+        "redução de hedge cambial via alívio DXY e Real técnico",
+        "queda generalizada dos DIs descolada do exterior",
+        "compressão CDS Brasil (~124,2 bps) aliviando prêmio",
+        "outflow estrangeiro residual limitando queda mais forte",
+        "conversa Lula-Trump e flexibilização tarifária pontual"
         ],
         "indfut": [
-        "consolidação após repique técnico (falha de continuação acima de 169-170k)",
-        "pressão residual em bancos e consumo via crédito/inadimplência",
-        "suporte parcial de commodities (Petrobras/Vale) insuficiente para reversão",
-        "correlação negativa com yields globais e VIX em alta moderada",
-        "fluxo estrangeiro ainda negativo limitando sustentabilidade de alta"
+        "recuperação firme em bancos (Itaú/Bradesco/BTG) e Vale",
+        "maior apetite por risco global (S&P +0,43%)",
+        "alívio DI e compressão prêmio de risco local",
+        "suporte setorial seletivo commodities/energia",
+        "outflow residual e cautela eleitoral limitando magnitude"
         ]
     },
     "complements": {
         "di_curve": {
-        "short": "13.90-14.20%",
-        "medium": "14.00-14.40%",
-        "long": "14.10-14.70%"
+        "short": "13.71-13.88%",
+        "medium": "14.17-14.42%",
+        "long": "14.50-14.54%"
         },
-        "cds_brazil_5y": "125.9-126.7 bps",
-        "ibovespa": "167927 (+0.06%)",
-        "sp500": "baixa moderada (~-0.5% a -0.9%)",
-        "nasdaq": "pressão moderada",
-        "brent": "93.78 USD/bbl (+2.36%)",
-        "wti": "~86+ USD/bbl",
-        "vix": "15.99-16.0"
+        "cds_brazil_5y": "124.2 bps",
+        "ibovespa": "171031.73 (+1.85%)",
+        "sp500": "7674.37 (+0.43%)",
+        "nasdaq": "positivo moderado (~+0.44%)",
+        "brent": "94.39 USD/bbl",
+        "wti": "~87 USD/bbl",
+        "vix": "15.1-15.5"
     },
     "pending": [
-        "Fluxo estrangeiro diário B3 consolidado de 18-20/08 e fechamento mensal de agosto — aguardando",
-        "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
-        "Leilões e operações do Banco Central — aguardando detalhamento",
-        "Dados emprego/inflação EUA e balanços residuais adiante"
+        "Fluxo estrangeiro diário B3 consolidado completo (20-21/08 e mês) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Datafolha eleitoral e evolução fiscal/eleitoral — monitorar",
+        "Evolução geopolítica Oriente Médio e dados emprego/inflação EUA adiante"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-20' gerado com rigorosa consistência ao último registro completo (19/08 viés moderado positivo de curto prazo/repique → 20/08 consolidação lateral-negativa com reversão parcial de alívio). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Investing/FRED/YCharts + validação @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-21' gerado com rigorosa consistência ao último registro completo (20/08 viés moderado negativo/lateral → 21/08 recuperação técnica positiva com alívio cambial e bancos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/Valor/Agência Brasil + CDS WorldGovernmentBonds + top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
