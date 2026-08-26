@@ -3065,5 +3065,47 @@
         "Leilões e operações do Banco Central — aguardando"
     ],
     "validation_summary": "Validação concluída: OK. Dados de fechamento confirmados em Investing.com/B3/Reuters/InfoMoney (Ibovespa 171.907 +0,51%; WDO ~5.165 +0,37%; dólar R$5,153 +0,16%; Brent ~90,4); CDS ~124 bps consistente com 21/08; fluxo negativo agosto corroborado por Elos Ayta/B3/Valor; VIX/US10y de GuruFocus/WSJ. Campos formatados como strings com unidades; pendentes padronizados; consistência narrativa com recuperação técnica recente e assimetria de fluxo."
+    },
+    {
+    "date": "2026-08-25",
+    "cut_time": "22:09 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação/ampliação técnica: Ibovespa +1,55% a 174.576,80 pts (quinto pregão de alta) via bancos e Vale, com WDO em baixa moderada e dólar ~R$5,14. Recuo de yields Treasuries e forte realização no petróleo (Brent -3-5%) comprimiram prêmio de risco e hedge cambial. Fluxo estrangeiro ainda negativo no mês (~R$21,4 bi) mas com entradas pontuais. Delta vs. 24/08: de consolidação moderada (+0,51%) para ampliação clara de apetite seletivo no WIN.",
+    "impacts": {
+        "dolfut": [
+        "recuo yields Treasuries e realização petróleo reduzindo demanda por hedge cambial",
+        "compressão curva DI aliviando prêmio",
+        "outflow estrangeiro residual de agosto limitando queda mais forte",
+        "dólar comercial ~R$5,14 com alívio técnico",
+        "geopolítica residual sem escalada nova"
+        ],
+        "indfut": [
+        "alta firme via bancos e Vale sustentando índice",
+        "alívio yields e DI favorecendo apetite por risco seletivo",
+        "suporte setorial commodities apesar de queda no petróleo (Petrobras limitou)",
+        "VIX controlado e volume sólido melhorando valuation",
+        "fluxo pontual positivo recente compensando parcialmente outflow mensal"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.50%"
+        },
+        "cds_brazil_5y": "123-124 bps",
+        "ibovespa": "174576.80 (+1.55%)",
+        "sp500": "misto/leve positivo",
+        "nasdaq": "pressão residual tech",
+        "brent": "85-89 USD/bbl",
+        "wti": "~82-85 USD/bbl",
+        "vix": "15-16"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 25/08 e fechamento mensal agosto — aguardando",
+        "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Dados emprego/inflação EUA e Jackson Hole adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Dados de fechamento confirmados em B3/Reuters/CNN/Valor/Investing (Ibovespa 174.576,80 +1,55%; WDO ~5.154 -0,15/-0,24%; Brent queda acentuada; DI em compressão). CDS ~123-124 bps e fluxo agosto ~-R$21,4 bi consistentes com fontes primárias + @opapoeconomico. Campos formatados como strings com unidades; pendentes padronizados; consistência narrativa com recuperação técnica recente (v2.9.2)."
     }
 ]
