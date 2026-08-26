@@ -2981,8 +2981,8 @@
             "Dados emprego/inflação EUA e balanços residuais adiante"
         ],
         "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-20' gerado com rigorosa consistência ao último registro completo (19/08 viés moderado positivo de curto prazo/repique → 20/08 consolidação lateral-negativa com reversão parcial de alívio). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Investing/FRED/YCharts + validação @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
-        },
-        {
+    },
+    {
     "date": "2026-08-21",
     "cut_time": "22:56 BRT",
     "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação técnica: Ibovespa +1,85% a 171.031,73 pts (semana +2,45%) via bancos e Vale, com dólar -1% a R$5,14 e DIs em queda. Alívio DXY + conversa Lula-Trump e compressão CDS (~124,2 bps) prevaleceram sobre outflow residual (~R$22 bi mês) e yields/Brent elevados. Delta vs. 20/08: de consolidação lateral (+0,06%, dólar +0,31%) para recuperação ampla e assimetria favorável a risco seletivo no WIN com WDO em baixa moderada.",
@@ -3023,5 +3023,47 @@
         "Evolução geopolítica Oriente Médio e dados emprego/inflação EUA adiante"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-21' gerado com rigorosa consistência ao último registro completo (20/08 viés moderado negativo/lateral → 21/08 recuperação técnica positiva com alívio cambial e bancos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/Valor/Agência Brasil + CDS WorldGovernmentBonds + top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-24",
+    "cut_time": "21:07 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação técnica: quarta alta consecutiva do Ibovespa (+0,51% a 171.907 pts) via Vale e bancos, apesar de volatilidade e realização no petróleo (Brent ~90,4 USD). Dólar/WDO com alta residual (+0,16%/+0,37%) por hedge e fluxo estrangeiro negativo acumulado em agosto. VIX controlado (15,85) e yields com recuo moderado suportaram apetite seletivo. Delta positivo vs. 21/08 mas de magnitude menor; assimetria favorável a WIN técnico vs. proteção residual em WDO.",
+    "impacts": {
+        "dolfut": [
+        "fluxo estrangeiro negativo acumulado agosto sustentando hedge residual",
+        "realização no petróleo (Brent ~90,4) aliviando parcialmente demanda por proteção",
+        "Focus com ajuste 2027 e DXY +0,21% limitando alívio cambial",
+        "geopolítica residual Ormuz/Irã mantendo prêmio de risco moderado",
+        "DI mistos com leve recuo oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "recuperação técnica quarta alta via Vale e bancos",
+        "suporte setorial commodities apesar de realização no petróleo",
+        "VIX controlado (15,85) e yields em recuo favorecendo apetite seletivo",
+        "fluxo estrangeiro negativo limitando força ampla da alta",
+        "noticiário corporativo (Braskem) e proximidade eleitoral gerando volatilidade"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.50%"
+        },
+        "cds_brazil_5y": "124 bps",
+        "ibovespa": "171907 (+0.51%)",
+        "sp500": "misto/leve negativo (~7650-7670)",
+        "nasdaq": "pressão tech",
+        "brent": "90.4 USD/bbl",
+        "wti": "85-86 USD/bbl",
+        "vix": "15.85"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 24/08 — aguardando divulgação completa",
+        "Confiança do Consumidor FGV 25/08 — aguardando",
+        "Evolução geopolítica Ormuz/Irã e Focus detalhado",
+        "Leilões e operações do Banco Central — aguardando"
+    ],
+    "validation_summary": "Validação concluída: OK. Dados de fechamento confirmados em Investing.com/B3/Reuters/InfoMoney (Ibovespa 171.907 +0,51%; WDO ~5.165 +0,37%; dólar R$5,153 +0,16%; Brent ~90,4); CDS ~124 bps consistente com 21/08; fluxo negativo agosto corroborado por Elos Ayta/B3/Valor; VIX/US10y de GuruFocus/WSJ. Campos formatados como strings com unidades; pendentes padronizados; consistência narrativa com recuperação técnica recente e assimetria de fluxo."
     }
 ]
