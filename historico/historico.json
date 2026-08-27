@@ -3107,5 +3107,47 @@
         "Dados emprego/inflação EUA e Jackson Hole adiante"
     ],
     "validation_summary": "Validação concluída: OK. Dados de fechamento confirmados em B3/Reuters/CNN/Valor/Investing (Ibovespa 174.576,80 +1,55%; WDO ~5.154 -0,15/-0,24%; Brent queda acentuada; DI em compressão). CDS ~123-124 bps e fluxo agosto ~-R$21,4 bi consistentes com fontes primárias + @opapoeconomico. Campos formatados como strings com unidades; pendentes padronizados; consistência narrativa com recuperação técnica recente (v2.9.2)."
+    },
+    {
+    "date": "2026-08-26",
+    "cut_time": "22:50 BRT",
+    "summary": "Fechamento consolidado com viés de risco lateral a moderado negativo: IPCA-15 agosto -0,40% (melhor que consenso) gerou alívio matinal e compressão DI, mas PCE EUA hawkish (3,7% a/a) elevou yields e reverteu o momentum. Ibovespa fechou praticamente estável em 174.586,26 pts (+0,01%), interrompendo sequência de cinco altas; WDO com alta residual por hedge. Delta vs. 25/08 (viés moderado positivo +1,55%): de ampliação de apetite seletivo para consolidação/realização parcial. Fluxo estrangeiro negativo de agosto (~R$21,4 bi) e CDS em compressão moderada mantiveram assimetria.",
+    "impacts": {
+        "dolfut": [
+        "PCE EUA hawkish (3,7% a/a) elevando yields e demanda residual por hedge cambial",
+        "IPCA-15 benigno (-0,40%) comprimindo DI e aliviando parcialmente",
+        "fluxo estrangeiro negativo acumulado em agosto (~R$21,4 bi) sustentando proteção",
+        "realização no petróleo oferecendo suporte limitado",
+        "dólar comercial ~R$5,152 com viés de alta moderada"
+        ],
+        "indfut": [
+        "realização técnica após máxima 176 mil pts pressionando WIN",
+        "PCE hawkish e yields resilientes reduzindo apetite por risco",
+        "IPCA-15 dovish oferecendo suporte seletivo insuficiente (bancos/rate-sensitives devolveram)",
+        "VIX controlado (15,21) mas outflow estrangeiro limitando força",
+        "Delta negativo/lateral vs. ampliação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.50%"
+        },
+        "cds_brazil_5y": "119.10 bps",
+        "ibovespa": "174586.26 (+0.01%)",
+        "sp500": "misto/leve positivo residual",
+        "nasdaq": "pressão residual tech",
+        "brent": "87-89 USD/bbl",
+        "wti": "~82-85 USD/bbl",
+        "vix": "15.21"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 26/08 e fechamento mensal agosto — aguardando",
+        "Jackson Hole (Warsh) e balanço Nvidia — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-26' gerado com rigorosa consistência ao último registro completo (25/08 viés moderado positivo/ampliação → 26/08 consolidação lateral/negativa moderada pós-IPCA-15 dovish + PCE hawkish). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Reuters/Valor/Investing/Agência Brasil + @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
