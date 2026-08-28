@@ -3149,5 +3149,47 @@
         "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-26' gerado com rigorosa consistência ao último registro completo (25/08 viés moderado positivo/ampliação → 26/08 consolidação lateral/negativa moderada pós-IPCA-15 dovish + PCE hawkish). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Reuters/Valor/Investing/Agência Brasil + @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-27",
+    "cut_time": "23:15 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em ampliação técnica: Ibovespa +0,31% a 175.135,41 pts (sétima alta seguida) via Petrobras e siderúrgicas, com WDO em alta residual (+0,14%) e dólar ~R$5,16. Desemprego 5,3% (em linha) e alta do petróleo sustentaram, enquanto outflow estrangeiro residual e casadão do BC mantiveram hedge. Delta vs. 26/08 (consolidação +0,01%): de lateral para ampliação clara da sequência positiva.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro residual de agosto e casadão BC elevando demanda por hedge cambial",
+        "yields Treasuries resilientes e DXY firmando proteção",
+        "alta do petróleo oferecendo suporte parcial insuficiente para compressão",
+        "PNAD 5,3% (resiliência emprego) limitando alívio mais forte na curva",
+        "dólar comercial ~R$5,16 com viés de alta moderada"
+        ],
+        "indfut": [
+        "alta firme via Petrobras (+3%) e siderúrgicas sustentando índice",
+        "exterior positivo (Nvidia/Nasdaq) favorecendo apetite seletivo",
+        "suporte setorial commodities apesar de fluxo negativo mensal",
+        "VIX controlado e volume sólido melhorando valuation",
+        "Delta positivo vs. consolidação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.60%"
+        },
+        "cds_brazil_5y": "119 bps",
+        "ibovespa": "175135.41 (+0.31%)",
+        "sp500": "+0.7% aprox.",
+        "nasdaq": "+1.6% aprox.",
+        "brent": "88.5-89.7 USD/bbl",
+        "wti": "correspondente alta",
+        "vix": "15.2"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 27/08 e fechamento mensal agosto — aguardando",
+        "Discurso Warsh (Jackson Hole) sexta-feira — monitorar",
+        "Leilões e operações adicionais do Banco Central — aguardando detalhamento",
+        "Evolução geopolítica Ormuz / impacto em petróleo — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-27' gerado com rigorosa consistência ao último registro completo (26/08 viés consolidação lateral → 27/08 ampliação positiva técnica). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Reuters/Valor/Investing/Agência Brasil + @opapoeconomico e @LucasCostaAT corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
