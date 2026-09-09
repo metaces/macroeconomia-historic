@@ -3233,5 +3233,90 @@
         "Dados emprego/inflação EUA e Focus próximo ciclo — monitorar"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-28' gerado com rigorosa consistência ao último registro completo (26/08 viés lateral/neg moderado → 28/08 moderado positivo consolidação/ampliação com 8ª alta). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/InfoMoney/Investing/CNN + @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-09-03",
+        "cut_time": "20:46 BRT",
+        "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação: Ibovespa interrompeu sequência de 11 altas e fechou praticamente estável em 185.188 pts (−0,01%) após máxima ~188.9k, com realização seletiva em Vale/Petrobras. WDO −0,17% a 5.132,50 e dólar à vista −0,04% a R$5,1043 refletiram alívio residual de hedge. Delta vs. 02/09 (+3,05% a 185.205, 11ª alta): de ampliação forte de apetite para pausa técnica natural. Fluxo pontual positivo recente, CDS ~118 bps e VIX comprimido sustentaram assimetria favorável a consolidação seletiva no WIN.",
+        "impacts": {
+            "dolfut": [
+                "alívio residual de hedge e DXY mais fraco pressionando WDO",
+                "US10y ~4,77% (leve recuo) limitando queda mais forte",
+                "fluxo estrangeiro pontual positivo reduzindo demanda por proteção",
+                "realização no petróleo oferecendo suporte limitado",
+                "dólar comercial ~R$5,104 com viés de baixa moderada"
+            ],
+            "indfut": [
+                "realização técnica pós-11 altas e máxima ~189k pressionando WIN",
+                "pressão seletiva em Vale/Petrobras limitando força",
+                "fluxo pontual positivo e S&P +1,06% oferecendo suporte residual",
+                "VIX comprimido (~14,3-14,7) favorecendo apetite seletivo",
+                "Delta de pausa vs. ampliação do dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "13.70-14.00%",
+                "medium": "14.10-14.30%",
+                "long": "14.40-14.60%"
+            },
+            "cds_brazil_5y": "117.9 bps",
+            "ibovespa": "185188 (-0.01%)",
+            "sp500": "7748 (+1.06%)",
+            "nasdaq": "positivo moderado",
+            "brent": "94-97 USD/bbl",
+            "wti": "~90-93 USD/bbl",
+            "vix": "14.3-14.7"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado 03/09 e detalhamento setorial — aguardando",
+            "Payroll EUA 04/09 — monitorar",
+            "Datafolha eleitoral impacto residual — monitorar",
+            "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+            "Leilões e operações do Banco Central — aguardando detalhamento"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-03' gerado com rigorosa consistência ao último registro completo (28/08 viés moderado positivo → 03/09 lateral/consolidação pós-rali de 11 altas). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Investing/CNN/InfoMoney/Reuters/FRED/WorldGovernmentBonds confirmados; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-09-04",
+    "cut_time": "23:42 BRT",
+    "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação semanal: Ibovespa 185.147 (-0,02%) assegurou 2ª melhor semana do ano (+5,25-5,40%) via retorno de estrangeiros e cena eleitoral, apesar de Payroll EUA hawkish (+162k) que elevou yields e sustentou hedge residual no WDO (~5.156 +0,44%). Delta vs. 03/09 (lateral): de consolidação para leve realização seletiva (Petrobras/bancos). Fluxo pontual positivo vs. outflow residual de agosto; CDS em compressão e VIX baixo mantiveram assimetria controlada.",
+    "impacts": {
+        "dolfut": [
+        "Payroll EUA hawkish (+162k vs ~55k) elevando yields/DXY e demanda residual por hedge cambial",
+        "fluxo estrangeiro pontual positivo na semana reduzindo pressão ampla",
+        "realização controlada no petróleo oferecendo suporte limitado",
+        "dólar à vista ~R$5,13 (+0,50%) com viés de alta moderada residual",
+        "compressão moderada da curva DI limitando alta mais forte"
+        ],
+        "indfut": [
+        "retorno de fluxo estrangeiro e cena eleitoral sustentando momentum semanal",
+        "realização seletiva em Petrobras e bancos pressionando no dia",
+        "Payroll hawkish e yields resilientes reduzindo apetite amplo",
+        "VIX baixo (~14,5-15) e volume sólido favorecendo valuation seletivo",
+        "Delta lateral/negativo leve vs. consolidação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.60%"
+        },
+        "cds_brazil_5y": "118-125 bps",
+        "ibovespa": "185147 (-0.02%)",
+        "sp500": "misto/leve positivo",
+        "nasdaq": "misto",
+        "brent": "88-89 USD/bbl",
+        "wti": "~83-85 USD/bbl",
+        "vix": "14.5-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 04/09 e fechamento mensal agosto — aguardando",
+        "Evolução geopolítica Oriente Médio / impacto residual petróleo — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Dados emprego/inflação EUA e próximo Focus — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-04' gerado com rigorosa consistência ao último registro completo (28/08 viés moderado positivo → consolidação semanal forte com Delta diário lateral). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Exame/Valor/Investing/TradingEconomics/MarketWatch corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
     }
 ]
