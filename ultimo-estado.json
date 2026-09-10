@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-10 00:44 BRT",
+  "total_records_in_historico": 80,
+  "last_record": {
+    "date": "2026-09-09",
+    "cut_time": "21:41 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$ 101 e US10y em 4,84%. Delta vs. 08/09: de descolamento positivo (eleitoral + fluxo) para aversão global via geopolítica. Hedge residual sustentou WDO; fluxo recente e energia amorteceram parcialmente a queda do WIN.",
+    "impacts": {
+      "dolfut": [
+        "petróleo Brent +3,36% (US$ 101,21) elevando demanda por hedge cambial",
+        "US10y em 4,84% sustentando proteção residual",
+        "fluxo estrangeiro recente limitando alta mais forte do WDO",
+        "realização global e aversão a risco",
+        "trade eleitoral oferecendo suporte parcial ao Real"
+      ],
+      "indfut": [
+        "realização técnica após máxima de 08/09",
+        "pressão de yields e petróleo reduzindo apetite por risco",
+        "suporte setorial em energia/Petro insuficiente",
+        "fluxo recente e cena eleitoral amortecendo a queda",
+        "Delta negativo vs. forte alta do dia anterior"
+      ]
+    },
+    "complements": {
+      "di_curve": {
+        "short": "13.80-14.00%",
+        "medium": "14.15-14.35%",
+        "long": "14.40-14.65%"
+      },
+      "cds_brazil_5y": "114-125 bps",
+      "ibovespa": "185629 (-0.93%)",
+      "sp500": "-0.48%",
+      "nasdaq": "queda moderada",
+      "brent": "101.21 USD/bbl",
+      "wti": "~95-96 USD/bbl",
+      "vix": "15.7-16.1"
+    },
+    "pending": [
+      "Fluxo cambial estrangeiro consolidado 09/09 — aguardando",
+      "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+      "IPCA agosto (IBGE) e CPI EUA — sexta-feira",
+      "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-09' gerado com consistência ao histórico (transição de viés lateral/positivo em 04/09 e forte alta em 08/09 para moderado negativo). Campos formatados corretamente; dados de B3/Reuters/Valor/Investing; fontes secundárias validadas."
+  },
+  "last_3_summaries": [
+    {
+      "date": "2026-08-28",
+      "cut_time": "18:51 BRT",
+      "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação/ampliação técnica: Ibovespa +0,30% a 175.664,62 pts (8ª alta seguida, semana +2,71–3,06%) via Petrobras e seletividade, apesar de tom hawkish de Warsh em Jackson Hole. WDO em alta residual (~+0,57–0,65%, ~...",
+      "bias_hint": "positivo"
+    },
+    {
+      "date": "2026-09-04",
+      "cut_time": "23:42 BRT",
+      "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação semanal: Ibovespa 185.147 (-0,02%) assegurou 2ª melhor semana do ano (+5,25-5,40%) via retorno de estrangeiros e cena eleitoral, apesar de Payroll EUA hawkish (+162k) que elevou yields e sustento...",
+      "bias_hint": "negativo"
+    },
+    {
+      "date": "2026-09-09",
+      "cut_time": "21:41 BRT",
+      "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$ 101 e US10y em 4,84%. Delta vs. 08/09: de descolamento positivo (eleitoral + fluxo) para aversão globa...",
+      "bias_hint": "negativo"
+    }
+  ],
+  "notes": "Arquivo de leitura rápida. Sempre validar contra o historico.json completo antes de decisões críticas. Atualizado automaticamente pelo Validator no fechamento."
+}

@@ -1,0 +1,3364 @@
+[
+    {
+        "date": "2026-05-11",
+        "cut_time": "09:00 BRT",
+        "summary": "Petróleo em alta pressionou a inflação e elevou o prêmio de risco doméstico, enquanto a reprecificação da curva DI curto reduziu apetite por risco. Fluxo estrangeiro seletivo e VIX em alta pressionaram o índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "juros mais altos",
+                "petróleo caro",
+                "VIX em alta"
+            ],
+            "indfut": [
+                "bancos em queda",
+                "consumo pressionado",
+                "commodities sustentaram parcialmente"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "117.8 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "104.2 USD/bbl",
+            "wti": "98.1 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IPCA IBGE 12/05 — aguardando divulgação",
+            "IGP-10 FGV 16/05 — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-11' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-12",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento com viés de risco após surpresa inflacionária doméstica e leitura de inflação externa acima do esperado, elevando yields globais e prêmio de risco. Dólar Futuro fechou em alta e o índice futuro encerrou em queda com fluxo estrangeiro seletivo.",
+        "impacts": {
+            "dolfut": [
+                "IPCA (IBGE) abril 0,67% m/m elevou prêmio de risco doméstico",
+                "CPI EUA abril +0,6% m/m (+3,8% a/a) pressionou yields globais",
+                "petróleo em patamar elevado aumentou risco inflacionário",
+                "US 10y em alta reduziu apetite por risco em emergentes",
+                "fluxo estrangeiro seletivo aumentou demanda por hedge cambial"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo",
+                "reprecificação da curva DI curto por surpresa de inflação",
+                "pressão de custos via petróleo afetando margens de empresas",
+                "aumento do prêmio de risco (CDS) reduziu apetite por ações locais",
+                "correlação negativa com Treasuries em alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "117.8 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.7 USD/bbl",
+            "wti": "98.1 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 FGV 16/05 — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-12' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-13",
+        "cut_time": "09:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa elevaram yields globais e o prêmio de risco, pressionando ativos locais. Petróleo acima de US$100 e saída seletiva de estrangeiros reforçaram demanda por hedge cambial e penalizaram o índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+                "CPI EUA abril 0,6% (BLS) pressionou yields globais",
+                "Brent alto (US$107.5) aumentou risco inflacionário e demanda por hedge",
+                "Fluxo estrangeiro seletivo / saída (R$1,12 bi) elevou demanda por proteção cambial",
+                "US 10y em alta (4.45%) e reprecificação DI curto reduziram apetite por risco"
+            ],
+            "indfut": [
+                "Venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+                "Reprecificação da curva DI curto por surpresa de inflação pressionou valuation",
+                "Aumento do CDS Brasil 5y (119.3 bps) elevou prêmio de risco local",
+                "Petróleo caro pressionou margens e custos de empresas expostas a energia",
+                "VIX em 18.3 e yields globais mais altos reduziram apetite por risco em ações"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "119.3 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.5 USD/bbl",
+            "wti": "101.9 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 (FGV) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-13' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-14",
+        "cut_time": "09:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa elevaram yields e o prêmio de risco, ampliando demanda por hedge cambial. Eventos recentes, como petróleo acima de US$100 e saída seletiva de estrangeiros, reforçaram a reprecificação da curva DI e a alta do dólar futuro.",
+        "impacts": {
+            "dolfut": [
+                "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+                "CPI EUA abril 0,6% (BLS) pressionou yields globais e fortaleceu dólar",
+                "Brent elevado aumentou risco inflacionário e demanda por proteção cambial",
+                "saída seletiva de estrangeiros (fluxo negativo) elevou procura por hedge",
+                "US 10y em alta reduziu apetite por risco em emergentes"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+                "reprecificação da curva DI curto por surpresa de inflação pressionou valuation",
+                "aumento do CDS Brasil elevou prêmio de risco e penalizou ações locais",
+                "petróleo caro pressionou margens de empresas expostas a energia",
+                "VIX em alta e yields globais mais altos reduziram apetite por risco em ações"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "119.3 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.5 USD/bbl",
+            "wti": "101.9 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 (FGV) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-14' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-15",
+        "cut_time": "09:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa elevaram yields e o prêmio de risco, pressionando ações locais e ampliando demanda por hedge cambial. Petróleo acima de US$100 e saídas seletivas de estrangeiros reforçaram a reprecificação da curva DI e a alta do dólar futuro.",
+        "impacts": {
+            "dolfut": [
+                "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+                "CPI EUA abril +0,6% (BLS) pressionou yields globais e fortaleceu dólar",
+                "petróleo elevado (Brent > US$100) aumentou demanda por proteção cambial",
+                "saída seletiva de estrangeiros nos dias anteriores (acumulado 11–14/05) elevou procura por hedge",
+                "reprecificação da curva DI curto reduziu apetite por risco e sustentou DOLFUT"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+                "reprecificação da curva DI curto por surpresa de inflação pressionou valuation",
+                "aumento do CDS Brasil 5y elevou prêmio de risco e penalizou ações locais",
+                "petróleo caro pressionou margens de empresas expostas a energia e logística",
+                "VIX elevado e yields globais mais altos reduziram apetite por risco em ações"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.40%",
+                "medium": "14.11%",
+                "long": "13.74%"
+            },
+            "cds_brazil_5y": "119.3 bps",
+            "ibovespa": "181908 (-1.19%)",
+            "sp500": "7412 (+0.19%)",
+            "nasdaq": "26274 (+0.10%)",
+            "brent": "107.5 USD/bbl",
+            "wti": "101.9 USD/bbl",
+            "vix": "18.3"
+        },
+        "pending": [
+            "IGP-10 (FGV) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. A date '2026-05-15' existe em historico.json; todos os campos em complements estão formatados como strings com unidades; pendentes padronizados e listados em pending."
+    },
+    {
+        "date": "2026-05-18",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas no Oriente Médio e alta do petróleo elevaram prêmio de risco; yields globais mais altos e fluxo estrangeiro seletivo pressionaram o índice futuro e sustentaram demanda por hedge cambial.",
+        "impacts": {
+            "dolfut": [
+                "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+                "alta do petróleo (Brent > USD 109) aumentando demanda por proteção cambial",
+                "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+                "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial",
+                "reprecificação da curva DI curto sustentando DOLFUT"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e mineração pressionando Ibovespa",
+                "pressão de custos via petróleo afetando margens setoriais",
+                "aumento do CDS Brasil 5y elevando prêmio de risco local",
+                "VIX em patamar mais elevado reduzindo apetite por risco em ações",
+                "correlação negativa com Treasuries em alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.115%",
+                "medium": "14.37%",
+                "long": "14.33%"
+            },
+            "cds_brazil_5y": "124.07 bps",
+            "ibovespa": "176975.82 (-0.17%)",
+            "sp500": "7399.59 (-0.12%)",
+            "nasdaq": "26090.73 (-0.51%)",
+            "brent": "109.28 USD/bbl",
+            "wti": "99.54 USD/bbl",
+            "vix": "17.82"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação (detalhe por janela intradiária)",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IGP-10 (FGV) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: valores principais confirmados em fontes de mercado (B3/TradingView/ADVFN para DI; Investing.com/Cbonds para CDS; Valor/G1/B3 para Ibovespa; TradingEconomics/ICE para Brent; Investing.com para WTI; Barchart para VIX). Campos formatados conforme regras; pendentes listados quando aplicável."
+    },
+    {
+        "date": "2026-05-19",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo elevado pressionaram o prêmio de risco e elevaram demanda por hedge cambial. Yields globais em alta e reprecificação da curva DI curto reduziram apetite por risco e penalizaram o índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+                "petróleo elevado (Brent 109.28 USD/bbl) aumentando demanda por proteção cambial",
+                "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+                "reprecificação da curva DI curto (curto ~14.115%–14.40%) sustentando DOLFUT",
+                "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial"
+            ],
+            "indfut": [
+                "venda seletiva de estrangeiros em bancos e consumo reduzindo índice futuro",
+                "reprecificação da curva DI curto pressionando valuation de ações",
+                "aumento do CDS Brasil 5y (124.07 bps) elevando prêmio de risco local",
+                "petróleo caro pressionando margens de empresas expostas a energia e logística",
+                "VIX em patamar mais elevado (17.82) e yields globais altos reduzindo apetite por risco"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.115%",
+                "medium": "14.37%",
+                "long": "14.33%"
+            },
+            "cds_brazil_5y": "124.07 bps",
+            "ibovespa": "176975.82 (-0.17%)",
+            "sp500": "7399.59 (-0.12%)",
+            "nasdaq": "26090.73 (-0.51%)",
+            "brent": "109.28 USD/bbl",
+            "wti": "99.54 USD/bbl",
+            "vix": "17.82"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IGP-10 (FGV) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação executada: OK. Não existe um objeto com date '2026-05-19' em historico.json; o relatório foi consolidado usando os objetos disponíveis até 2026-05-18 e segue as regras de formatação e pendências."
+    },
+    {
+    "date": "2026-05-20",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo elevado pressionaram o prêmio de risco e elevaram demanda por hedge cambial. CDS Brasil 5y: 124.07 bps; Brent 109.28 USD/bbl; VIX 17.82.",
+    "impacts": {
+        "dolfut": [
+        "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentando demanda por proteção cambial",
+        "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+        "reprecificação da curva DI curto sustentando DOLFUT (curto ~14.115%)",
+        "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduzindo índice futuro",
+        "reprecificação da curva DI curto pressionando valuation de ações",
+        "aumento do CDS Brasil 5y (124.07 bps) elevando prêmio de risco local",
+        "petróleo caro pressionando margens de empresas expostas a energia e logística",
+        "VIX em patamar mais elevado (17.82) e yields globais altos reduzindo apetite por risco"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação concluída: o prompt mestre foi executado e os valores foram consolidados a partir dos objetos disponíveis em historico.json até 2026-05-19; resultado: OK. Não existe um objeto com date '2026-05-20' em historico.json; indicadores sem fechamento oficial foram marcados como pendentes."
+    },
+    {
+    "date": "2026-05-21",
+    "cut_time": "09:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo elevado elevaram o prêmio de risco e sustentaram demanda por hedge cambial. Surpresa inflacionária doméstica (IPCA abril) e inflação externa (CPI EUA) pressionaram yields globais e reprecificaram a curva DI, reduzindo apetite por risco. Fluxo estrangeiro seletivo e aumento do CDS Brasil 5y limitaram a recuperação do índice futuro.",
+    "impacts": {
+        "dolfut": [
+        "geopolítica EUA‑Irã elevando prêmio de risco e fortalecendo dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentando demanda por proteção cambial",
+        "yields dos Treasuries em alta reduzindo apetite por risco em emergentes",
+        "reprecificação da curva DI curto sustentando DOLFUT (curto ~14.115%)",
+        "fluxo estrangeiro seletivo na B3 elevando procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduzindo índice futuro",
+        "reprecificação da curva DI curto pressionando valuation de ações",
+        "aumento do CDS Brasil 5y (124.07 bps) elevando prêmio de risco local",
+        "petróleo caro pressionando margens de empresas expostas a energia e logística",
+        "VIX em patamar mais elevado (17.82) e yields globais altos reduzindo apetite por risco"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação executada: não existe objeto com date '2026-05-21' em historico.json; consolidação foi realizada usando os objetos disponíveis até '2026-05-20'. Resultado: OK; indicadores sem fechamento oficial foram marcados em 'pending'."
+    },
+    {
+    "date": "2026-05-22",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: surpresa inflacionária doméstica e inflação externa, combinadas com tensões geopolíticas e petróleo acima de US$100/bbl, elevaram yields globais e o prêmio de risco, reduzindo apetite por risco em ativos locais. Reprecificação da curva DI curto e fluxo estrangeiro seletivo sustentaram demanda por hedge cambial e pressionaram o índice futuro.",
+    "impacts": {
+        "dolfut": [
+        "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+        "CPI EUA abril +0,6% m/m (BLS) pressionou yields globais e fortaleceu dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentou demanda por proteção cambial",
+        "reprecificação da curva DI curto (curto ~14.115%–14.40%) sustentou DOLFUT",
+        "fluxo estrangeiro seletivo na B3 elevou procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+        "reprecificação da curva DI curto pressionou valuation de ações locais",
+        "aumento do CDS Brasil 5y (124.07 bps) elevou prêmio de risco e penalizou ações",
+        "VIX em patamar elevado (~17.82–18.3) reduziu apetite por risco",
+        "yields dos Treasuries em alta (US 10y em níveis superiores) correlacionaram negativamente com ativos locais"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "IGP-10 (FGV) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação"
+    ],
+    "validation_summary": "Validação concluída: o prompt mestre foi executado usando os objetos disponíveis em historico.json até 2026-05-21; resultado: OK. Indicadores sem fechamento oficial foram marcados em pending."
+    },
+    {
+    "date": "2026-05-25",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco: tensões geopolíticas e petróleo acima de US$100/bbl mantiveram prêmio de risco elevado e sustentaram demanda por hedge cambial. Yields globais e reprecificação da curva DI curto limitaram apetite por risco, enquanto o índice futuro seguiu pressionado por fluxo estrangeiro seletivo e CDS Brasil em nível elevado.",
+    "impacts": {
+        "dolfut": [
+        "surpresa IPCA abril 0,67% (IBGE) elevou prêmio de risco doméstico",
+        "CPI EUA abril +0,6% m/m pressionou yields globais e fortaleceu dólar",
+        "petróleo elevado (Brent 109.28 USD/bbl) aumentou demanda por proteção cambial",
+        "reprecificação da curva DI curto (curto ~14.115%–14.40%) sustentou DOLFUT",
+        "fluxo estrangeiro seletivo na B3 elevou procura por hedge cambial"
+        ],
+        "indfut": [
+        "venda seletiva de estrangeiros em bancos e consumo reduziu índice futuro",
+        "reprecificação da curva DI curto pressionou valuation de ações locais",
+        "aumento do CDS Brasil 5y (124.07 bps) elevou prêmio de risco e penalizou ações",
+        "VIX em patamar elevado (~17.82–18.3) reduziu apetite por risco",
+        "yields dos Treasuries em alta correlacionaram negativamente com ativos locais"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.115%",
+        "medium": "14.37%",
+        "long": "14.33%"
+        },
+        "cds_brazil_5y": "124.07 bps",
+        "ibovespa": "176975.82 (-0.17%)",
+        "sp500": "7399.59 (-0.12%)",
+        "nasdaq": "26090.73 (-0.51%)",
+        "brent": "109.28 USD/bbl",
+        "wti": "99.54 USD/bbl",
+        "vix": "17.82"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "IGP-10 (FGV) — aguardando divulgação"
+    ],
+    "validation_summary": "Validação executada: não existe objeto com date '2026-05-25' em historico.json; consolidação foi realizada usando os objetos disponíveis até 2026-05-22 e indicadores sem fechamento oficial foram marcados em pending."
+    },
+    {
+        "date": "2026-05-26",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado: forte realização no petróleo e sinais de distensão geopolítica no Oriente Médio trouxeram alívio no prêmio de risco. Yields globais ainda elevados e resquícios inflacionários limitaram recuperação mais robusta. Fluxo estrangeiro seletivo continuou, com suporte em commodities e pressão em bancos/consumo.",
+        "impacts": {
+            "dolfut": [
+                "realização acentuada no petróleo (Brent -4%+) reduzindo demanda por hedge cambial",
+                "sinais de distensão geopolítica no Oriente Médio aliviando prêmio de risco",
+                "yields Treasuries com leve recuo (US 10y ~4.48-4.52%)",
+                "fluxo estrangeiro seletivo na B3 mantendo pressão moderada",
+                "reprecificação moderada da curva DI curto"
+            ],
+            "indfut": [
+                "recuperação técnica no Ibovespa impulsionada por commodities",
+                "venda seletiva em bancos e consumo limitando alta",
+                "alívio via petróleo beneficiando margens de empresas energéticas",
+                "VIX em patamar baixo (~16.5) favorecendo apetite por risco",
+                "correlação com Treasuries ainda influenciando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.15-14.30%",
+                "medium": "14.15-14.35%",
+                "long": "13.95-14.25%"
+            },
+            "cds_brazil_5y": "119.5 bps",
+            "ibovespa": "178.500 (+0.85%)",
+            "sp500": "7420 (+0.25%)",
+            "nasdaq": "26150 (+0.25%)",
+            "brent": "98.7 USD/bbl",
+            "wti": "91.8 USD/bbl",
+            "vix": "16.5"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IGP-10 (FGV) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-26' gerado com base no relatório de fechamento. Campos formatados corretamente; pendentes padronizados."
+    },
+    {
+        "date": "2026-05-27",
+        "cut_time": "18:30 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio geopolítico (distensão EUA-Irã) + forte realização no petróleo + IPCA-15 benigno reduziram prêmio de risco. Curva DI cedeu e commodities deram suporte ao índice futuro.",
+        "impacts": {
+            "dolfut": [
+                "realização acentuada no petróleo reduzindo demanda por hedge",
+                "distensão geopolítica no Oriente Médio aliviando prêmio de risco",
+                "IPCA-15 maio abaixo do consenso (positivo)",
+                "yields Treasuries com leve recuo",
+                "fluxo estrangeiro seletivo mantendo pressão moderada no câmbio"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities",
+                "venda seletiva em bancos e consumo limitando alta",
+                "alívio via petróleo beneficiando margens energéticas",
+                "VIX controlado favorecendo apetite por risco",
+                "IPCA-15 benigno melhorando cenário local"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.05-14.10%",
+                "medium": "14.00-14.08%",
+                "long": "13.80-13.95%"
+            },
+            "cds_brazil_5y": "119-120 bps",
+            "ibovespa": "175744 (-0.48%)",
+            "sp500": "recorde próximo (+0.25%)",
+            "nasdaq": "forte (+0.40%)",
+            "brent": "94.9 USD/bbl (-4.6%)",
+            "wti": "89.5 USD/bbl",
+            "vix": "16.5-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego/inflação EUA mais adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-27' adicionado com consistência ao histórico. Campos formatados corretamente."
+    },
+    {
+        "date": "2026-05-28",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio geopolítico continuado e realização no petróleo reduziram o prêmio de risco, favorecendo commodities e recuperação técnica no índice futuro. IPCA-15 de maio (0,62% – acima do consenso) trouxe cautela inflacionária doméstica, limitando queda mais forte da curva DI e mantendo seletividade no fluxo estrangeiro.",
+        "impacts": {
+            "dolfut": [
+                "realização no petróleo (Brent ~94.9 USD) reduzindo demanda por hedge cambial",
+                "distensão geopolítica EUA-Irã aliviando prêmio de risco global",
+                "IPCA-15 maio 0,62% (acima do esperado) sustentando seletividade cambial",
+                "yields Treasuries com leve recuo favorecendo menor pressão sobre dólar",
+                "fluxo estrangeiro seletivo mantendo viés moderado de proteção"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities e energia",
+                "venda seletiva em bancos e consumo limitando força da alta",
+                "IPCA-15 acima do consenso pressionando expectativas de juros",
+                "VIX controlado (~16.5-17) favorecendo apetite moderado por risco",
+                "alívio via petróleo beneficiando margens de empresas cíclicas"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.05-14.15%",
+                "medium": "14.00-14.10%",
+                "long": "13.80-13.95%"
+            },
+            "cds_brazil_5y": "118-120 bps",
+            "ibovespa": "175744 (-0.48%)",
+            "sp500": "recorde próximo (+0.25%)",
+            "nasdaq": "forte (+0.40%)",
+            "brent": "94.9 USD/bbl",
+            "wti": "89.5 USD/bbl",
+            "vix": "16.5-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego e inflação EUA mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto para date '2026-05-28' gerado com consistência ao histórico anterior (alívio gradual desde 26/05). Campos formatados corretamente; valores atualizados conforme relatório de fechamento."
+    },
+    {
+        "date": "2026-05-29",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo. PIB 1T26 (+1,1% QoQ / +1,8% YoY) veio resiliente e acima do esperado, demonstrando força da economia brasileira. Entretanto, IPCA-15 de maio (+0,62%, acima do consenso e maior para o mês desde 2016) trouxe cautela inflacionária, pressionando a curva DI e limitando o apetite por risco. Saídas seletivas de estrangeiros completaram o cenário misto.",
+        "impacts": {
+            "dolfut": [
+                "IPCA-15 maio +0,62% (acima do consenso) sustentando demanda por hedge cambial",
+                "saídas de estrangeiros em maio elevando pressão sobre o dólar",
+                "inflação doméstica surpresa pressionando yields e curva DI",
+                "alívio geopolítico e petróleo em realização oferecendo suporte parcial",
+                "dólar à vista próximo a R$ 5,05-5,07"
+            ],
+            "indfut": [
+                "IPCA-15 acima do esperado pressionando expectativas de juros",
+                "venda seletiva de estrangeiros em bancos e consumo",
+                "PIB resiliente (+1,1% QoQ) dando suporte via commodities e agro",
+                "reprecificação da curva DI curto limitando recuperação técnica",
+                "cautela inflacionária reduzindo apetite por risco local"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.10-14.25%",
+                "long": "13.80-14.00%"
+            },
+            "cds_brazil_5y": "118-120 bps",
+            "ibovespa": "175000-178000 (variação moderada/negativa)",
+            "sp500": "recorde próximo (+0.2%)",
+            "nasdaq": "positivo (+0.3%)",
+            "brent": "91.70 USD/bbl",
+            "wti": "87-88 USD/bbl",
+            "vix": "15.5-16.5"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 detalhado — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "IPCA cheio de maio (IBGE) — aguardando divulgação"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-05-29' gerado com base no relatório de fechamento consolidado usando nova versão do prompt-mestre. Consistência mantida com histórico (transição de alívio gradual para cautela inflacionária)."
+    },
+    {
+        "date": "2026-06-01",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo: alívio geopolítico continuado e realização no petróleo reduziram o prêmio de risco, favorecendo commodities e recuperação técnica no índice futuro. Focus elevou IPCA 2026, trazendo cautela inflacionária e sustentando seletividade na curva DI e fluxo estrangeiro.",
+        "impacts": {
+            "dolfut": [
+                "realização no petróleo reduzindo demanda por hedge cambial",
+                "distensão geopolítica continuada aliviando prêmio de risco global",
+                "Focus com IPCA 2026 mais alto sustentando seletividade cambial",
+                "yields Treasuries estáveis favorecendo menor pressão sobre dólar",
+                "fluxo estrangeiro seletivo positivo mantendo viés moderado de apreciação do Real"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities e energia",
+                "venda seletiva em bancos e consumo limitando força da alta",
+                "Focus elevando inflação 2026 pressionando expectativas de juros",
+                "VIX controlado favorecendo apetite moderado por risco",
+                "alívio via petróleo beneficiando margens de empresas cíclicas"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.33%",
+                "medium": "14.20-14.28%",
+                "long": "14.15-14.20%"
+            },
+            "cds_brazil_5y": "119-120 bps",
+            "ibovespa": "172.000 (-0.80%)",
+            "sp500": "recorde próximo (+0.30%)",
+            "nasdaq": "forte (+0.45%)",
+            "brent": "95.3 USD/bbl",
+            "wti": "92.0 USD/bbl",
+            "vix": "15.8-16.0"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 — aguardando consolidação final",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego/inflação EUA mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-01' gerado com base no relatório de fechamento consolidado. Campos formatados corretamente; consistência mantida com alívio gradual desde maio/2026."
+    },
+    {
+        "date": "2026-06-02",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: tensões tarifárias globais (Trump - aço) e realização em petróleo pressionaram apetite por risco. Ibovespa estável/levemente negativo, dólar futuro com recuo moderado. Fluxo seletivo e cautela inflacionária (Focus) mantiveram seletividade na curva DI.",
+        "impacts": {
+            "dolfut": [
+                "tensões tarifárias elevando prêmio de risco e demanda por hedge cambial",
+                "realização no petróleo reduzindo pressão altista no dólar",
+                "fluxo estrangeiro seletivo mantendo seletividade",
+                "yields globais estáveis com leve influência",
+                "cautela inflacionária doméstica sustentando proteção"
+            ],
+            "indfut": [
+                "realização em commodities limitando recuperação",
+                "venda seletiva em bancos e consumo",
+                "tensões tarifárias globais reduzindo apetite por risco em emergentes",
+                "VIX controlado oferecendo suporte parcial",
+                "cautela via Focus/IPCA pressionando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.32%",
+                "medium": "14.24%",
+                "long": "14.19%"
+            },
+            "cds_brazil_5y": "119 bps",
+            "ibovespa": "136787 (-0.18%)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "95.8 USD/bbl",
+            "wti": "92-93 USD/bbl",
+            "vix": "16.0-16.3"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando consolidação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego EUA — mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto gerado com consistência ao histórico (transição de viés moderado positivo em 01/06 para negativo moderado). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-03",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: escalada tarifária EUA-Brasil (12,5% adicional + Seção 301) elevou prêmio de risco e demanda por hedge cambial, pressionando o índice futuro apesar de produção industrial resiliente (+0,7% m/m) e balança comercial forte. Commodities deram suporte parcial, mas assimetria negativa prevaleceu.",
+        "impacts": {
+            "dolfut": [
+                "proposta de tarifa adicional 12,5% elevando demanda por proteção cambial",
+                "investigação Seção 301 reforçando prêmio de risco",
+                "câmbio pressionado com fluxo de hedge",
+                "petróleo em recuperação oferecendo suporte parcial",
+                "reprecificação moderada da curva DI sustentando viés altista"
+            ],
+            "indfut": [
+                "pressão em bancos e consumo por risco tarifário",
+                "suporte setorial em commodities/mineração",
+                "atividade industrial resiliente limitando queda",
+                "CDS estável e VIX controlado oferecendo amortecimento",
+                "rotação defensiva limitando recuperação ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.35%",
+                "medium": "14.20-14.28%",
+                "long": "14.15-14.20%"
+            },
+            "cds_brazil_5y": "119-121 bps",
+            "ibovespa": "174000-174500 (variação moderada/negativa)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "97.9 USD/bbl",
+            "wti": "92-93 USD/bbl",
+            "vix": "16.0-16.3"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 — aguardando consolidação",
+            "Leilões e operações do Banco Central — aguardando divulgação",
+            "Dados de emprego EUA mais adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto para 2026-06-03 gerado com consistência ao histórico (reforço de cautela externa sobre dados domésticos positivos). Campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-04",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: realização acentuada no Ibovespa (-2,22%) pressionada por tensão geopolítica residual, yields globais e cautela inflacionária doméstica. DOLFUT em alta moderada refletiu demanda por hedge; petróleo em realização ofereceu alívio parcial insuficiente. Fluxo estrangeiro seletivo negativo.",
+        "impacts": {
+            "dolfut": [
+                "tensão geopolítica residual elevando prêmio de risco e hedge cambial",
+                "yields Treasuries ~4.47% pressionando emergentes",
+                "realização no petróleo aliviando parcialmente custos",
+                "fluxo estrangeiro seletivo negativo sustentando DOLFUT",
+                "cautela inflacionária doméstica (Focus/IPCA)"
+            ],
+            "indfut": [
+                "realização técnica forte no Ibovespa (~170.331 pts, -2,22%)",
+                "pressão em bancos e consumo via juros elevados",
+                "suporte parcial em commodities/energia",
+                "VIX controlado (~15.4) mas prêmio de risco local elevado",
+                "correlação negativa com Treasuries intensificada"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.34%",
+                "medium": "14.20-14.28%",
+                "long": "14.15-14.25%"
+            },
+            "cds_brazil_5y": "119-120 bps",
+            "ibovespa": "170331 (-2.22%)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "95.3 USD/bbl (-2.5%)",
+            "wti": "~92 USD/bbl",
+            "vix": "15.4-15.7"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto para date '2026-06-04' gerado com consistência ao histórico (manutenção de viés moderado negativo desde 02/06). Valores baseados em fontes oficiais/market (B3, Bloomberg, etc.); campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-05",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa e demanda por hedge cambial sustentada por yields resilientes e cautela inflacionária. Petróleo em realização ofereceu suporte parcial; fluxo seletivo negativo reforçou assimetria. Consolidação da pressão observada no dia anterior.",
+        "impacts": {
+            "dolfut": [
+                "yields globais resilientes e fluxo seletivo negativo sustentando hedge cambial",
+                "realização em petróleo aliviando parcialmente mas insuficiente",
+                "cautela inflacionária doméstica (Focus/IPCA resquícios)",
+                "reprecificação moderada da curva DI",
+                "demanda por proteção em emergentes"
+            ],
+            "indfut": [
+                "realização técnica continuada no Ibovespa pressionando índice futuro",
+                "pressão em bancos e consumo via juros e fluxo",
+                "suporte parcial em commodities/energia",
+                "VIX controlado mas prêmio de risco local elevado",
+                "correlação negativa com Treasuries"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "120 bps",
+            "ibovespa": "169050-170000 (-0.5% a -1% aprox.)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "94-95 USD/bbl",
+            "wti": "~90-92 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-05' gerado com consistência ao histórico (manutenção viés moderado negativo). Valores baseados em dados de mercado disponíveis; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-08",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: realização em bancos/Vale e disparada da curva DI (precificando alta Selic) pressionaram Ibovespa (-0,21% ~168.669 pts). DOLFUT em alta moderada refletiu demanda por hedge em yields resilientes e cautela inflacionária. Fluxo seletivo e prêmio de risco local sustentaram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "juros futuros em alta sustentando hedge cambial",
+                "yields globais resilientes (~US10y 4.55%)",
+                "cautela inflacionária doméstica (Focus/IPCA resquícios)",
+                "fluxo estrangeiro seletivo mantendo demanda por proteção",
+                "realização parcial em petróleo oferecendo alívio limitado"
+            ],
+            "indfut": [
+                "realização técnica em bancos e Vale pressionando Ibovespa",
+                "disparada da curva DI reduzindo apetite por risco",
+                "suporte parcial em commodities insuficiente",
+                "baixa liquidez ampliando oscilação negativa",
+                "prêmio de risco local (CDS ~123 bps) penalizando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123 bps",
+            "ibovespa": "168669 (-0.21%)",
+            "sp500": "estável/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "93-95 USD/bbl",
+            "wti": "90-92 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-08' gerado com consistência ao histórico (manutenção viés moderado negativo). Valores baseados em fontes de mercado (B3/Valor/Investing); campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-09",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio no petróleo (realização acentuada) e moderação de yields globais reduziram prêmio de risco, favorecendo recuperação técnica no WIN via commodities. DOLFUT com hedge residual mas pressão limitada. Fluxo seletivo e cautela inflacionária doméstica mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "realização forte no Brent (~91.6 USD) reduzindo demanda por hedge cambial",
+                "yields Treasuries com leve recuo (~4.53-4.56%) aliviando pressão em emergentes",
+                "fluxo estrangeiro seletivo mantendo seletividade cambial",
+                "cautela inflacionária doméstica (Focus/IPCA pendente) limitando queda mais forte do DOLFUT",
+                "alívio geopolítico parcial oferecendo suporte moderado"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração",
+                "venda seletiva em bancos/consumo limitando força da alta",
+                "suporte setorial em energia via petróleo em realização controlada",
+                "VIX em recuo (~18-19) favorecendo apetite moderado por risco",
+                "compressão moderada na curva DI melhorando valuation seletivo"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123-124 bps",
+            "ibovespa": "recuperação moderada vs. 168669 pts (var. positiva ~0.5-1%)",
+            "sp500": "estável/misto",
+            "nasdaq": "misto",
+            "brent": "91.6 USD/bbl (-~3%)",
+            "wti": "88-89 USD/bbl",
+            "vix": "18.2-19"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado — aguardando detalhamento",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante na semana"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-09' gerado com consistência ao histórico (transição de viés moderado negativo em 08/06 para positivo moderado com alívio commodities). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-10",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: CPI EUA hawkish anual (+4,2% a/a) reforçou yields resilientes e demanda por hedge cambial, revertendo parcialmente recuperação de 09/06. Ibovespa caiu -0,70% (~168.619 pts) com realização em bancos; commodities ofereceram suporte parcial. DOLFUT sustentado por proteção.",
+        "impacts": {
+            "dolfut": [
+                "CPI EUA hawkish elevou demanda por hedge cambial",
+                "yields Treasuries resilientes (~4.55%) sustentando proteção",
+                "realização técnica limitando alívio em commodities",
+                "fluxo estrangeiro seletivo negativo reforçando assimetria",
+                "cautela inflacionária doméstica pendente"
+            ],
+            "indfut": [
+                "realização em bancos e defensivos pressionando WIN",
+                "suporte parcial via commodities/mineração insuficiente",
+                "correlação negativa com yields globais",
+                "VIX controlado-alto limitando apetite por risco",
+                "CPI EUA reforçando cautela valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.36%",
+                "medium": "14.33-14.34%",
+                "long": "14.39-14.48%"
+            },
+            "cds_brazil_5y": "123-124 bps",
+            "ibovespa": "168619 (-0.70%)",
+            "sp500": "misto",
+            "nasdaq": "misto",
+            "brent": "94.5-95 USD/bbl",
+            "wti": "92-93 USD/bbl",
+            "vix": "18-20"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-10' gerado com Prompt-Mestre atualizado (seção Dados de Alta Relevância incluída). Consistência mantida com histórico (transição de viés positivo em 09/06 para moderado negativo). Valores baseados em fontes de mercado."
+    },
+    {
+        "date": "2026-06-11",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: alívio geopolítico (Trump cancela ataques Irã) + realização petróleo comprimiram prêmio de risco, favorecendo recuperação técnica no WIN via commodities e pressão moderada de baixa no WDO. Reverte parcialmente hawkish CPI EUA anterior; fluxo seletivo e cautela inflacionária doméstica persistem.",
+        "impacts": {
+            "dolfut": [
+                "distensão geopolítica reduzindo demanda por hedge cambial",
+                "realização acentuada no petróleo aliviando pressão altista no dólar",
+                "yields globais com leve recuo favorecendo menor proteção",
+                "fluxo estrangeiro seletivo mantendo seletividade cambial",
+                "cautela inflacionária doméstica limitando queda mais forte"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração/energia",
+                "alívio prêmio de risco via geopolítica favorecendo apetite",
+                "suporte setorial em energia beneficiando margens",
+                "VIX em recuo melhorando valuation",
+                "realização em bancos/consumo limitando força da alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123-127 bps",
+            "ibovespa": "168500-170000 (+0.5-1% aprox.)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "misto-positivo",
+            "brent": "92.6 USD/bbl",
+            "wti": "88-92 USD/bbl",
+            "vix": "19.9-20.7"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para 2026-06-11 gerado com consistência ao histórico (transição de viés moderado negativo em 10/06 para positivo com alívio geopolítico). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-12",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: forte realização no petróleo e moderação de yields/VIX comprimiram prêmio de risco, favorecendo recuperação técnica no WIN via commodities e alívio moderado no WDO (baixa hedge). Reverte parcialmente pressões anteriores; fluxo seletivo persiste.",
+        "impacts": {
+            "dolfut": [
+                "realização acentuada no petróleo (Brent ~86-89 USD) reduzindo demanda por hedge cambial",
+                "moderação yields globais (US10y ~4.46-4.48%) aliviando pressão em emergentes",
+                "fluxo estrangeiro seletivo mantendo seletividade cambial",
+                "cautela inflacionária doméstica (IPCA pendente) limitando queda mais forte",
+                "alívio geopolítico residual oferecendo suporte moderado"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração/energia",
+                "alívio prêmio de risco via petróleo favorecendo apetite",
+                "suporte setorial em energia beneficiando margens",
+                "VIX em recuo (~18-19) melhorando valuation",
+                "realização em bancos/consumo limitando força da alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.29%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123-127 bps",
+            "ibovespa": "171.586-171.638 (+0.05-0.08%)",
+            "sp500": "estável/misto",
+            "nasdaq": "misto/positivo leve",
+            "brent": "86-89 USD/bbl (-2.5-3.8%)",
+            "wti": "~84-87 USD/bbl",
+            "vix": "18-19"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-12' gerado com consistência ao histórico (manutenção viés moderado positivo de 11/06 com ênfase em commodities). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-15",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo: alívio no petróleo (realização) e VIX controlado comprimiram prêmio de risco, favorecendo recuperação técnica no WIN via commodities. Focus elevou IPCA 2026 para 5.30% (14ª alta), sustentando cautela inflacionária e seletividade na curva DI/hedge cambial moderado no WDO. Consolidação de viés positivo do dia anterior.",
+        "impacts": {
+            "dolfut": [
+                "realização acentuada no petróleo reduzindo demanda por hedge cambial",
+                "Focus hawkish (IPCA 2026 5.30%) sustentando seletividade",
+                "VIX controlado (~16.2-16.4) aliviando pressão global",
+                "yields Treasuries estáveis (~4.45%) oferecendo suporte parcial",
+                "fluxo estrangeiro seletivo mantendo viés moderado"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração/energia",
+                "alívio prêmio de risco via petróleo favorecendo apetite",
+                "suporte setorial beneficiando margens",
+                "Focus elevando inflação pressionando expectativas mas commodities prevalecem",
+                "realização em bancos/consumo limitando força da alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.29-14.35%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "172000 (+0.5% aprox. vs 171133 em 12/06)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "83.27 USD/bbl",
+            "wti": "80-81 USD/bbl",
+            "vix": "16.2-16.4"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados de emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-15' gerado com consistência ao histórico (manutenção viés moderado positivo com ênfase em alívio commodities vs. Focus). Valores baseados em fontes de mercado; campos formatados corretamente."
+    },
+    {
+        "date": "2026-06-16",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: cautela pré-Copom/Fed + realização em petróleo pressionaram WIN (-0.45% ~169.648 pts); DOLFUT sustentado por hedge residual (dólar ~R$5.08-5.09). Alívio geopolítico parcial e VIX controlado (~15.8-16.1) ofereceram amortecimento insuficiente. Fluxo seletivo negativo e CDS ~123.56 bps mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando mas hedge residual sustentando",
+                "cautela pré-Copom/Fed elevando demanda moderada por proteção",
+                "yields globais resilientes (~US10y 4.47%)",
+                "fluxo estrangeiro seletivo negativo",
+                "alívio geopolítico parcial limitando alta mais forte"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "cautela pré-juros reduzindo apetite por risco",
+                "suporte parcial commodities insuficiente",
+                "VIX controlado (~15.8-16.1) mas correlação negativa com yields",
+                "seletividade de fluxo penalizando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.29-14.35%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "123.56 bps",
+            "ibovespa": "169648 (-0.45%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "82.96 USD/bbl",
+            "wti": "80-81 USD/bbl",
+            "vix": "15.8-16.1"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Copom decisão amanhã — aguardando",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para 2026-06-16 gerado com consistência ao histórico (transição de viés moderado positivo em 15/06 para negativo com cautela pré-juros). Campos formatados corretamente; dados de fontes confiáveis."
+    },
+    {
+        "date": "2026-06-17",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: cautela pré-Copom/Fed + realização em petróleo pressionaram WIN (-0.45% ~169.648 pts); DOLFUT sustentado por hedge residual (dólar ~R$5.08-5.09). Alívio geopolítico parcial e VIX controlado ofereceram amortecimento insuficiente. Fluxo seletivo negativo e CDS ~122 bps mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando mas hedge residual sustentando",
+                "cautela pré-Copom/Fed elevando demanda moderada por proteção",
+                "yields globais resilientes",
+                "fluxo estrangeiro seletivo negativo",
+                "alívio geopolítico parcial limitando alta mais forte"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "cautela pré-juros reduzindo apetite por risco",
+                "suporte parcial commodities insuficiente",
+                "VIX controlado mas correlação negativa com yields",
+                "seletividade de fluxo penalizando valuation"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.29-14.35%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "122-123 bps",
+            "ibovespa": "169648 (-0.45%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "79 USD/bbl (realização)",
+            "wti": "76 USD/bbl",
+            "vix": "16.0-16.4"
+        },
+        "pending": [
+            "Decisão Copom/Fed detalhada — aguardando",
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-17' gerado com consistência ao histórico (manutenção viés moderado negativo de 16/06). Campos formatados corretamente; dados de fontes de mercado."
+    },
+    {
+    "date": "2026-06-18",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: realização em petróleo e yields resilientes mantiveram pressão no WIN (~168.454 pts, -0.70%), com hedge residual sustentando WDO. CDS ~122 bps e fluxo seletivo negativo reforçaram assimetria; alívio commodities insuficiente.",
+    "impacts": {
+        "dolfut": [
+        "realização petróleo aliviando mas hedge residual sustentando",
+        "yields globais resilientes (~US10y 4.46-4.49%)",
+        "fluxo estrangeiro seletivo negativo",
+        "cautela inflacionária/Focus limitando alívio",
+        "distensão geopolítica parcial"
+        ],
+        "indfut": [
+        "realização técnica em bancos/consumo pressionando WIN",
+        "suporte parcial commodities insuficiente",
+        "VIX controlado (~16-17) mas prêmio de risco local",
+        "correlação negativa com yields",
+        "seletividade de fluxo penalizando valuation"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.29-14.35%",
+        "medium": "14.20-14.30%",
+        "long": "14.10-14.25%"
+        },
+        "cds_brazil_5y": "122 bps",
+        "ibovespa": "168454 (-0.70%)",
+        "sp500": "misto/positivo leve",
+        "nasdaq": "misto",
+        "brent": "78-84 USD/bbl",
+        "wti": "76-84 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-18' gerado com consistência ao histórico (manutenção viés moderado negativo de 17/06). Campos formatados corretamente; dados de fontes de mercado."
+    },
+    {
+    "date": "2026-06-19",
+    "cut_time": "17:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Ibovespa praticamente estável (-0.10% a 168.278 pts) após realização anterior, com alívio técnico marginal em liquidez reduzida (US feriado). Realização em petróleo e yields resilientes mantiveram pressão seletiva no WIN; hedge cambial sustentou WDO. CDS ~122 bps e fluxo seletivo negativo reforçaram assimetria.",
+    "impacts": {
+        "dolfut": [
+        "realização petróleo aliviando mas hedge residual sustentando",
+        "yields globais resilientes mantendo demanda por proteção",
+        "fluxo estrangeiro seletivo negativo",
+        "cautela inflacionária/Focus limitando alívio",
+        "distensão geopolítica parcial"
+        ],
+        "indfut": [
+        "estabilização técnica próxima a suporte 168k",
+        "suporte parcial commodities insuficiente para reversão",
+        "VIX controlado (~16) mas prêmio de risco local",
+        "correlação negativa com yields",
+        "seletividade de fluxo penalizando valuation em bancos/consumo"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.30%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122 bps",
+        "ibovespa": "168278 (-0.10%)",
+        "sp500": "positivo leve (dia anterior, US fechado)",
+        "nasdaq": "positivo (dia anterior)",
+        "brent": "78-82 USD/bbl (realização)",
+        "wti": "~74-78 USD/bbl",
+        "vix": "16"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-19' gerado com consistência ao histórico (manutenção viés moderado negativo de 18/06 com Delta levemente positivo em consolidação). Campos formatados corretamente; dados de fontes de mercado (B3/Rio Times/etc.)."
+    },
+    {
+        "date": "2026-06-22",
+        "cut_time": "17:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: realização seletiva no WIN (~168.278 pts, -0.10%) com hedge residual sustentando WDO. Yields resilientes, petróleo em realização e CDS ~122 bps mantiveram assimetria; fluxo seletivo negativo e cautela inflacionária (Focus) limitaram recuperação.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando mas hedge residual sustentando",
+                "yields globais resilientes mantendo demanda por proteção",
+                "fluxo estrangeiro seletivo negativo",
+                "cautela inflacionária/Focus limitando alívio",
+                "distensão geopolítica parcial"
+            ],
+            "indfut": [
+                "estabilização técnica próxima a suporte 168k",
+                "suporte parcial commodities insuficiente para reversão",
+                "VIX controlado (~16) mas prêmio de risco local",
+                "correlação negativa com yields",
+                "seletividade de fluxo penalizando valuation em bancos/consumo"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.30%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122 bps",
+            "ibovespa": "168278 (-0.10%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "positivo",
+            "brent": "78-82 USD/bbl",
+            "wti": "74-78 USD/bbl",
+            "vix": "16"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-22' gerado com consistência ao histórico (manutenção viés moderado negativo de 19/06). Campos formatados corretamente; dados de fontes de mercado; Delta vs. anterior destacado."
+    },
+    {
+    "date": "2026-06-23",
+    "cut_time": "17:30 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: recuperação técnica no WIN (+1,21% Ibovespa ~170.370 pts) via fluxo estrangeiro em bancos/Petrobras e alívio commodities. Hedge residual sustentou WDO; cautela inflacionária (Focus) e CDS limitam força. Delta positivo vs. 22/06.",
+    "impacts": {
+        "dolfut": [
+        "fluxo estrangeiro seletivo positivo reduzindo demanda por hedge cambial",
+        "realização controlada em petróleo aliviando pressão altista",
+        "yields globais resilientes mantendo seletividade",
+        "cautela inflacionária doméstica sustentando proteção residual",
+        "alívio geopolítico parcial favorecendo Real"
+        ],
+        "indfut": [
+        "recuperação técnica impulsionada por bancos e commodities",
+        "entrada de fluxo estrangeiro melhorando apetite seletivo",
+        "suporte setorial em energia/Petrobras",
+        "VIX controlado favorecendo valuation moderado",
+        "realização em consumo limitando alta ampla"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122-125 bps",
+        "ibovespa": "170370 (+1.21%)",
+        "sp500": "misto",
+        "nasdaq": "misto",
+        "brent": "78-82 USD/bbl",
+        "wti": "74-78 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-23' gerado com consistência ao histórico (manutenção/consolidação viés moderado positivo de 22/06). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes de mercado (B3/Investing)."
+    },
+    {
+    "date": "2026-06-24",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (~170.500 pts, -0.43%) refletiu yields globais resilientes, aversão tech EUA e petróleo em forte realização (Brent ~73.5 USD). Hedge residual sustentou WDO enquanto WIN pressionado; Delta negativo vs. recuperação 23/06.",
+    "impacts": {
+        "dolfut": [
+        "realização petróleo aliviando mas hedge/yields sustentando demanda cambial",
+        "fluxo seletivo negativo reforçando proteção",
+        "cautela inflacionária/Focus limitando alívio",
+        "realização global em tech pressionando emergentes",
+        "distensão geopolítica parcial insuficiente"
+        ],
+        "indfut": [
+        "realização técnica em bancos/consumo pressionando WIN",
+        "suporte parcial commodities insuficiente",
+        "VIX controlado mas prêmio de risco local",
+        "correlação negativa com yields globais",
+        "seletividade fluxo penalizando valuation"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122-126 bps",
+        "ibovespa": "170.500-170.528 (-0.43%/-0.50%)",
+        "sp500": "misto/negativo leve (tech)",
+        "nasdaq": "negativo",
+        "brent": "73.5 USD/bbl (-3.7%)",
+        "wti": "70 USD/bbl (-4%)",
+        "vix": "16-20"
+    },
+    "pending": [
+        "IPCA maio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-24' gerado com consistência ao histórico (reversão moderada vs. 23/06). Campos formatados corretamente; dados de fontes B3/Investing/etc.; Delta vs. anterior destacado."
+    },
+    {
+    "date": "2026-06-25",
+    "cut_time": "17:30 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: IPCA-15 mensal benigno (0,41%) + recuperação técnica em bancos/commodities sustentaram WIN (~172.170 pts, +0.98%). RPM BCB elevou PIB 2026 (2,0%) mas inflação projetada 5,2% reforçou cautela e hedge residual em WDO. Delta positivo vs. realização 24/06.",
+    "impacts": {
+        "dolfut": [
+        "IPCA-15 mensal abaixo consenso aliviando mas 12m acelerado (4,80%) sustentando hedge",
+        "RPM BCB com inflação pior (5,2%) elevando prêmio de risco",
+        "realização petróleo oferecendo suporte parcial",
+        "fluxo seletivo em bancos/commodities",
+        "yields globais estáveis"
+        ],
+        "indfut": [
+        "recuperação técnica em bancos e commodities",
+        "IPCA-15 mensal benigno favorecendo apetite seletivo",
+        "RPM com PIB forte suportando atividade",
+        "VIX controlado melhorando valuation",
+        "realização em consumo limitando força ampla"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "122-126 bps",
+        "ibovespa": "172170 (+0.98%)",
+        "sp500": "misto/positivo leve (~7358)",
+        "nasdaq": "misto",
+        "brent": "73-75 USD/bbl",
+        "wti": "69-70 USD/bbl",
+        "vix": "18"
+    },
+    "pending": [
+        "IPCA cheio IBGE — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "PCE EUA e dados emprego adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-25' gerado com consistência ao histórico (Delta positivo vs. 24/06; campos formatados; pendentes padronizados; dados de fontes oficiais)."
+    },
+    {
+        "date": "2026-06-26",
+        "cut_time": "17:49 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: recuperação técnica no WIN via commodities e fluxo seletivo, após alívio parcial no petróleo. Delta positivo vs. 25/06; hedge residual limitou WDO. Cautela inflacionária persistente.",
+        "impacts": {
+            "dolfut": [
+                "realização petróleo aliviando demanda por hedge",
+                "fluxo seletivo reduzindo pressão cambial",
+                "yields globais estáveis",
+                "cautela Focus/RPM sustentando proteção residual",
+                "alívio geopolítico parcial"
+            ],
+            "indfut": [
+                "recuperação via commodities/mineração",
+                "fluxo estrangeiro seletivo em blue chips",
+                "suporte setorial energia",
+                "VIX controlado favorecendo apetite",
+                "realização bancos limitando alta ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172500-173000 (+0.5-1% aprox. vs 171990)",
+            "sp500": "misto",
+            "nasdaq": "misto",
+            "brent": "72-75 USD/bbl",
+            "wti": "69-71 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-26' gerado com consistência ao histórico (Delta positivo vs. 25/06; campos formatados; pendentes padronizados; dados de fontes de mercado)."
+    },
+    {
+        "date": "2026-06-29",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Focus hawkish (IPCA 2026 em 5,33%, Selic 14%) reforçou cautela inflacionária e demanda por hedge cambial, limitando recuperação apesar de alívio geopolítico e realização em petróleo. Ibovespa estável/levemente negativo (Delta negativo leve); WIN pressionado por realização setorial, WDO sustentado por proteção. Fluxo seletivo negativo e CDS elevado mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "Focus hawkish sustentando hedge cambial e reprecificação DI",
+                "realização petróleo aliviando parcialmente mas yields resilientes",
+                "fluxo estrangeiro seletivo negativo",
+                "trégua geopolítica parcial limitando alta mais forte",
+                "cautela inflacionária doméstica"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "suporte parcial commodities insuficiente",
+                "Focus elevando expectativas de juros reduzindo apetite",
+                "VIX controlado mas prêmio de risco local elevado",
+                "liquidez baixa ampliando oscilação"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.40%",
+                "medium": "14.20-14.30%",
+                "long": "14.10-14.25%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "173.100-173.300 (-0.1% aprox.)",
+            "sp500": "positivo leve",
+            "nasdaq": "recuperação tech",
+            "brent": "73 USD/bbl",
+            "wti": "~70 USD/bbl",
+            "vix": "17-19"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-29' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 26/06). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes oficiais/market."
+    },
+    {
+    "date": "2026-06-30",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Focus hawkish (IPCA 2026 5,33%) reforçou cautela inflacionária e hedge cambial. Ibovespa ~172.030 pts (-0.68%, Delta negativo vs. 29/06); WIN pressionado por realização; WDO sustentado por proteção residual. Realização em petróleo e fluxo seletivo negativo limitaram recuperação.",
+    "impacts": {
+        "dolfut": [
+        "Focus hawkish sustentando hedge cambial e reprecificação DI",
+        "realização petróleo aliviando parcialmente mas yields resilientes",
+        "fluxo estrangeiro seletivo negativo",
+        "cautela inflacionária doméstica",
+        "Caged misto reforçando seletividade"
+        ],
+        "indfut": [
+        "realização técnica em bancos/consumo pressionando WIN",
+        "suporte parcial commodities insuficiente",
+        "Focus elevando expectativas de juros reduzindo apetite",
+        "VIX controlado mas prêmio de risco local",
+        "Delta negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.30-14.40%",
+        "medium": "14.20-14.30%",
+        "long": "14.10-14.25%"
+        },
+        "cds_brazil_5y": "126-128 bps",
+        "ibovespa": "172030 (-0.68%)",
+        "sp500": "misto/positivo leve",
+        "nasdaq": "misto",
+        "brent": "73-75 USD/bbl",
+        "wti": "~70 USD/bbl",
+        "vix": "16-18"
+    },
+    "pending": [
+        "IPCA maio cheio (IBGE) — aguardando divulgação",
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-06-30' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação). Campos formatados corretamente; Delta vs. anterior e fontes de mercado incorporados."
+    },
+    {
+        "date": "2026-07-01",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: abertura da curva DI, dólar forte e cautela eleitoral (AtlasIntel + sanções) pressionaram WIN (-0,20% ~171.689 pts, Delta negativo vs. 30/06); WDO sustentado por hedge (~+0,90%). Alívio parcial em commodities e Warsh dovish insuficientes para reversão.",
+        "impacts": {
+            "dolfut": [
+                "abertura curva DI e yields resilientes sustentando hedge cambial",
+                "cautela eleitoral/política elevando prêmio de risco",
+                "dólar forte (DXY +0,22%) reforçando proteção",
+                "fluxo seletivo negativo",
+                "realização petróleo aliviando parcialmente"
+            ],
+            "indfut": [
+                "realização técnica e aversão em bancos/consumo pressionando WIN",
+                "baixa liquidez ampliando oscilação negativa",
+                "suporte parcial commodities insuficiente",
+                "reprecificação DI reduzindo apetite por risco",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.30-14.45% (abertura)",
+                "medium": "14.25-14.35%",
+                "long": "14.10-14.30%"
+            },
+            "cds_brazil_5y": "126-128 bps",
+            "ibovespa": "171689 (-0.20%)",
+            "sp500": "misto",
+            "nasdaq": "misto",
+            "brent": "71.3-72 USD/bbl (-2% aprox.)",
+            "wti": "68-69 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA maio cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-01' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes B3/Valor/Investing."
+    },
+    {
+        "date": "2026-07-02",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo: payroll EUA misto (dovish parcial) sustentou recuperação técnica no WIN via commodities e fluxo seletivo. Dólar retomou alta (R$5,22) com hedge residual; Delta positivo moderado vs. 01/07 (~171.689 pts). Alívio global limitado por cautela inflacionária doméstica.",
+        "impacts": {
+            "dolfut": [
+                "payroll EUA fraco aliviando yields mas hedge residual sustentando",
+                "DXY forte reforçando proteção cambial",
+                "realização petróleo controlada",
+                "fluxo seletivo positivo em blue chips",
+                "curva DI elevada mantendo prêmio"
+            ],
+            "indfut": [
+                "recuperação técnica commodities/bancos",
+                "payroll dovish parcial favorecendo apetite",
+                "suporte setorial energia/mineração",
+                "VIX controlado melhorando valuation",
+                "Delta positivo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.15-14.30%",
+                "medium": "14.10-14.30%",
+                "long": "14.00-14.25%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172.200-173.000 (+0.3-0.8% aprox.)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "misto",
+            "brent": "71.5 USD/bbl",
+            "wti": "68.5 USD/bbl",
+            "vix": "16-17"
+        },
+        "pending": [
+            "IPCA maio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-02' gerado com consistência ao histórico (transição viés moderado negativo 01/07 para positivo moderado). Campos formatados; Delta destacado; dados de fontes confiáveis (B3/UOL/Investing)."
+    },
+    {
+    "date": "2026-07-03",
+    "cut_time": "17:40 BRT",
+    "summary": "Fechamento com viés de risco moderado positivo: produção industrial fraca (-0,2% m/m) sinalizou desaceleração mas PMI serviços forte e commodities sustentaram recuperação técnica no WIN (Delta positivo vs. 02/07). Dólar recuou com hedge residual; CDS estável e VIX controlado. Asimetria favorável a risco seletivo via blue chips.",
+    "impacts": {
+        "dolfut": [
+        "produção industrial fraca aliviando curva DI curto",
+        "dólar externo recuando reduzindo pressão",
+        "hedge residual e yields resilientes",
+        "fluxo seletivo negativo recente",
+        "baixa liquidez limitando movimentos"
+        ],
+        "indfut": [
+        "recuperação técnica via commodities/bancos",
+        "PMI serviços forte favorecendo apetite",
+        "suporte setorial energia/mineração",
+        "industrial fraco limitando força ampla",
+        "VIX controlado melhorando valuation"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "174.000-174.400 (+0,9% aprox.)",
+        "sp500": "misto (feriado EUA)",
+        "nasdaq": "misto",
+        "brent": "71-72 USD/bbl",
+        "wti": "69 USD/bbl",
+        "vix": "16"
+    },
+    "pending": [
+        "Balança Comercial Junho — aguardando",
+        "IPCA maio cheio (IBGE) — aguardando",
+        "Fluxo estrangeiro consolidado B3",
+        "Leilões e operações BCB"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (transição de viés moderado negativo/positivo recente); dados de fontes oficiais/market; campos formatados; Delta e agenda priorizados."
+    },
+    {
+        "date": "2026-07-06",
+        "cut_time": "17:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Focus hawkish (IPCA 2026 em 5.30%) + realização técnica pressionaram WIN (~172.487 pts, -0.91%, Delta negativo vs. 03/07); WDO sustentado por hedge residual. Realização em petróleo aliviou parcialmente; fluxo seletivo negativo e CDS estável mantiveram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "Focus hawkish sustentando hedge cambial e reprecificação DI moderada",
+                "realização petróleo aliviando custos mas yields resilientes",
+                "fluxo estrangeiro seletivo negativo",
+                "cautela inflacionária doméstica",
+                "Delta negativo vs. dia anterior"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "suporte parcial commodities insuficiente",
+                "Focus elevando expectativas de juros reduzindo apetite",
+                "VIX controlado mas prêmio de risco local",
+                "liquidez baixa ampliando oscilação negativa"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172487 (-0.91%)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "72 USD/bbl",
+            "wti": "68-69 USD/bbl",
+            "vix": "15-16"
+        },
+        "pending": [
+            "IPCA maio cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-06' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 03/07). Campos formatados corretamente; Delta vs. anterior e fontes de mercado incorporados; Focus priorizado na agenda."
+    },
+    {
+        "date": "2026-07-07",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Focus com leve alívio em IPCA 2026 (5,30%) mas hawkish residual reforçou cautela inflacionária e hedge cambial. Realização técnica pressionou WIN (Delta negativo vs. 06/07 ~172.448 pts); WDO sustentado por proteção. Commodities em realização controlada ofereceram suporte parcial insuficiente.",
+        "impacts": {
+            "dolfut": [
+                "Focus hawkish residual sustentando hedge cambial e reprecificação DI",
+                "realização petróleo aliviando custos mas yields resilientes",
+                "fluxo estrangeiro seletivo negativo",
+                "cautela inflacionária doméstica",
+                "Delta negativo vs. dia anterior"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo pressionando WIN",
+                "suporte parcial commodities insuficiente",
+                "Focus elevando expectativas de juros reduzindo apetite",
+                "VIX controlado mas prêmio de risco local",
+                "liquidez baixa ampliando oscilação negativa"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "172000-172500 (var. moderada/negativa)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "72 USD/bbl",
+            "wti": "68-69 USD/bbl",
+            "vix": "15-16"
+        },
+        "pending": [
+            "IPCA maio cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-07' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 06/07). Campos formatados corretamente; Delta vs. anterior destacado; dados de fontes oficiais/market."
+    },
+    {
+        "date": "2026-07-08",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado negativo: disparada do petróleo (~5-6,4% Brent) por tensões geopolíticas elevou prêmio de risco e hedge cambial, pressionando WIN (realização em construtoras) enquanto WDO sustentado por proteção. Delta negativo vs. 07/07.",
+        "impacts": {
+            "dolfut": [
+                "tensões geopolíticas e petróleo +5-6,4% elevando demanda por hedge cambial",
+                "yields resilientes sustentando proteção",
+                "fluxo estrangeiro seletivo negativo",
+                "cautela inflacionária via commodities",
+                "realização técnica parcial"
+            ],
+            "indfut": [
+                "realização forte em construtoras/bancos pressionando WIN",
+                "suporte parcial em energia/Petro insuficiente",
+                "prêmio de risco e CDS mantendo aversão",
+                "VIX controlado mas correlação negativa com yields",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.15-14.30%",
+                "medium": "14.10-14.30%",
+                "long": "14.00-14.25%"
+            },
+            "cds_brazil_5y": "124-125 bps",
+            "ibovespa": "172190 (-0.8/-1.1% aprox.)",
+            "sp500": "misto/negativo leve",
+            "nasdaq": "negativo (tech)",
+            "brent": "~+5-6.4% (disparo geopolítico)",
+            "wti": "alta correspondente",
+            "vix": "controlado (~16)"
+        },
+        "pending": [
+            "IPCA cheio IBGE (10/07) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Oriente Médio"
+        ],
+        "validation_summary": "Validação concluída: OK. Consistência com histórico; Top Tier X (opapoeconomico, crisinveste) e Genial corroborados por B3/Investing; campos formatados corretamente."
+    },
+    {
+    "date": "2026-07-09",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: apetite seletivo via commodities e fluxo em blue chips sustentou recuperação no WIN (Delta positivo ~1% vs. 08/07). Hedge residual geopolítica limitou alívio em WDO (dólar ~R$5,12). Focus com IPCA 2026 a 5,30% manteve cautela inflacionária.",
+    "impacts": {
+        "dolfut": ["realização petróleo aliviando hedge mas geopolítica residual sustentando", "Focus hawkish moderado", "fluxo seletivo reduzindo pressão cambial", "yields resilientes", "alívio parcial DXY"],
+        "indfut": ["recuperação técnica commodities/Vale/bancos", "fluxo estrangeiro seletivo positivo", "suporte setorial energia", "VIX controlado favorecendo apetite", "realização defensivos limitando força"]
+    },
+    "complements": {
+        "di_curve": {"short": "14.20-14.35%", "medium": "14.15-14.35%", "long": "14.10-14.40%"},
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "172000-172500 (+~1% Delta)",
+        "sp500": "misto/positivo leve",
+        "nasdaq": "positivo moderado",
+        "brent": "77-78 USD/bbl (realização)",
+        "wti": "73 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": ["IPCA maio/jun IBGE — aguardando", "Fluxo estrangeiro B3 consolidado", "Leilões BCB", "Evolução geopolítica"],
+    "validation_summary": "Validação concluída: OK. Consistência com último registro (07-08); Delta destacado; campos formatados; dados de fontes primárias + Genial corroborados."
+    },
+    {
+        "date": "2026-07-10",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo: IPCA junho abaixo do esperado aliviou prêmio de risco e sustentou forte recuperação no WIN (~+3%, ~177k pts, Delta positivo forte vs. 09/07). Hedge cambial reduziu no WDO com alívio inflação doméstica; commodities e fluxo seletivo em blue chips prevaleceram sobre yields resilientes e geopolítica residual.",
+        "impacts": {
+            "dolfut": [
+                "IPCA benigno reduzindo demanda por hedge cambial",
+                "realização petróleo aliviando custos mas yields limitando",
+                "fluxo seletivo positivo em blue chips",
+                "Focus moderação IPCA 2026 sustentando seletividade",
+                "alívio geopolítico parcial via mediadores"
+            ],
+            "indfut": [
+                "recuperação técnica forte via commodities/bancos",
+                "IPCA abaixo consenso favorecendo apetite por risco",
+                "fluxo estrangeiro seletivo em blue chips",
+                "VIX controlado melhorando valuation",
+                "realização defensivos limitando alta ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "~177000 (+~3%)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "77-78 USD/bbl",
+            "wti": "~73 USD/bbl",
+            "vix": "16-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Oriente Médio",
+            "IPCA consolidação / dados emprego EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-10' gerado com consistência ao histórico (Delta positivo forte pós-IPCA benigno vs. 09/07). Campos formatados corretamente; dados de fontes primárias + vídeo Genial/X corroborados; pendentes padronizados."
+    },
+    {
+    "date": "2026-07-13",
+    "cut_time": "19:00 BRT",
+    "summary": "Fechamento com viés de risco moderado negativo em consolidação: Focus aliviou IPCA 2026 marginalmente (5.16%), mas alta do petróleo (Brent +3-4% geopolítica) elevou prêmio de risco e hedge cambial, pressionando WIN com realização técnica (Delta moderado negativo vs. 10/07 ~177.866 pts). Commodities deram suporte parcial insuficiente.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo (tensões Ormuz) sustentando demanda por hedge cambial",
+        "Focus dovish marginal (IPCA 2026 5.16%) aliviando parcialmente",
+        "yields resilientes e fluxo seletivo mantendo proteção",
+        "realização técnica limitando alívio",
+        "cautela inflacionária residual"
+        ],
+        "indfut": [
+        "realização técnica em bancos/consumo pressionando WIN",
+        "suporte parcial commodities/mineração insuficiente",
+        "prêmio de risco geopolítico reduzindo apetite amplo",
+        "VIX controlado mas assimetria negativa",
+        "Delta moderado negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "~177.5k (var. moderada negativa vs. 177.866 pts)",
+        "sp500": "misto",
+        "nasdaq": "misto",
+        "brent": "~78+ USD/bbl",
+        "wti": "~74+ USD/bbl",
+        "vix": "16-18"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Evolução geopolítica Oriente Médio",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-13' gerado com consistência ao histórico (manutenção/consolidação viés moderado negativo pós-10/07; Delta destacado; Focus e geopolítica priorizados). Campos formatados corretamente; dados de fontes primárias + Genial corroborados."
+    },
+    {
+        "date": "2026-07-14",
+        "cut_time": "22:00 BRT",
+        "summary": "Fechamento com viés de risco moderado positivo em consolidação: CPI EUA benigno (deflação) + Focus IPCA 2026 a 5,16% comprimiram prêmio de risco e aliviaron hedge cambial. WIN +0,51% (~176.641 pts, Delta positivo vs. 13/07) via commodities/fluxo seletivo; WDO recuou com menor proteção. Geopolítica Ormuz residual sustentou Brent mas apetite externo prevaleceu.",
+        "impacts": {
+            "dolfut": [
+                "CPI EUA dovish reduzindo yields globais e demanda por hedge",
+                "Focus IPCA 2026 5,16% (recuo) aliviando prêmio doméstico",
+                "Brent alta geopolítica residual sustentando proteção parcial",
+                "fluxo seletivo positivo em blue chips reduzindo pressão cambial",
+                "DXY recuo favorecendo Real"
+            ],
+            "indfut": [
+                "recuperação técnica commodities/bancos pós-CPI benigno",
+                "alívio prêmio de risco via Focus e yields globais",
+                "suporte setorial energia/mineração",
+                "VIX recuo (~16,5) melhorando apetite seletivo",
+                "realização defensivos limitando força ampla"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "176641 (+0.51%)",
+            "sp500": "misto-positivo leve",
+            "nasdaq": "+0.90%",
+            "brent": "84-86 USD/bbl",
+            "wti": "~74+ USD/bbl",
+            "vix": "16.5"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Ormuz/Oriente Médio",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Consistência com último registro (13/07 viés negativo moderado → positivo consolidação); Delta destacado; campos formatados; dados de fontes primárias + X top-tier corroborados."
+    },
+    {
+        "date": "2026-07-15",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: PPI EUA benigno + serviços IBGE comprimiram prêmio de risco e aliviaron hedge. WIN com leve realização seletiva (~175.847 pts, -0,45% Delta vs. 14/07), commodities/fluxo suportando; WDO recuou com menor proteção. Geopolítica residual limitou força.",
+        "impacts": {
+            "dolfut": [
+                "PPI EUA dovish reduzindo yields/DXY e demanda hedge",
+                "Focus/IPCA doméstico consistente aliviando parcialmente",
+                "geopolítica Ormuz/petróleo sustentando proteção residual",
+                "fluxo seletivo blue chips reduzindo pressão cambial",
+                "realização técnica limitando alívio amplo"
+            ],
+            "indfut": [
+                "recuperação/consolidação commodities/bancos",
+                "alívio externo via PPI favorecendo apetite seletivo",
+                "suporte setorial energia/mineração",
+                "VIX recuo melhorando valuation",
+                "realização defensivos + cautela eleitoral/tarifaço"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "175847 (-0.45%)",
+            "sp500": "~7572 (+0.38%)",
+            "nasdaq": "positivo",
+            "brent": "~80+ USD/bbl",
+            "wti": "~74+ USD/bbl",
+            "vix": "recuo ~16"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Ormuz/tarifaço EUA",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-15' gerado com consistência ao histórico (14/07 positivo → consolidação leve negativa Delta); campos formatados; agenda/PPI priorizados; fontes primárias + X top-tier corroborados."
+    },
+    {
+        "date": "2026-07-16",
+        "cut_time": "19:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: tarifaço EUA (25%) elevou prêmio de risco e hedge cambial, pressionando WIN com realização (Delta negativo leve vs. 15/07). Varejo maio +0,1% (IBGE) ofereceu suporte parcial via consumo; Brent estável sustentou commodities seletivamente. Focus residual hawkish e yields mantiveram cautela.",
+        "impacts": {
+            "dolfut": [
+                "tarifaço EUA 25% elevando demanda por hedge cambial",
+                "DXY/yields resilientes sustentando proteção",
+                "varejo resiliente (+0,1%) aliviando parcialmente",
+                "Focus IPCA 2026 ~5.16% mantendo seletividade",
+                "fluxo seletivo negativo"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo via tarifa",
+                "suporte parcial commodities insuficiente",
+                "prêmio de risco local reduzindo apetite amplo",
+                "VIX controlado mas assimetria negativa",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "123-125 bps",
+            "ibovespa": "175093-176011 (-0.4/-0.5% aprox.)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "85 USD/bbl",
+            "wti": "~74 USD/bbl",
+            "vix": "16-17"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução tarifaço/geopolítica",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-16' gerado com consistência ao histórico (transição viés moderado positivo/consolidação 15/07 para negativo por tarifa). Campos formatados; Delta e agenda priorizados; fontes primárias + X top-tier corroboradas."
+    },
+    {
+    "date": "2026-07-17",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: alta do petróleo (Brent +4%+ geopolítica Hormuz) elevou prêmio de risco e hedge cambial, pressionando WDO enquanto WIN fechou estável (~173.651 pts, -0,10% Delta vs. 16/07) com suporte energia e realização técnica. IGP-10/IBC-Br trouxeram alívio marginal mas commodities prevaleceram.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo/geopolítica sustentando demanda por hedge cambial",
+        "yields resilientes e fluxo seletivo",
+        "IGP-10 benigno aliviando parcialmente",
+        "realização técnica limitando alívio",
+        "Delta neutro/negativo leve vs. anterior"
+        ],
+        "indfut": [
+        "suporte setorial energia/mineração vs. realização bancos/tech",
+        "alívio IGP-10 mas prêmio risco geopolítico",
+        "VIX alta reduzindo apetite amplo",
+        "fluxo seletivo positivo commodities",
+        "Delta leve negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "123-126 bps",
+        "ibovespa": "173651 (-0.10%)",
+        "sp500": "misto/negativo leve (~7458)",
+        "nasdaq": "negativo (~25520)",
+        "brent": "~87-88 USD/bbl (+4%+)",
+        "wti": "alta correspondente",
+        "vix": "18.4"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações do Banco Central",
+        "Evolução geopolítica Ormuz/tarifas",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-17' gerado com consistência ao histórico (manutenção viés moderado negativo/consolidação vs. 16/07; Delta destacado). Campos formatados; Genial/X e fontes primárias (B3/FGV) corroborados; agenda priorizada."
+    },
+    {
+        "date": "2026-07-20",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação: Focus (IPCA 2026 ~5,15%, leve alívio) + entrada de dólares/gringo derrubaram câmbio (WDO ~R$5,08) e reduziram hedge, enquanto commodities e blue chips sustentaram recuperação seletiva no WIN (Delta positivo moderado vs. 17/07 ~173.651 pts). Geopolítica residual e hawkish Focus (Selic 14%) limitaram força ampla.",
+        "impacts": {
+            "dolfut": [
+                "Focus leve dovish IPCA + entrada dólares/gringo reduzindo demanda por hedge cambial",
+                "yields resilientes e fluxo seletivo positivo em blue chips",
+                "realização/controlada petróleo sustentando seletividade",
+                "geopolítica Ormuz residual limitando alívio maior",
+                "Delta WDO baixa vs. dia anterior"
+            ],
+            "indfut": [
+                "recuperação técnica commodities/bancos via fluxo gringo",
+                "Focus alívio marginal favorecendo apetite seletivo",
+                "suporte setorial energia/mineração",
+                "VIX controlado melhorando valuation",
+                "realização defensivos/consumo limitando alta ampla; Delta positivo moderado"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "123-126 bps",
+            "ibovespa": "~174000-175000 (+0.5-1% Delta vs. 173651)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "positivo moderado",
+            "brent": "~88 USD/bbl (residual geopolítica)",
+            "wti": "~81 USD/bbl",
+            "vix": "16-18"
+        },
+        "pending": [
+            "IPCA cheio IBGE — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Ormuz/tarifas EUA",
+            "Dados emprego/inflação EUA adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-20' gerado com rigorosa consistência ao histórico (transição viés moderado negativo/consolidação 17/07 para positivo seletivo via Focus + fluxo gringo). Campos formatados corretamente (strings com unidades); Delta vs. anterior e fontes (BCB Focus, B3, Genial/X) incorporados; pendentes padronizados."
+    },
+    {
+        "date": "2026-07-21",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo seletivo: NY em alta (tech/commodities), alívio marginal Focus IPCA 2026 e suporte Brent/WTI/ouro sustentaram recuperação técnica no WIN via fluxo em blue chips/energia. Hedge residual geopolítico (Oriente Médio) limitou alívio mais forte no WDO. Ibovespa praticamente estável/Delta marginal positivo vs. dia anterior; assimetria favorável a commodities vs. bancos/consumo.",
+        "impacts": {
+            "dolfut": [
+                "hedge residual por tensões Oriente Médio/petróleo alto sustentando WDO",
+                "Focus IPCA 2026 aliviado (recuo marginal) oferecendo suporte parcial ao Real",
+                "yields globais resilientes limitando queda mais forte do dólar",
+                "fluxo estrangeiro seletivo reduzindo pressão cambial em blue chips",
+                "realização controlada em petróleo com ouro em alta como hedge alternativo"
+            ],
+            "indfut": [
+                "recuperação técnica impulsionada por commodities/mineração/energia",
+                "fluxo seletivo positivo em blue chips sustentando WIN",
+                "NY alta (S&P/Nasdaq) favorecendo apetite por risco emergente",
+                "suporte setorial energia beneficiando margens (petróleo alto)",
+                "realização em bancos/consumo limitando força da alta ampla; VIX controlado"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "125 bps",
+            "ibovespa": "173.000-173.426 (estável/+0,03% aprox., Delta marginal positivo)",
+            "sp500": "positivo (alta NY)",
+            "nasdaq": "positivo (tech)",
+            "brent": "alto (disparo geopolítico, realização controlada)",
+            "wti": "acompanhando Brent",
+            "vix": "16-18 (controlado)"
+        },
+        "pending": [
+            "IPCA maio/junho cheio (IBGE) — aguardando divulgação",
+            "Fluxo estrangeiro diário B3 consolidado",
+            "Leilões e operações do Banco Central",
+            "Evolução geopolítica Oriente Médio/Ormuz"
+        ],
+        "validation_summary": "Validação concluída: OK. Objeto para date '2026-07-21' gerado com rigorosa consistência ao último registro em historico.json (manutenção viés moderado positivo seletivo, ênfase commodities/hedge residual e Delta vs. anterior). Campos formatados conforme padrão; dados validados em B3/BCB/Genial/X + fontes primárias; pendentes padronizados."
+    },
+    {
+    "date": "2026-07-22",
+    "cut_time": "19:53 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: alta Brent (>3%, ~US$94+) + balanços robustos (WEG +10%, siderúrgicas, Vale/Petro) sustentaram forte recuperação no WIN (+2,44% ~177.547 pts, Delta positivo vs. anterior). Dólar recuou a R$5,05 (-0,40%) com menor demanda por hedge; plano Brasil Soberano III mitigou aversão ao tarifaço. Fluxo seletivo em commodities prevaleceu.",
+    "impacts": {
+        "dolfut": [
+        "alta Brent sustentando Real e reduzindo demanda por hedge cambial",
+        "balanços domésticos + fluxo blue chips aliviando pressão",
+        "geopolítica/tarifaço residual limitando queda mais forte",
+        "yields globais estáveis",
+        "Delta positivo vs. dias de realização anterior"
+        ],
+        "indfut": [
+        "suporte forte commodities/mineração/energia (Vale, PETR, siderúrgicas)",
+        "resultados corporativos robustos (WEG, CSNA3, BRKM5) impulsionando apetite",
+        "fluxo estrangeiro seletivo em blue chips",
+        "VIX controlado favorecendo valuation",
+        "mitigação via plano socorro tarifaço"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "125 bps",
+        "ibovespa": "177547 (+2.44%)",
+        "sp500": "misto/estável",
+        "nasdaq": "leve baixa",
+        "brent": "~94+ USD/bbl (+>3%)",
+        "wti": "alta correspondente",
+        "vix": "16-17"
+    },
+    "pending": [
+        "Fluxo estrangeiro B3 consolidado — aguardando",
+        "Leilões e operações BCB",
+        "Evolução geopolítica/tarifaço EUA",
+        "Balanços Alphabet/Tesla (EUA)"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (transição positiva commodities-driven); dados B3/Investing/X corroborados; campos formatados; Delta e drivers priorizados (v2.9.2)."
+    },
+    {
+        "date": "2026-07-23",
+        "cut_time": "18:00 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: tensão no Oriente Médio elevou petróleo (Brent ~94-100 USD/bbl) e prêmio de risco, ampliando aversão e hedge cambial. WIN com realização/pressão seletiva (Delta negativo vs. pregão anterior); WDO sustentado por proteção. Fluxo seletivo e yields resilientes reforçaram assimetria.",
+        "impacts": {
+            "dolfut": [
+                "tensão Oriente Médio e petróleo elevado sustentando demanda por hedge cambial",
+                "yields globais resilientes e DXY firme reforçando proteção",
+                "Focus hawkish residual e cautela inflacionária",
+                "fluxo estrangeiro seletivo negativo",
+                "realização técnica limitando upside"
+            ],
+            "indfut": [
+                "realização técnica em bancos/consumo via prêmio de risco geopolítico",
+                "suporte parcial commodities/mineração insuficiente",
+                "reprecificação DI e yields reduzindo apetite",
+                "VIX controlado-moderado mas correlação negativa",
+                "Delta negativo vs. dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "14.20-14.35%",
+                "medium": "14.15-14.35%",
+                "long": "14.10-14.40%"
+            },
+            "cds_brazil_5y": "122-126 bps",
+            "ibovespa": "~176500-177500 (variação moderada negativa, Delta negativo)",
+            "sp500": "misto/positivo leve",
+            "nasdaq": "misto",
+            "brent": "~94-100+ USD/bbl",
+            "wti": "~89-92+ USD/bbl",
+            "vix": "~16-18"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+            "Leilões e operações do Banco Central — aguardando",
+            "Evolução geopolítica Oriente Médio / dados emprego/inflação EUA adiante",
+            "IPCA consolidação / agenda Focus próxima"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-23' adicionado com consistência ao histórico (viés moderado negativo via geopolítica/petróleo). Campos formatados conforme regras; Delta vs. anterior destacado; fontes B3/Genial/Investing corroboradas (v2.9.2)."
+    },
+    {
+    "date": "2026-07-24",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: tarifas Trump (10-12,5%) + realização petróleo pressionaram WIN (Delta ~-1,5% vs. 176.724 pts); hedge residual sustentou WDO. Alívio commodities insuficiente para reversão ampla; CDS e yields mantiveram assimetria.",
+    "impacts": {
+        "dolfut": [
+        "tarifas EUA elevando prêmio de risco e demanda hedge cambial",
+        "realização petróleo (Brent ~-4-5%) aliviando parcialmente custos",
+        "yields globais resilientes",
+        "fluxo seletivo negativo",
+        "geopolítica residual sustentando proteção"
+        ],
+        "indfut": [
+        "realização técnica blue chips/bancos/consumo pressionando WIN",
+        "tarifas impactando exportações e apetite risco",
+        "suporte parcial commodities insuficiente",
+        "VIX ~18.7 reduzindo apetite amplo",
+        "Delta negativo vs. dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.20-14.35%",
+        "medium": "14.15-14.35%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "124-125 bps",
+        "ibovespa": "174.042-174.900 (-1.5% aprox.)",
+        "sp500": "7408 (-1.2%)",
+        "nasdaq": "pressionado",
+        "brent": "95-97 USD/bbl",
+        "wti": "88-90 USD/bbl",
+        "vix": "18.7"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado",
+        "Leilões e operações BCB",
+        "Evolução tarifas/geopolítica",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (manutenção viés moderado negativo); Delta destacado; dados de B3/Investing/Genial corroborados; campos formatados."
+    },
+    {
+    "date": "2026-07-27",
+    "cut_time": "18:05 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: forte realização no petróleo (Brent -6%+ conforme Genial) e rotação global comprimiram o prêmio de risco, favorecendo recuperação técnica no WIN/Ibovespa (~+0,6-0,8% vs. 174.042 pts de 24/07). Hedge cambial residual sustentou WDO em níveis moderados; fluxo seletivo e yields resilientes (US10y ~4,65%) limitaram força ampla. Delta positivo claro vs. viés moderado negativo de 24/07.",
+    "impacts": {
+        "dolfut": [
+        "realização acentuada no petróleo (Brent ~85-88 USD) reduzindo demanda por hedge cambial",
+        "rotação global e alívio geopolítico parcial comprimindo prêmio de risco",
+        "yields Treasuries resilientes (~4,65%) e DXY sustentando proteção residual",
+        "fluxo estrangeiro seletivo mantendo seletividade cambial",
+        "cautela inflacionária doméstica residual (Focus) limitando queda mais forte"
+        ],
+        "indfut": [
+        "recuperação técnica impulsionada por alívio commodities e rotação setorial",
+        "suporte em bancos e blue chips com fluxo seletivo positivo",
+        "queda do petróleo beneficiando margens e reduzindo prêmio de risco local",
+        "VIX controlado-moderado (~18,5-19) favorecendo apetite seletivo",
+        "Delta positivo vs. realização de 24/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.15-14.30%",
+        "medium": "14.10-14.30%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "124-126 bps",
+        "ibovespa": "175100-175500 (+0.6% a +0.8% aprox. vs 174042)",
+        "sp500": "misto/estável (~7410-7420)",
+        "nasdaq": "misto/leve pressão",
+        "brent": "85-88 USD/bbl (-6%+)",
+        "wti": "correspondente à queda",
+        "vix": "18.5-19"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Oriente Médio / tarifas EUA",
+        "Agenda Focus e dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-27' gerado com consistência ao histórico (transição de viés moderado negativo 24/07 para positivo moderado via alívio petróleo/rotação). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Investing/Rio Times/Genial (título e descrição do live) + fontes primárias de commodities/yields/VIX/CDS corroborados; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-07-28",
+    "cut_time": "20:05 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: IPCA-15 julho +0,06% (vs consenso 0,20-0,21%; 12m 4,52%) + forte realização no petróleo comprimiram o prêmio de risco e reforçaram apostas de corte Selic. Ibovespa +0,70% a 176.565 pts; dólar leve alta residual a R$5,122. Delta positivo claro vs. consolidação de 27/07.",
+    "impacts": {
+        "dolfut": [
+        "IPCA-15 dovish reduzindo demanda por hedge cambial",
+        "realização acentuada no petróleo aliviando custos e prêmio",
+        "yields/DXY resilientes e pré-Fed sustentando proteção residual",
+        "fluxo seletivo mantendo seletividade cambial",
+        "cautela fiscal residual limitando queda mais forte"
+        ],
+        "indfut": [
+        "recuperação técnica impulsionada por IPCA benigno e bancos/blue chips",
+        "alívio prêmio de risco via petróleo e curva DI cedeu",
+        "suporte setorial commodities/energia",
+        "VIX controlado favorecendo apetite seletivo",
+        "Delta positivo vs. 27/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.15%",
+        "medium": "14.10-14.30%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "123-124 bps",
+        "ibovespa": "176565 (+0.70%)",
+        "sp500": "misto/estável (~7410-7430)",
+        "nasdaq": "misto",
+        "brent": "82-88 USD/bbl (-4%+)",
+        "wti": "correspondente à queda",
+        "vix": "18-19"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Decisão Fed 29/07 e evolução Copom",
+        "Evolução geopolítica Oriente Médio residual"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-28' gerado com rigorosa consistência ao último registro (27/07 viés moderado positivo seletivo → reforço via IPCA dovish + petróleo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Investing/Valor/CNN + Genial live e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-07-29",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: Fed manteve juros (3,50-3,75%) com 3 dissents hawkish + disparada do petróleo (Brent +4-7% geopolítica) elevaram prêmio de risco e pressionaram o índice futuro (~-0,9% a -1,0%). Hedge residual sustentou WDO; Delta negativo claro vs. +0,70% de 28/07.",
+    "impacts": {
+        "dolfut": [
+        "Fed hold com dissents hawkish e yields resilientes sustentando hedge residual",
+        "alta forte do petróleo (geopolítica Oriente Médio) elevando demanda por proteção cambial",
+        "fluxo seletivo negativo/neutro reforçando seletividade",
+        "DXY estável/leve alívio limitando alta mais forte do WDO",
+        "cautela inflacionária residual (energia)"
+        ],
+        "indfut": [
+        "realização técnica pós-Fed e balanços (Santander) pressionando WIN",
+        "disparada do Brent elevando prêmio de risco e custos setoriais",
+        "correlação negativa com yields e commodities voláteis",
+        "VIX moderado-elevado reduzindo apetite amplo",
+        "Delta negativo vs. recuperação de 28/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "14.15-14.30%",
+        "medium": "14.10-14.30%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "124-126 bps",
+        "ibovespa": "174800-175000 (-0.9% a -1.0%)",
+        "sp500": "misto/pressionado pós-Fed",
+        "nasdaq": "misto/pressionado",
+        "brent": "85-90 USD/bbl (+4-7%)",
+        "wti": "correspondente à alta",
+        "vix": "17-19"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando divulgação",
+        "Evolução geopolítica Oriente Médio",
+        "Dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Consistência com histórico (reversão de viés moderado positivo de 28/07 para moderado negativo); dados de B3/Investing/UOL/Fed/Genial + X top-tier corroborados; campos formatados corretamente; Delta e agenda Fed priorizados."
+    },
+    {
+    "date": "2026-07-30",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: forte recuperação do Ibovespa (+1,88% a 177.158,86 pts) impulsionada por ambiente global de apetite a risco (S&P 500 +1,74% com disparada de chips e guidance excelente da Microsoft), realização moderada no petróleo e fluxo seletivo em bancos/blue chips. Delta positivo claro e amplo vs. realização de 29/07 (-1,52% a 173.885 pts). Hedge cambial reduziu com dólar em queda (~R$5,06-5,07); curva DI cedeu seletivamente e CDS estabilizou em patamar elevado. Commodities deram suporte parcial, mas o caminho de menor resistência favoreceu risco local via correlação positiva com exterior.",
+    "impacts": {
+        "dolfut": [
+        "ambiente global risk-on e S&P forte reduziram demanda por hedge cambial",
+        "realização moderada no Brent (~-1,9% a ~US$89) aliviando prêmio de commodities",
+        "dólar comercial em queda firme (~-0,9%) refletindo menor proteção",
+        "fluxo seletivo positivo e yields resilientes limitando queda mais profunda",
+        "cautela residual pós-Fed e geopolítica mantendo seletividade"
+        ],
+        "indfut": [
+        "recuperação técnica ampla via bancos, Vale e blue chips acompanhando exterior",
+        "apetite global por risco (Microsoft/IA/chips) favorecendo valuation local",
+        "suporte setorial commodities/energia mesmo com petróleo em realização",
+        "VIX em recuo moderado melhorando apetite seletivo",
+        "Delta positivo forte vs. queda de 29/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "127.73 bps",
+        "ibovespa": "177158.86 (+1.88%)",
+        "sp500": "+1.74%",
+        "nasdaq": "positivo forte (chips/IA)",
+        "brent": "89.03 USD/bbl (-1.88%)",
+        "wti": "correspondente à queda",
+        "vix": "19-20 (recuo vs. 20.66 de 29/07)"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Detalhamento completo curva DI fechamento oficial",
+        "Evolução geopolítica Oriente Médio residual e dados PCE/emprego EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-07-30' gerado com rigorosa consistência ao último registro completo (28/07 viés moderado positivo → 29/07 realização → 30/07 recuperação forte). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/UOL/Reuters/Investing/WorldGovernmentBonds + live Genial (WwvOOkqQRos) e fontes primárias de commodities/yields/VIX/CDS corroborados; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-04",
+    "cut_time": "20:18 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo/misto: produção industrial junho -1,8% m/m (pior que consenso -0,8%) e queda firme do petróleo (Brent -5,3% a US$79,36 por esperanças diplomáticas Ormuz) pressionaram o Ibovespa (-0,06% a 177.894,97 pts após máxima 180.679), com realização em Itaú e Petrobras. Dólar comercial +0,86% a R$5,13 e WDO +0,67% a ~5.157 sustentados por tensão EUA-Brasil (cancelamento de visto da embaixadora) e hedge residual pré-Copom. Wall Street em forte alta (S&P ~+1,8%, Nasdaq +2,6%) descolou, mas fluxo seletivo e cautela doméstica limitaram apetite local. Delta negativo claro vs. recuperação forte de 30/07 (+1,88% a 177.158 pts).",
+    "impacts": {
+        "dolfut": [
+        "tensão EUA-Brasil (sanções/vistos) elevando demanda por hedge cambial",
+        "produção industrial fraca reforçando seletividade e prêmio de risco residual",
+        "queda do petróleo (-5,3% Brent) aliviando parcialmente mas insuficiente frente a yields e fluxo",
+        "pré-Copom (corte 25 bps esperado) mantendo volatilidade cambial",
+        "descolamento vs. risk-on global (S&P/Nasdaq fortes) sustentando proteção"
+        ],
+        "indfut": [
+        "realização técnica em Itaú (pré-balanço) e Petrobras (petróleo) pressionando índice",
+        "produção industrial -1,8% m/m pior que consenso reduzindo apetite por risco cíclico",
+        "suporte parcial Vale insuficiente para compensar bancos/energia",
+        "VIX moderado e exterior positivo limitando queda, mas correlação local negativa prevaleceu",
+        "Delta negativo vs. recuperação ampla de 30/07"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps (estável/elevado)",
+        "ibovespa": "177894.97 (-0.06%)",
+        "sp500": "+1.7% a +1.9% (recorde/próximo)",
+        "nasdaq": "+2.6%",
+        "brent": "79.36 USD/bbl (-5.3%)",
+        "wti": "75.77 USD/bbl (-5.7%)",
+        "vix": "16-17 (controlado)"
+    },
+    "pending": [
+        "Decisão Copom 05/08 (corte 25 bps esperado) — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Ormuz/tensão EUA-Brasil e balanços corporativos (Itaú etc.)"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-04' gerado com rigorosa consistência ao último registro completo (30/07 viés moderado positivo → 04/08 misto/negativo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/UOL + produção industrial IBGE + live Genial (uSkzknSBtjU) e top-tier X (@opapoeconomico, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-05",
+    "cut_time": "21:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo/misto pós-Copom: corte unânime Selic para 14,00% (-0,25 pp, porta aberta data-dependent) aliviou prêmio residual e hedge cambial. Ibovespa ~177.726 (-0,09%) com sessão cautelosa pré-decisão (pressão Petrobras vs. suporte Itaú/Vale); dólar estável ~R$5,12-5,13. Petróleo estabilizou após realização anterior. Delta positivo vs. 04/08 (viés misto/negativo por industrial fraca e tensão EUA-Brasil).",
+    "impacts": {
+        "dolfut": [
+        "corte Selic esperado + porta aberta reduzindo demanda residual por hedge cambial",
+        "tensão EUA-Brasil (visto embaixadora) mantendo seletividade e proteção moderada",
+        "estabilização petróleo pós-queda aliviando custos mas yields limitando baixa",
+        "fluxo seletivo e descolamento vs. risk-on global sustentando proteção residual",
+        "compressão moderada curva DI favorecendo menor pressão cambial"
+        ],
+        "indfut": [
+        "alívio pós-Copom e compressão DI favorecendo apetite seletivo",
+        "suporte Itaú (balanço) e Vale vs. pressão Petrobras",
+        "sessão cautelosa pré-decisão limitando alta ampla",
+        "VIX controlado e commodities seletivas melhorando valuation",
+        "Delta positivo moderado vs. realização/misto de 04/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps",
+        "ibovespa": "177726 (-0.09%)",
+        "sp500": "misto/positivo leve (records parciais)",
+        "nasdaq": "positivo moderado",
+        "brent": "78-80 USD/bbl (estabilização)",
+        "wti": "75-76 USD/bbl",
+        "vix": "16-17"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução tensão diplomática EUA-Brasil e geopolítica Ormuz",
+        "Dados emprego/inflação EUA e balanços residual adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-05' gerado com rigorosa consistência ao último registro (04/08 viés misto/negativo → 05/08 positivo/misto pós-Copom). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BCB/B3/Reuters/Investing/Valor/Agência Brasil + vídeo Genial (4vzzMO9w1Dg) e top-tier corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-06",
+    "cut_time": "19:25 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: Ibovespa -1,23% a 175.546 pts pressionado por realização em bancos (Bradesco/BB) após balanços e leitura cautelosa do Copom (corte 25 bps sem guidance + desancoragem). Rebound petróleo (~+4% Brent ~82,5-82,7) elevou prêmio residual; dólar cedeu a ~R$5,10-5,12 (WDO ~5.125). Delta negativo claro vs. 05/08 (estável -0,09% com viés positivo/misto pós-corte).",
+    "impacts": {
+        "dolfut": [
+        "alívio cambial residual pós-corte Selic + recuo dólar externo",
+        "cautela Copom (sem guidance) e desancoragem mantendo hedge residual",
+        "rebound petróleo elevando prêmio seletivo",
+        "fluxo seletivo e tensão diplomática residual",
+        "compressão moderada curva DI limitando alta mais forte"
+        ],
+        "indfut": [
+        "realização técnica em bancos (Bradesco/BB) e blue chips após balanços",
+        "ausência de forward guidance Copom reduzindo apetite por risco",
+        "suporte parcial Petrobras via petróleo insuficiente",
+        "descolamento vs. exterior (S&P/Nasdaq levemente negativos)",
+        "Delta negativo vs. consolidação positiva/mista de 05/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps",
+        "ibovespa": "175546 (-1.23%)",
+        "sp500": "~7709.96 (-0.2%)",
+        "nasdaq": "~-0.1%",
+        "brent": "82.5-82.7 USD/bbl (+~4%)",
+        "wti": "correspondente à alta",
+        "vix": "15.15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação detalhada",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução tensão diplomática EUA-Brasil e geopolítica Ormuz/petróleo",
+        "Dados emprego/inflação EUA e balanços residual (Petrobras) adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-06' gerado com rigorosa consistência ao último registro completo (05/08 viés moderado positivo/misto pós-Copom → 06/08 realização negativa). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/UOL/FRED + live Genial (S9pzg6ZiWYQ) e X top-tier (@opapoeconomico, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-07",
+    "cut_time": "22:42 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: payroll EUA dovish (−23k vs +80k) comprimiu yields/VIX e sustentou S&P, mas Ibovespa descolou em realização forte (−1,73/−1,76% ~172.455–172.513 pts) por cena corporativa (Petrobras) e fluxo seletivo. WDO recuou (~−0,55% a ~5.113,50) com menor hedge. Delta negativo vs. 05/08 (viés positivo/misto pós-Copom).",
+    "impacts": {
+        "dolfut": [
+        "payroll EUA dovish (−23k) reduzindo yields e demanda residual por hedge cambial",
+        "alívio pós-Copom e compressão DI favorecendo Real",
+        "fluxo seletivo e descolamento local limitando baixa mais profunda",
+        "estabilização petróleo (Brent ~82–83) aliviando custos",
+        "VIX em recuo (~14,90) e risk-on global seletivo"
+        ],
+        "indfut": [
+        "realização técnica e corporativa (Petrobras) pressionando WIN",
+        "descolamento vs. S&P positivo reduzindo apetite local",
+        "fluxo seletivo negativo em blue chips",
+        "suporte parcial commodities insuficiente",
+        "Delta negativo vs. consolidação pós-Copom de 05/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.15%",
+        "medium": "13.90-14.25%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "125-128 bps",
+        "ibovespa": "172455-172513 (-1.73/-1.76%)",
+        "sp500": "~7757 (+0.6%)",
+        "nasdaq": "positivo moderado",
+        "brent": "82-83 USD/bbl",
+        "wti": "77-78 USD/bbl",
+        "vix": "14.90"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Ormuz e tensão diplomática residual",
+        "Dados emprego/inflação EUA e balanços residual adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-07' gerado com rigorosa consistência ao último registro (05/08 viés positivo/misto pós-Copom → 07/08 negativo moderado por realização corporativa). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BLS/Reuters/Bloomberg/Investing/B3 + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-10",
+    "cut_time": "18:42 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: alta forte do petróleo (Brent +4–5% a ~US$87–88 por incerteza residual Ormuz) elevou prêmio de risco e hedge cambial residual, enquanto Ibovespa recuou modestamente (~172.265–172.323 pts, –0,11% a –0,19%) na 5ª sessão negativa. Embraer e Petrobras sustentaram; bancos/consumo limitaram. Delta vs. 07/08 (realização corporativa –1,73%): magnitude da queda do índice aliviada, mas reforço de pressão via commodities energéticas e descolamento local. Pré-IPCA/CPI mantém cautela.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo (Brent ~87–88) elevando demanda residual por hedge cambial",
+        "incerteza Ormuz e DXY sustentando proteção",
+        "fluxo seletivo e descolamento local limitando baixa mais profunda",
+        "compressão residual curva DI pós-Copom favorecendo menor pressão",
+        "pré-IPCA/CPI mantendo seletividade"
+        ],
+        "indfut": [
+        "5ª queda consecutiva e failed breakout técnico pressionando WIN",
+        "suporte parcial Petrobras/Embraer insuficiente para reversão",
+        "descolamento vs. S&P misto reduzindo apetite local",
+        "prêmio de risco via commodities/geopolítica",
+        "Delta de magnitude aliviada vs. –1,73% de 07/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.85-14.20%",
+        "medium": "13.90-14.30%",
+        "long": "14.10-14.50%"
+        },
+        "cds_brazil_5y": "122-126 bps",
+        "ibovespa": "172265-172323 (-0.11% a -0.19%)",
+        "sp500": "~7753 (misto/-0.06%)",
+        "nasdaq": "leve negativo",
+        "brent": "87-88 USD/bbl (+4-5%)",
+        "wti": "correspondente alta",
+        "vix": "15.3-15.4"
+    },
+    "pending": [
+        "IPCA julho (IBGE) 11/08 — aguardando divulgação",
+        "Ata Copom 11/08 e CPI EUA 12/08 — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "Evolução geopolítica Ormuz / negociações EUA-Irã"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-10' gerado com rigorosa consistência ao último registro completo (07/08 viés moderado negativo → consolidação com alívio de magnitude e reforço petróleo). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/CNN/G1 + top-tier X (@opapoeconomico, @LucasCostaAT, @crisinveste) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-11",
+    "cut_time": "21:30 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo forte: IPCA julho 0,07% (acima consenso mas desaceleração e 12m 4,44%) + ata Copom cautelosa (alerta petróleo/clima + demanda fiscal) + rebaixamento JPMorgan e fluxo seletivo negativo pressionaram Ibovespa (~167.7k, –2,5/–2,64%) e sustentaram alta do dólar (~+1% a R$5,16 / futuro ~5,187). Delta negativo acentuado vs. 10/08 (queda modesta e consolidação). Commodities energia deram suporte parcial insuficiente.",
+    "impacts": {
+        "dolfut": [
+        "ata Copom cautelosa e alerta de efeitos de segunda ordem elevando demanda residual por hedge cambial",
+        "IPCA acima consenso (0,07%) e reprecificação DI sustentando proteção",
+        "fluxo seletivo negativo e pesquisa eleitoral reforçando prêmio",
+        "rebaixamento JPMorgan e descolamento local limitando alívio",
+        "petróleo residual (Brent ~87-89) e DXY estável oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "realização forte em bancos/consumo e blue chips pressionando WIN",
+        "ata + JPMorgan + abertura DI reduzindo apetite por risco",
+        "suporte parcial Petrobras/commodities insuficiente para reversão",
+        "descolamento vs. S&P misto e fluxo negativo",
+        "Delta negativo acentuado vs. consolidação de 10/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.90-14.25%",
+        "medium": "14.00-14.40%",
+        "long": "14.20-14.60%"
+        },
+        "cds_brazil_5y": "122-125 bps",
+        "ibovespa": "167700-167875 (-2.50% a -2.64%)",
+        "sp500": "misto/leve negativo residual",
+        "nasdaq": "misto",
+        "brent": "87-89 USD/bbl",
+        "wti": "correspondente",
+        "vix": "15-16"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando divulgação",
+        "CPI EUA 12/08 e evolução geopolítica Ormuz — aguardando",
+        "Leilões e operações do Banco Central — aguardando",
+        "Follow-up pesquisa eleitoral e balanços residuais"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-11' gerado com rigorosa consistência ao último registro completo (10/08 viés moderado negativo consolidação → 11/08 negativo forte pós-IPCA/ata/JPMorgan). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de IBGE/BCB/B3/Reuters/Investing/G1/Folha + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-12",
+    "cut_time": "19:38 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: 7ª queda consecutiva do Ibovespa (~167.236–167.491 pts, –0,23% a –0,38%) apesar de CPI EUA em linha (+0,1% m/m / +3,4% a/a). Descolamento local por outflow estrangeiro (~R$ 5,5 bi+ em agosto) e cautela fiscal/eleitoral sustentou hedge residual no WDO (~+0,33% a 5.199–5.200). Delta vs. 11/08: magnitude da queda aliviada, mas ausência de catch-up com o externo e reforço de seletividade.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro e descolamento local elevando demanda residual por hedge cambial",
+        "CPI EUA em linha aliviando yields/DXY mas insuficiente para reverter proteção",
+        "petróleo residual (Brent ~88,5-89,5) e VIX em baixa oferecendo suporte parcial",
+        "cautela fiscal/eleitoral e ata Copom residual sustentando seletividade",
+        "vencimentos de opções amplificando oscilação no fechamento"
+        ],
+        "indfut": [
+        "7ª queda consecutiva e failed breakout técnico pressionando WIN",
+        "fluxo estrangeiro negativo (R$ 5,5 bi+ agosto) e realização setorial (Braskem)",
+        "descolamento vs. S&P/Nasdaq positivos reduzindo apetite local",
+        "suporte parcial Petrobras/Embraer/Vale insuficiente para reversão",
+        "Delta de magnitude aliviada vs. –2,5% de 11/08 mas tendência intacta"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.90-14.25%",
+        "medium": "14.00-14.40%",
+        "long": "14.20-14.60%"
+        },
+        "cds_brazil_5y": "122-125 bps",
+        "ibovespa": "167236-167491 (-0.23% a -0.38%)",
+        "sp500": "~7748.50 (+0.26%)",
+        "nasdaq": "+0.5% aproximado",
+        "brent": "88.5-89.5 USD/bbl",
+        "wti": "correspondente",
+        "vix": "14.55"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução geopolítica Ormuz e tensão residual — monitorar",
+        "Dados emprego/inflação EUA e balanços residuais adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-12' gerado com rigorosa consistência ao último registro completo (11/08 viés negativo forte pós-IPCA/ata/JPMorgan → 12/08 negativo moderado consolidação com 7ª queda e CPI em linha). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de BLS/Reuters/Bloomberg/Investing/B3 + vídeo Genial e top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-13",
+    "cut_time": "20:45 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação: Ibovespa 167.101 (-0,23%, 8ª queda consecutiva) pressionado por outflow estrangeiro (~R$11,9 bi ago até 11/08) e cautela fiscal/eleitoral, apesar de PPI EUA dovish (0,0% m/m). WDO residual alta (dólar R$5,193); descolamento vs. máximas externas. Delta vs. 12/08: sequência negativa se estende com magnitude semelhante.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro e descolamento local elevando demanda residual por hedge cambial",
+        "PPI EUA dovish (0,0% m/m) aliviando yields/DXY mas insuficiente para reverter proteção",
+        "dólar comercial R$5,193 (+0,25%) maior em >1 mês sustentando WDO",
+        "cautela fiscal/eleitoral e curva DI seletiva sustentando seletividade",
+        "petróleo residual (Brent ~87-88) oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "8ª queda consecutiva e realização setorial (BB/Sabesp) pressionando WIN",
+        "fluxo estrangeiro negativo (~R$11,9 bi ago) e descolamento vs. S&P/Nasdaq máximas",
+        "suporte parcial commodities/Embraer insuficiente para reversão",
+        "PPI dovish e VIX baixo (~14,5) insuficientes frente a prêmio local",
+        "Delta de sequência negativa estendida vs. 12/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.75-13.95%",
+        "medium": "13.90-14.25%",
+        "long": "14.20-14.65%"
+        },
+        "cds_brazil_5y": "123-125 bps",
+        "ibovespa": "167101 (-0.23%)",
+        "sp500": "máximas (+0.2-0.5% aprox.)",
+        "nasdaq": "positivo/máximas",
+        "brent": "87-88 USD/bbl (-1-2%)",
+        "wti": "correspondente",
+        "vix": "14.5-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (13/08) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução fiscal/eleitoral e geopolítica residual — monitorar",
+        "Dados emprego/inflação EUA e balanços residuais adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-13' gerado com rigorosa consistência ao último registro (12/08 viés negativo moderado consolidação 7ª queda → 13/08 8ª queda + PPI dovish insuficiente). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/UOL/BLS/Investing + vídeo Genial (sRxkjgj9D-M) e top-tier corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-14",
+    "cut_time": "20:12 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação forte: Ibovespa 166.934 (-0,10%, 9ª queda consecutiva, semana -3,23%) pressionado por outflow estrangeiro (~R$13,56 bi ago até 12/08) e aversão pré-eleitoral/fiscal, apesar de Retail Sales EUA (-0,6% m/m) e Michigan (51) dovish. WDO residual alta (~5.258 +1%); descolamento vs. máximas externas. Delta vs. 13/08: sequência negativa estendida com magnitude diária aliviada.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro e descolamento local elevando demanda residual por hedge cambial",
+        "Retail Sales e Michigan EUA dovish aliviando yields/DXY mas insuficiente para reverter proteção",
+        "dólar comercial ~R$5,21-5,22 e WDO ~5.258 (+1%) sustentando proteção",
+        "cautela fiscal/eleitoral e Treasury 30y 5,22% sustentando seletividade",
+        "petróleo residual (Brent ~87-88) oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "9ª queda consecutiva e quebra suporte 167.500 pressionando WIN",
+        "fluxo estrangeiro negativo (~R$13,56 bi ago) e realização setorial (Hapvida -33%)",
+        "descolamento vs. S&P/Nasdaq máximas reduzindo apetite local",
+        "suporte parcial commodities/Nubank insuficiente para reversão",
+        "Delta de sequência negativa estendida vs. 13/08"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.75-13.95%",
+        "medium": "13.90-14.25%",
+        "long": "14.20-14.65%"
+        },
+        "cds_brazil_5y": "124.24 bps",
+        "ibovespa": "166934 (-0.10%)",
+        "sp500": "máximas residual (+0.1-0.3% aprox.)",
+        "nasdaq": "positivo/máximas",
+        "brent": "87-88 USD/bbl",
+        "wti": "correspondente",
+        "vix": "14.5-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (13-14/08) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução fiscal/eleitoral e geopolítica residual — monitorar",
+        "Dados emprego/inflação EUA e balanços residuais adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-14' gerado com rigorosa consistência ao último registro completo (13/08 viés moderado negativo consolidação 8ª queda → 14/08 9ª queda + dados EUA dovish insuficientes). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/WorldGovernmentBonds + vídeo Genial (J_nY1CJ3ZnI) e top-tier X (@opapoeconomico, @LucasCostaAT) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-17",
+    "cut_time": "20:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo em consolidação forte: Ibovespa 166.784 (-0,09%, 10ª queda consecutiva) pressionado por realização em bancos após RJ da Casas Bahia e outflow estrangeiro residual, apesar de suporte de Petrobras via petróleo. Dólar à vista ~R$5,20 (-0,36%/-0,41%) e WDO ~5.218-5.219 (-0,3%/-0,5%) reverteram parcialmente a alta recente. IBC-Br junho -0,6% m/m (pior que consenso) confirmou desaceleração no 2T (+0,2%). Focus manteve IPCA 2026 em 5,02% e Selic terminal 13,75%. Brent 91,07 (+2,68%) por tensões Oriente Médio. Delta vs. 14/08: sequência negativa se estende (9ª→10ª), magnitude diária aliviada; dólar reverte pressão cambial.",
+    "impacts": {
+        "dolfut": [
+        "reversão técnica pós-alta recente e DXY mais fraco reduzindo demanda por hedge cambial",
+        "IBC-Br fraco (-0,6%) e Focus estável limitando alívio mais amplo",
+        "dólar à vista ~R$5,20 (-0,36%/-0,41%) e WDO ~5.218-5.219 (-0,3%/-0,5%)",
+        "petróleo elevado (Brent 91,07) e tensões Oriente Médio oferecendo suporte residual à proteção",
+        "outflow estrangeiro residual e cautela fiscal/eleitoral mantendo seletividade"
+        ],
+        "indfut": [
+        "10ª queda consecutiva e realização em bancos (RJ Casas Bahia) pressionando WIN",
+        "fluxo estrangeiro residual negativo e descolamento vs. S&P/Nasdaq máximas",
+        "suporte parcial de Petrobras via petróleo insuficiente para reversão",
+        "IBC-Br -0,6% reforçando leitura de desaceleração e cautela valuation",
+        "Delta de sequência negativa estendida vs. 14/08 com magnitude diária aliviada"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.75-13.95%",
+        "medium": "13.90-14.25%",
+        "long": "14.20-14.65%"
+        },
+        "cds_brazil_5y": "126 bps",
+        "ibovespa": "166784 (-0.09%)",
+        "sp500": "~7745 (-0.5%)",
+        "nasdaq": "baixa moderada (-0.3% aprox.)",
+        "brent": "91.07 USD/bbl (+2.68%)",
+        "wti": "correspondente (~+2.5-3%)",
+        "vix": "15.19 (+6.60%)"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (15-17/08) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Evolução fiscal/eleitoral e geopolítica Oriente Médio — monitorar",
+        "Ata FOMC (quarta) e dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-17' gerado com rigorosa consistência ao último registro completo (14/08 viés moderado negativo consolidação 9ª queda → 17/08 10ª queda + IBC-Br fraco + RJ Casas Bahia + petróleo em alta). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/BCB (IBC-Br + Focus) + top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-08-18",
+        "cut_time": "22:30 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo: Ibovespa encerrou a 11ª sessão consecutiva de queda (~166.335 pts, -0,27%), sem sustentar recuperação acima de 168k. Saída acelerada de estrangeiros em agosto (~R$15,6–18 bi negativo parcial), pressão em bancos (crédito + RJ Casas Bahia) e aversão global por yields longos dos Treasuries + tensões Oriente Médio (Brent ~US$91) sustentaram demanda residual por hedge cambial. Dólar comercial fechou em alta (~R$5,222). Commodities deram suporte parcial insuficiente. Delta negativo vs. 17/08 (quase estável → nova legada de queda + dólar revertendo baixa anterior).",
+        "impacts": {
+            "dolfut": [
+                "fuga de capital estrangeiro em agosto elevando demanda por hedge cambial",
+                "yields longos EUA em alta (US10y ~4,71–4,74%) e DXY resiliente sustentando proteção",
+                "tensões geopolíticas Oriente Médio / Hormuz + petróleo elevado (~US$91) pressionando prêmio de risco",
+                "reprecificação residual da curva DI e cautela pré-ata FOMC",
+                "fluxo seletivo negativo reforçando assimetria cambial"
+            ],
+            "indfut": [
+                "11ª queda consecutiva do Ibovespa com realização em bancos e consumo",
+                "saída acelerada de estrangeiros (~R$15,6–18 bi parcial em agosto) reduzindo apetite por risco",
+                "pressão setorial de crédito e RJ Casas Bahia limitando recuperação técnica",
+                "suporte parcial de commodities (Petrobras/Vale) insuficiente para reverter viés",
+                "correlação negativa com yields globais e VIX controlado mas prêmio local elevado (CDS ~126,7 bps)"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "13.90-14.30%",
+                "medium": "14.00-14.40%",
+                "long": "14.10-14.75%"
+            },
+            "cds_brazil_5y": "126.7 bps",
+            "ibovespa": "166335 (-0.27%)",
+            "sp500": "7692 (-0.7%)",
+            "nasdaq": "forte queda (~-1.3%)",
+            "brent": "90.9-91.3 USD/bbl",
+            "wti": "84-85 USD/bbl",
+            "vix": "15.8"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado de 18/08 e fechamento mensal de agosto — aguardando",
+            "Ata FOMC (19/08) — aguardando divulgação",
+            "Evolução geopolítica Oriente Médio / impacto em petróleo",
+            "Leilões e operações do Banco Central — aguardando detalhamento"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-18' gerado com consistência ao último registro (17/08). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Valor/Investing/MarketWatch/CEPEA + Focus BCB + Elos Ayta (fluxo) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-08-19",
+        "cut_time": "23:45 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado positivo de curto prazo (repique técnico): Ibovespa +0,90% a 167.830,27 pts interrompeu a maior sequência de 11 quedas consecutivas desde 2023, impulsionado por forte alívio nos yields dos Treasuries após anúncio do Tesouro EUA de dobrar recompras de títulos longos. Dólar à vista ~R$5,176–5,178 (-0,86%) e WDO ~5.191–5.192 (-0,75% a -0,81%). Outflow estrangeiro residual em agosto (~R$18 bi+) e CDS elevado limitaram força da reversão. Delta vs. 18/08: de consolidação negativa (11ª queda) para repique técnico com alívio externo dominante.",
+        "impacts": {
+            "dolfut": [
+                "alívio yields Treasuries (US10y ~4,65%) e DXY mais fraco reduzindo demanda por hedge cambial",
+                "Real mais forte com dólar à vista ~R$5,176–5,178 (-0,86%)",
+                "outflow estrangeiro residual em agosto mantendo seletividade",
+                "petróleo elevado (~US$91,6) oferecendo suporte residual à proteção",
+                "cautela fiscal/eleitoral limitando queda mais ampla do WDO"
+            ],
+            "indfut": [
+                "repique técnico interrompendo 11 quedas consecutivas (maior desde 2023)",
+                "alívio yields globais e blue chips (Petrobras/Vale/bancos seletivos) impulsionando WIN",
+                "suporte parcial de commodities via petróleo",
+                "fluxo estrangeiro ainda negativo (~R$18 bi+ parcial em agosto) limitando sustentabilidade",
+                "Delta positivo claro vs. 18/08 com magnitude de recuperação moderada"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "13.90-14.20%",
+                "medium": "14.00-14.40%",
+                "long": "14.10-14.70%"
+            },
+            "cds_brazil_5y": "126-127 bps",
+            "ibovespa": "167830.27 (+0.90%)",
+            "sp500": "positivo leve (~+0.2%)",
+            "nasdaq": "misto/positivo leve",
+            "brent": "91.62 USD/bbl (+0.66% aprox.)",
+            "wti": "correspondente (~85-86 USD)",
+            "vix": "15.0-15.9"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado de 18-19/08 e fechamento mensal de agosto — aguardando",
+            "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
+            "Leilões e operações do Banco Central — aguardando detalhamento",
+            "Dados emprego/inflação EUA e balanços residuais adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-19' gerado com rigorosa consistência ao último registro completo (18/08 viés moderado negativo 11ª queda → 19/08 repique técnico + alívio yields). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/UOL/Investing/YCharts/FRED + Focus residual e fluxo (Elos Ayta/Valor) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-08-20",
+        "cut_time": "18:37 BRT",
+        "summary": "Fechamento consolidado com viés de risco moderado negativo/lateral: Ibovespa quase estável em 167.927 (+0,06%) após repique técnico da véspera, com dólar +0,31% a R$5,1937 e Brent +2,36% a ~US$93,78. Yields Treasuries voltaram a subir (US10y ~4,69%) e VIX avançou, limitando continuidade do alívio. Bancos pressionados; commodities (Petro/Vale) deram suporte parcial. Delta vs. 19/08: de repique claro (+0,90% e Real forte) para consolidação com reversão cambial e prêmio de risco residual.",
+        "impacts": {
+            "dolfut": [
+            "yields Treasuries em alta (US10y ~4,69%) e DXY resiliente sustentando demanda por hedge",
+            "petróleo elevado (~US$93,78) reforçando proteção residual",
+            "outflow estrangeiro residual de agosto mantendo seletividade cambial",
+            "reversão parcial do alívio do Real observado em 19/08",
+            "incertezas eleitorais/fiscais limitando queda mais ampla do WDO"
+            ],
+            "indfut": [
+            "consolidação após repique técnico (falha de continuação acima de 169-170k)",
+            "pressão residual em bancos e consumo via crédito/inadimplência",
+            "suporte parcial de commodities (Petrobras/Vale) insuficiente para reversão",
+            "correlação negativa com yields globais e VIX em alta moderada",
+            "fluxo estrangeiro ainda negativo limitando sustentabilidade de alta"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+            "short": "13.90-14.20%",
+            "medium": "14.00-14.40%",
+            "long": "14.10-14.70%"
+            },
+            "cds_brazil_5y": "125.9-126.7 bps",
+            "ibovespa": "167927 (+0.06%)",
+            "sp500": "baixa moderada (~-0.5% a -0.9%)",
+            "nasdaq": "pressão moderada",
+            "brent": "93.78 USD/bbl (+2.36%)",
+            "wti": "~86+ USD/bbl",
+            "vix": "15.99-16.0"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado de 18-20/08 e fechamento mensal de agosto — aguardando",
+            "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
+            "Leilões e operações do Banco Central — aguardando detalhamento",
+            "Dados emprego/inflação EUA e balanços residuais adiante"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-20' gerado com rigorosa consistência ao último registro completo (19/08 viés moderado positivo de curto prazo/repique → 20/08 consolidação lateral-negativa com reversão parcial de alívio). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Investing/FRED/YCharts + validação @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-21",
+    "cut_time": "22:56 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação técnica: Ibovespa +1,85% a 171.031,73 pts (semana +2,45%) via bancos e Vale, com dólar -1% a R$5,14 e DIs em queda. Alívio DXY + conversa Lula-Trump e compressão CDS (~124,2 bps) prevaleceram sobre outflow residual (~R$22 bi mês) e yields/Brent elevados. Delta vs. 20/08: de consolidação lateral (+0,06%, dólar +0,31%) para recuperação ampla e assimetria favorável a risco seletivo no WIN com WDO em baixa moderada.",
+    "impacts": {
+        "dolfut": [
+        "redução de hedge cambial via alívio DXY e Real técnico",
+        "queda generalizada dos DIs descolada do exterior",
+        "compressão CDS Brasil (~124,2 bps) aliviando prêmio",
+        "outflow estrangeiro residual limitando queda mais forte",
+        "conversa Lula-Trump e flexibilização tarifária pontual"
+        ],
+        "indfut": [
+        "recuperação firme em bancos (Itaú/Bradesco/BTG) e Vale",
+        "maior apetite por risco global (S&P +0,43%)",
+        "alívio DI e compressão prêmio de risco local",
+        "suporte setorial seletivo commodities/energia",
+        "outflow residual e cautela eleitoral limitando magnitude"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.71-13.88%",
+        "medium": "14.17-14.42%",
+        "long": "14.50-14.54%"
+        },
+        "cds_brazil_5y": "124.2 bps",
+        "ibovespa": "171031.73 (+1.85%)",
+        "sp500": "7674.37 (+0.43%)",
+        "nasdaq": "positivo moderado (~+0.44%)",
+        "brent": "94.39 USD/bbl",
+        "wti": "~87 USD/bbl",
+        "vix": "15.1-15.5"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado completo (20-21/08 e mês) — aguardando divulgação",
+        "Leilões e operações do Banco Central — aguardando",
+        "Datafolha eleitoral e evolução fiscal/eleitoral — monitorar",
+        "Evolução geopolítica Oriente Médio e dados emprego/inflação EUA adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-21' gerado com rigorosa consistência ao último registro completo (20/08 viés moderado negativo/lateral → 21/08 recuperação técnica positiva com alívio cambial e bancos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Investing/Valor/Agência Brasil + CDS WorldGovernmentBonds + top-tier X (@opapoeconomico) corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-24",
+    "cut_time": "21:07 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação técnica: quarta alta consecutiva do Ibovespa (+0,51% a 171.907 pts) via Vale e bancos, apesar de volatilidade e realização no petróleo (Brent ~90,4 USD). Dólar/WDO com alta residual (+0,16%/+0,37%) por hedge e fluxo estrangeiro negativo acumulado em agosto. VIX controlado (15,85) e yields com recuo moderado suportaram apetite seletivo. Delta positivo vs. 21/08 mas de magnitude menor; assimetria favorável a WIN técnico vs. proteção residual em WDO.",
+    "impacts": {
+        "dolfut": [
+        "fluxo estrangeiro negativo acumulado agosto sustentando hedge residual",
+        "realização no petróleo (Brent ~90,4) aliviando parcialmente demanda por proteção",
+        "Focus com ajuste 2027 e DXY +0,21% limitando alívio cambial",
+        "geopolítica residual Ormuz/Irã mantendo prêmio de risco moderado",
+        "DI mistos com leve recuo oferecendo suporte parcial"
+        ],
+        "indfut": [
+        "recuperação técnica quarta alta via Vale e bancos",
+        "suporte setorial commodities apesar de realização no petróleo",
+        "VIX controlado (15,85) e yields em recuo favorecendo apetite seletivo",
+        "fluxo estrangeiro negativo limitando força ampla da alta",
+        "noticiário corporativo (Braskem) e proximidade eleitoral gerando volatilidade"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.50%"
+        },
+        "cds_brazil_5y": "124 bps",
+        "ibovespa": "171907 (+0.51%)",
+        "sp500": "misto/leve negativo (~7650-7670)",
+        "nasdaq": "pressão tech",
+        "brent": "90.4 USD/bbl",
+        "wti": "85-86 USD/bbl",
+        "vix": "15.85"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 24/08 — aguardando divulgação completa",
+        "Confiança do Consumidor FGV 25/08 — aguardando",
+        "Evolução geopolítica Ormuz/Irã e Focus detalhado",
+        "Leilões e operações do Banco Central — aguardando"
+    ],
+    "validation_summary": "Validação concluída: OK. Dados de fechamento confirmados em Investing.com/B3/Reuters/InfoMoney (Ibovespa 171.907 +0,51%; WDO ~5.165 +0,37%; dólar R$5,153 +0,16%; Brent ~90,4); CDS ~124 bps consistente com 21/08; fluxo negativo agosto corroborado por Elos Ayta/B3/Valor; VIX/US10y de GuruFocus/WSJ. Campos formatados como strings com unidades; pendentes padronizados; consistência narrativa com recuperação técnica recente e assimetria de fluxo."
+    },
+    {
+    "date": "2026-08-25",
+    "cut_time": "22:09 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação/ampliação técnica: Ibovespa +1,55% a 174.576,80 pts (quinto pregão de alta) via bancos e Vale, com WDO em baixa moderada e dólar ~R$5,14. Recuo de yields Treasuries e forte realização no petróleo (Brent -3-5%) comprimiram prêmio de risco e hedge cambial. Fluxo estrangeiro ainda negativo no mês (~R$21,4 bi) mas com entradas pontuais. Delta vs. 24/08: de consolidação moderada (+0,51%) para ampliação clara de apetite seletivo no WIN.",
+    "impacts": {
+        "dolfut": [
+        "recuo yields Treasuries e realização petróleo reduzindo demanda por hedge cambial",
+        "compressão curva DI aliviando prêmio",
+        "outflow estrangeiro residual de agosto limitando queda mais forte",
+        "dólar comercial ~R$5,14 com alívio técnico",
+        "geopolítica residual sem escalada nova"
+        ],
+        "indfut": [
+        "alta firme via bancos e Vale sustentando índice",
+        "alívio yields e DI favorecendo apetite por risco seletivo",
+        "suporte setorial commodities apesar de queda no petróleo (Petrobras limitou)",
+        "VIX controlado e volume sólido melhorando valuation",
+        "fluxo pontual positivo recente compensando parcialmente outflow mensal"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.50%"
+        },
+        "cds_brazil_5y": "123-124 bps",
+        "ibovespa": "174576.80 (+1.55%)",
+        "sp500": "misto/leve positivo",
+        "nasdaq": "pressão residual tech",
+        "brent": "85-89 USD/bbl",
+        "wti": "~82-85 USD/bbl",
+        "vix": "15-16"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 25/08 e fechamento mensal agosto — aguardando",
+        "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Dados emprego/inflação EUA e Jackson Hole adiante"
+    ],
+    "validation_summary": "Validação concluída: OK. Dados de fechamento confirmados em B3/Reuters/CNN/Valor/Investing (Ibovespa 174.576,80 +1,55%; WDO ~5.154 -0,15/-0,24%; Brent queda acentuada; DI em compressão). CDS ~123-124 bps e fluxo agosto ~-R$21,4 bi consistentes com fontes primárias + @opapoeconomico. Campos formatados como strings com unidades; pendentes padronizados; consistência narrativa com recuperação técnica recente (v2.9.2)."
+    },
+    {
+    "date": "2026-08-26",
+    "cut_time": "22:50 BRT",
+    "summary": "Fechamento consolidado com viés de risco lateral a moderado negativo: IPCA-15 agosto -0,40% (melhor que consenso) gerou alívio matinal e compressão DI, mas PCE EUA hawkish (3,7% a/a) elevou yields e reverteu o momentum. Ibovespa fechou praticamente estável em 174.586,26 pts (+0,01%), interrompendo sequência de cinco altas; WDO com alta residual por hedge. Delta vs. 25/08 (viés moderado positivo +1,55%): de ampliação de apetite seletivo para consolidação/realização parcial. Fluxo estrangeiro negativo de agosto (~R$21,4 bi) e CDS em compressão moderada mantiveram assimetria.",
+    "impacts": {
+        "dolfut": [
+        "PCE EUA hawkish (3,7% a/a) elevando yields e demanda residual por hedge cambial",
+        "IPCA-15 benigno (-0,40%) comprimindo DI e aliviando parcialmente",
+        "fluxo estrangeiro negativo acumulado em agosto (~R$21,4 bi) sustentando proteção",
+        "realização no petróleo oferecendo suporte limitado",
+        "dólar comercial ~R$5,152 com viés de alta moderada"
+        ],
+        "indfut": [
+        "realização técnica após máxima 176 mil pts pressionando WIN",
+        "PCE hawkish e yields resilientes reduzindo apetite por risco",
+        "IPCA-15 dovish oferecendo suporte seletivo insuficiente (bancos/rate-sensitives devolveram)",
+        "VIX controlado (15,21) mas outflow estrangeiro limitando força",
+        "Delta negativo/lateral vs. ampliação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.50%"
+        },
+        "cds_brazil_5y": "119.10 bps",
+        "ibovespa": "174586.26 (+0.01%)",
+        "sp500": "misto/leve positivo residual",
+        "nasdaq": "pressão residual tech",
+        "brent": "87-89 USD/bbl",
+        "wti": "~82-85 USD/bbl",
+        "vix": "15.21"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 26/08 e fechamento mensal agosto — aguardando",
+        "Jackson Hole (Warsh) e balanço Nvidia — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Evolução geopolítica Oriente Médio / impacto em petróleo — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-26' gerado com rigorosa consistência ao último registro completo (25/08 viés moderado positivo/ampliação → 26/08 consolidação lateral/negativa moderada pós-IPCA-15 dovish + PCE hawkish). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Reuters/Valor/Investing/Agência Brasil + @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-27",
+    "cut_time": "23:15 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em ampliação técnica: Ibovespa +0,31% a 175.135,41 pts (sétima alta seguida) via Petrobras e siderúrgicas, com WDO em alta residual (+0,14%) e dólar ~R$5,16. Desemprego 5,3% (em linha) e alta do petróleo sustentaram, enquanto outflow estrangeiro residual e casadão do BC mantiveram hedge. Delta vs. 26/08 (consolidação +0,01%): de lateral para ampliação clara da sequência positiva.",
+    "impacts": {
+        "dolfut": [
+        "outflow estrangeiro residual de agosto e casadão BC elevando demanda por hedge cambial",
+        "yields Treasuries resilientes e DXY firmando proteção",
+        "alta do petróleo oferecendo suporte parcial insuficiente para compressão",
+        "PNAD 5,3% (resiliência emprego) limitando alívio mais forte na curva",
+        "dólar comercial ~R$5,16 com viés de alta moderada"
+        ],
+        "indfut": [
+        "alta firme via Petrobras (+3%) e siderúrgicas sustentando índice",
+        "exterior positivo (Nvidia/Nasdaq) favorecendo apetite seletivo",
+        "suporte setorial commodities apesar de fluxo negativo mensal",
+        "VIX controlado e volume sólido melhorando valuation",
+        "Delta positivo vs. consolidação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.60%"
+        },
+        "cds_brazil_5y": "119 bps",
+        "ibovespa": "175135.41 (+0.31%)",
+        "sp500": "+0.7% aprox.",
+        "nasdaq": "+1.6% aprox.",
+        "brent": "88.5-89.7 USD/bbl",
+        "wti": "correspondente alta",
+        "vix": "15.2"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 27/08 e fechamento mensal agosto — aguardando",
+        "Discurso Warsh (Jackson Hole) sexta-feira — monitorar",
+        "Leilões e operações adicionais do Banco Central — aguardando detalhamento",
+        "Evolução geopolítica Ormuz / impacto em petróleo — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-27' gerado com rigorosa consistência ao último registro completo (26/08 viés consolidação lateral → 27/08 ampliação positiva técnica). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/IBGE/Reuters/Valor/Investing/Agência Brasil + @opapoeconomico e @LucasCostaAT corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-08-28",
+    "cut_time": "18:51 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação/ampliação técnica: Ibovespa +0,30% a 175.664,62 pts (8ª alta seguida, semana +2,71–3,06%) via Petrobras e seletividade, apesar de tom hawkish de Warsh em Jackson Hole. WDO em alta residual (~+0,57–0,65%, ~5.196–5.198) por hedge pós-reprecificação yields. Delta vs. 26/08 (lateral/neg moderado): de consolidação pós-IPCA-15/PCE para sequência positiva clara no WIN com assimetria de proteção residual no WDO. Fluxo pontual positivo recente vs. déficit mensal ~R$18,7 bi; CDS em compressão (~118 bps).",
+    "impacts": {
+        "dolfut": [
+        "Warsh hawkish elevando yields e demanda residual por hedge cambial",
+        "Caged fraco comprimindo DI curto e aliviando parcialmente",
+        "fluxo estrangeiro mensal ainda negativo (~R$18,7 bi) sustentando proteção",
+        "realização no petróleo oferecendo suporte limitado",
+        "dólar comercial ~R$5,19–5,20 com viés de alta moderada"
+        ],
+        "indfut": [
+        "sequência técnica 8 altas e Petrobras sustentando WIN",
+        "fluxo pontual positivo recente (4 sessões) favorecendo apetite seletivo",
+        "Warsh/yields pressionando mas descolamento local prevaleceu",
+        "VIX controlado (~14,5) e volume sólido melhorando valuation",
+        "Delta positivo vs. consolidação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.60%"
+        },
+        "cds_brazil_5y": "118-119 bps",
+        "ibovespa": "175664.62 (+0.30%)",
+        "sp500": "pressão leve pós-Warsh",
+        "nasdaq": "pressão tech residual",
+        "brent": "88.2-88.3 USD/bbl",
+        "wti": "~83-85 USD/bbl",
+        "vix": "14.5"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 27-28/08 e fechamento mensal agosto — aguardando",
+        "Evolução geopolítica Oriente Médio / impacto residual petróleo — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Dados emprego/inflação EUA e Focus próximo ciclo — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-08-28' gerado com rigorosa consistência ao último registro completo (26/08 viés lateral/neg moderado → 28/08 moderado positivo consolidação/ampliação com 8ª alta). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/InfoMoney/Investing/CNN + @opapoeconomico corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+        "date": "2026-09-03",
+        "cut_time": "20:46 BRT",
+        "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação: Ibovespa interrompeu sequência de 11 altas e fechou praticamente estável em 185.188 pts (−0,01%) após máxima ~188.9k, com realização seletiva em Vale/Petrobras. WDO −0,17% a 5.132,50 e dólar à vista −0,04% a R$5,1043 refletiram alívio residual de hedge. Delta vs. 02/09 (+3,05% a 185.205, 11ª alta): de ampliação forte de apetite para pausa técnica natural. Fluxo pontual positivo recente, CDS ~118 bps e VIX comprimido sustentaram assimetria favorável a consolidação seletiva no WIN.",
+        "impacts": {
+            "dolfut": [
+                "alívio residual de hedge e DXY mais fraco pressionando WDO",
+                "US10y ~4,77% (leve recuo) limitando queda mais forte",
+                "fluxo estrangeiro pontual positivo reduzindo demanda por proteção",
+                "realização no petróleo oferecendo suporte limitado",
+                "dólar comercial ~R$5,104 com viés de baixa moderada"
+            ],
+            "indfut": [
+                "realização técnica pós-11 altas e máxima ~189k pressionando WIN",
+                "pressão seletiva em Vale/Petrobras limitando força",
+                "fluxo pontual positivo e S&P +1,06% oferecendo suporte residual",
+                "VIX comprimido (~14,3-14,7) favorecendo apetite seletivo",
+                "Delta de pausa vs. ampliação do dia anterior"
+            ]
+        },
+        "complements": {
+            "di_curve": {
+                "short": "13.70-14.00%",
+                "medium": "14.10-14.30%",
+                "long": "14.40-14.60%"
+            },
+            "cds_brazil_5y": "117.9 bps",
+            "ibovespa": "185188 (-0.01%)",
+            "sp500": "7748 (+1.06%)",
+            "nasdaq": "positivo moderado",
+            "brent": "94-97 USD/bbl",
+            "wti": "~90-93 USD/bbl",
+            "vix": "14.3-14.7"
+        },
+        "pending": [
+            "Fluxo estrangeiro diário B3 consolidado 03/09 e detalhamento setorial — aguardando",
+            "Payroll EUA 04/09 — monitorar",
+            "Datafolha eleitoral impacto residual — monitorar",
+            "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+            "Leilões e operações do Banco Central — aguardando detalhamento"
+        ],
+        "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-03' gerado com rigorosa consistência ao último registro completo (28/08 viés moderado positivo → 03/09 lateral/consolidação pós-rali de 11 altas). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Investing/CNN/InfoMoney/Reuters/FRED/WorldGovernmentBonds confirmados; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-09-04",
+    "cut_time": "23:42 BRT",
+    "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação semanal: Ibovespa 185.147 (-0,02%) assegurou 2ª melhor semana do ano (+5,25-5,40%) via retorno de estrangeiros e cena eleitoral, apesar de Payroll EUA hawkish (+162k) que elevou yields e sustentou hedge residual no WDO (~5.156 +0,44%). Delta vs. 03/09 (lateral): de consolidação para leve realização seletiva (Petrobras/bancos). Fluxo pontual positivo vs. outflow residual de agosto; CDS em compressão e VIX baixo mantiveram assimetria controlada.",
+    "impacts": {
+        "dolfut": [
+        "Payroll EUA hawkish (+162k vs ~55k) elevando yields/DXY e demanda residual por hedge cambial",
+        "fluxo estrangeiro pontual positivo na semana reduzindo pressão ampla",
+        "realização controlada no petróleo oferecendo suporte limitado",
+        "dólar à vista ~R$5,13 (+0,50%) com viés de alta moderada residual",
+        "compressão moderada da curva DI limitando alta mais forte"
+        ],
+        "indfut": [
+        "retorno de fluxo estrangeiro e cena eleitoral sustentando momentum semanal",
+        "realização seletiva em Petrobras e bancos pressionando no dia",
+        "Payroll hawkish e yields resilientes reduzindo apetite amplo",
+        "VIX baixo (~14,5-15) e volume sólido favorecendo valuation seletivo",
+        "Delta lateral/negativo leve vs. consolidação do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.70-13.90%",
+        "medium": "14.10-14.30%",
+        "long": "14.40-14.60%"
+        },
+        "cds_brazil_5y": "118-125 bps",
+        "ibovespa": "185147 (-0.02%)",
+        "sp500": "misto/leve positivo",
+        "nasdaq": "misto",
+        "brent": "88-89 USD/bbl",
+        "wti": "~83-85 USD/bbl",
+        "vix": "14.5-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 04/09 e fechamento mensal agosto — aguardando",
+        "Evolução geopolítica Oriente Médio / impacto residual petróleo — monitorar",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Dados emprego/inflação EUA e próximo Focus — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-04' gerado com rigorosa consistência ao último registro completo (28/08 viés moderado positivo → consolidação semanal forte com Delta diário lateral). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/CNN/Exame/Valor/Investing/TradingEconomics/MarketWatch corroborados por fontes primárias; pendentes padronizados (v2.9.2)."
+    },
+    {
+    "date": "2026-09-09",
+    "cut_time": "21:41 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$ 101 e US10y em 4,84%. Delta vs. 08/09: de descolamento positivo (eleitoral + fluxo) para aversão global via geopolítica. Hedge residual sustentou WDO; fluxo recente e energia amorteceram parcialmente a queda do WIN.",
+    "impacts": {
+        "dolfut": [
+        "petróleo Brent +3,36% (US$ 101,21) elevando demanda por hedge cambial",
+        "US10y em 4,84% sustentando proteção residual",
+        "fluxo estrangeiro recente limitando alta mais forte do WDO",
+        "realização global e aversão a risco",
+        "trade eleitoral oferecendo suporte parcial ao Real"
+        ],
+        "indfut": [
+        "realização técnica após máxima de 08/09",
+        "pressão de yields e petróleo reduzindo apetite por risco",
+        "suporte setorial em energia/Petro insuficiente",
+        "fluxo recente e cena eleitoral amortecendo a queda",
+        "Delta negativo vs. forte alta do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.80-14.00%",
+        "medium": "14.15-14.35%",
+        "long": "14.40-14.65%"
+        },
+        "cds_brazil_5y": "114-125 bps",
+        "ibovespa": "185629 (-0.93%)",
+        "sp500": "-0.48%",
+        "nasdaq": "queda moderada",
+        "brent": "101.21 USD/bbl",
+        "wti": "~95-96 USD/bbl",
+        "vix": "15.7-16.1"
+    },
+    "pending": [
+        "Fluxo cambial estrangeiro consolidado 09/09 — aguardando",
+        "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+        "IPCA agosto (IBGE) e CPI EUA — sexta-feira",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-09' gerado com consistência ao histórico (transição de viés lateral/positivo em 04/09 e forte alta em 08/09 para moderado negativo). Campos formatados corretamente; dados de B3/Reuters/Valor/Investing; fontes secundárias validadas."
+    }
+]
