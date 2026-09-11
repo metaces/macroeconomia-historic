@@ -1,67 +1,70 @@
 {
-  "generated_at": "2026-09-10 22:55 BRT",
-  "total_records_in_historico": 81,
+  "generated_at": "2026-09-11 18:25 BRT",
+  "total_records_in_historico": 82,
   "last_record": {
-    "date": "2026-09-10",
-    "cut_time": "22:45 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado positivo: Ibovespa +1,42% a 188.269 pts descolou do exterior via pesquisa eleitoral (Flávio à frente no 2º turno) e suporte de Petrobras com petróleo +6,34%. Delta vs. 09/09 (moderado negativo –0,93%): de realização técnica sob yields e geopolítica para recuperação vigorosa. Hedge residual limitou WDO; DI comprimiu e fluxo estrangeiro sequencial positivo amorteceram pressão cambial.",
+    "date": "2026-09-11",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco lateral a moderado negativo: Ibovespa −0,56% a 187.207 pts realizou após +1,42% do dia anterior, sob CPI core EUA quente, queda do petróleo e realização técnica. Delta vs. 10/09 (moderado positivo): de recuperação eleitoral/energia para realização seletiva. IPCA −0,32% comprimiu DI e ofereceu suporte doméstico parcial; fluxo recente e trade eleitoral limitaram piora maior no índice e no Real.",
     "impacts": {
       "dolfut": [
-        "petróleo Brent +6,34% (US$107,63) elevando demanda residual por hedge cambial",
-        "US10y ~4,95-4,97% sustentando proteção moderada",
-        "fluxo estrangeiro sequencial positivo e DI em queda limitando alta do WDO",
-        "trade eleitoral oferecendo suporte ao Real",
-        "VIX em alta (17,84) reforçando seletividade"
+        "CPI core EUA +0,3% e US10y ~4,97% sustentando hedge residual",
+        "petróleo Brent −2,8% (US$104,6) reduzindo demanda por proteção cambial",
+        "IPCA −0,32% e compressão de DI limitando alta mais forte do WDO",
+        "fluxo estrangeiro recente positivo e trade eleitoral oferecendo suporte parcial ao Real",
+        "realização global seletiva e VIX em queda moderada"
       ],
       "indfut": [
-        "pesquisa eleitoral AtlasIntel/Bloomberg favorecendo apetite por risco local",
-        "alta de Petrobras e bancos sustentando recuperação técnica",
-        "fluxo estrangeiro positivo (7 sessões) melhorando valuation seletivo",
-        "compressão da curva DI favorecendo ações de duration",
-        "Delta positivo forte vs. realização do dia anterior"
+        "realização técnica pós-máxima de 10/09 e pressão de yields",
+        "queda do petróleo pressionando Petrobras e energia",
+        "IPCA melhor que o esperado e compressão DI favorecendo duration seletiva",
+        "fluxo estrangeiro sequencial recente e cena eleitoral amortecendo a queda",
+        "Delta negativo vs. forte alta do dia anterior"
       ]
     },
     "complements": {
       "di_curve": {
-        "short": "13.60-13.70%",
+        "short": "13.55-13.75%",
         "medium": "13.80-14.15%",
         "long": "14.10-14.30%"
       },
-      "cds_brazil_5y": "114-115 bps",
-      "ibovespa": "188269 (+1.42%)",
-      "sp500": "pressão residual",
-      "nasdaq": "pressão residual",
-      "brent": "107.63 USD/bbl",
-      "wti": "~102-104 USD/bbl",
-      "vix": "17.84"
+      "cds_brazil_5y": "114-120 bps",
+      "ibovespa": "187207 (-0.56%)",
+      "sp500": "alta moderada",
+      "nasdaq": "alta moderada",
+      "brent": "104.61 USD/bbl",
+      "wti": "100.05 USD/bbl",
+      "vix": "15.8-16.0"
     },
     "pending": [
-      "Fluxo estrangeiro diário B3 consolidado 09-10/09 — aguardando",
+      "Fluxo estrangeiro diário B3 consolidado 10-11/09 — aguardando",
       "Evolução geopolítica Oriente Médio / petróleo — monitorar",
-      "IPCA agosto (IBGE) e CPI EUA — sexta-feira",
+      "Copom e Fed (quarta-feira) — monitorar",
       "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-10' gerado com rigorosa consistência ao último registro (09/09 viés moderado negativo → 10/09 moderado positivo via eleitoral + energia). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/BCB/MarketWatch corroborados; pendentes padronizados."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-11' gerado com rigorosa consistência ao último registro (10/09 viés moderado positivo → 11/09 lateral/moderado negativo via realização + dados mistos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de IBGE/BLS/B3/Reuters/Valor/Investing/BCB/@opapoeconomico corroborados; pendentes padronizados (v3.0)."
   },
-  "last_3_summaries": [
-    {
-      "date": "2026-09-04",
-      "cut_time": "23:42 BRT",
-      "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação semanal: Ibovespa 185.147 (-0,02%) assegurou 2ª melhor semana do ano (+5,25-5,40%) via retor...",
-      "bias_hint": "positivo"
-    },
-    {
-      "date": "2026-09-09",
-      "cut_time": "21:41 BRT",
-      "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$...",
-      "bias_hint": "negativo"
-    },
-    {
-      "date": "2026-09-10",
-      "cut_time": "22:45 BRT",
-      "summary": "Fechamento consolidado com viés de risco moderado positivo: Ibovespa +1,42% a 188.269 pts descolou do exterior via pesquisa eleitoral (Flávio à frente no 2º turno) e suporte de ...",
-      "bias_hint": "positivo"
-    }
+  "vies_risco": "lateral a moderado negativo",
+  "delta_vs_anterior": "de moderado positivo (+1,42% em 10/09) para lateral/moderado negativo (−0,56%) via realização técnica + CPI core quente + petróleo em queda; IPCA −0,32% ofereceu suporte doméstico parcial",
+  "principais_drivers": [
+    "IPCA agosto −0,32% (melhor que esperado)",
+    "CPI EUA core +0,3% / US10y ~4,97%",
+    "Petróleo Brent −2,8% (US$104,61)",
+    "Realização pós-rali eleitoral/energia",
+    "Fluxo estrangeiro recente positivo amortecendo"
   ],
-  "notes": "Arquivo de leitura rápida. Sempre validar contra o historico.json completo antes de decisões críticas. Atualizado automaticamente pelo Validator no fechamento."
+  "niveis_chave": {
+    "ibovespa": "187207 (-0.56%)",
+    "wdo_aprox": "~5.145 (+0.3-0.35%)",
+    "dolar_comercial": "~R$5,12-5,13",
+    "di_curto": "13.55-13.75%",
+    "brent": "104.61 USD/bbl",
+    "vix": "15.8-16.0"
+  },
+  "pending": [
+    "Fluxo estrangeiro diário B3 consolidado 10-11/09 — aguardando",
+    "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+    "Copom e Fed (quarta-feira) — monitorar",
+    "Leilões e operações do Banco Central — aguardando detalhamento"
+  ],
+  "proxima_agenda_critica": "Copom e Fed na mesma quarta-feira (16/09)"
 }
