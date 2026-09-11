@@ -3360,5 +3360,47 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-09' gerado com consistência ao histórico (transição de viés lateral/positivo em 04/09 e forte alta em 08/09 para moderado negativo). Campos formatados corretamente; dados de B3/Reuters/Valor/Investing; fontes secundárias validadas."
+    },
+    {
+    "date": "2026-09-10",
+    "cut_time": "22:45 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: Ibovespa +1,42% a 188.269 pts descolou do exterior via pesquisa eleitoral (Flávio à frente no 2º turno) e suporte de Petrobras com petróleo +6,34%. Delta vs. 09/09 (moderado negativo –0,93%): de realização técnica sob yields e geopolítica para recuperação vigorosa. Hedge residual limitou WDO; DI comprimiu e fluxo estrangeiro sequencial positivo amorteceram pressão cambial.",
+    "impacts": {
+        "dolfut": [
+        "petróleo Brent +6,34% (US$107,63) elevando demanda residual por hedge cambial",
+        "US10y ~4,95-4,97% sustentando proteção moderada",
+        "fluxo estrangeiro sequencial positivo e DI em queda limitando alta do WDO",
+        "trade eleitoral oferecendo suporte ao Real",
+        "VIX em alta (17,84) reforçando seletividade"
+        ],
+        "indfut": [
+        "pesquisa eleitoral AtlasIntel/Bloomberg favorecendo apetite por risco local",
+        "alta de Petrobras e bancos sustentando recuperação técnica",
+        "fluxo estrangeiro positivo (7 sessões) melhorando valuation seletivo",
+        "compressão da curva DI favorecendo ações de duration",
+        "Delta positivo forte vs. realização do dia anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.60-13.70%",
+        "medium": "13.80-14.15%",
+        "long": "14.10-14.30%"
+        },
+        "cds_brazil_5y": "114-115 bps",
+        "ibovespa": "188269 (+1.42%)",
+        "sp500": "pressão residual",
+        "nasdaq": "pressão residual",
+        "brent": "107.63 USD/bbl",
+        "wti": "~102-104 USD/bbl",
+        "vix": "17.84"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 09-10/09 — aguardando",
+        "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+        "IPCA agosto (IBGE) e CPI EUA — sexta-feira",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-10' gerado com rigorosa consistência ao último registro (09/09 viés moderado negativo → 10/09 moderado positivo via eleitoral + energia). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/BCB/MarketWatch corroborados; pendentes padronizados."
     }
 ]

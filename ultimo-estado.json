@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-09-10 00:44 BRT",
-  "total_records_in_historico": 80,
+  "generated_at": "2026-09-10 22:55 BRT",
+  "total_records_in_historico": 81,
   "last_record": {
-    "date": "2026-09-09",
-    "cut_time": "21:41 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$ 101 e US10y em 4,84%. Delta vs. 08/09: de descolamento positivo (eleitoral + fluxo) para aversão global via geopolítica. Hedge residual sustentou WDO; fluxo recente e energia amorteceram parcialmente a queda do WIN.",
+    "date": "2026-09-10",
+    "cut_time": "22:45 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado positivo: Ibovespa +1,42% a 188.269 pts descolou do exterior via pesquisa eleitoral (Flávio à frente no 2º turno) e suporte de Petrobras com petróleo +6,34%. Delta vs. 09/09 (moderado negativo –0,93%): de realização técnica sob yields e geopolítica para recuperação vigorosa. Hedge residual limitou WDO; DI comprimiu e fluxo estrangeiro sequencial positivo amorteceram pressão cambial.",
     "impacts": {
       "dolfut": [
-        "petróleo Brent +3,36% (US$ 101,21) elevando demanda por hedge cambial",
-        "US10y em 4,84% sustentando proteção residual",
-        "fluxo estrangeiro recente limitando alta mais forte do WDO",
-        "realização global e aversão a risco",
-        "trade eleitoral oferecendo suporte parcial ao Real"
+        "petróleo Brent +6,34% (US$107,63) elevando demanda residual por hedge cambial",
+        "US10y ~4,95-4,97% sustentando proteção moderada",
+        "fluxo estrangeiro sequencial positivo e DI em queda limitando alta do WDO",
+        "trade eleitoral oferecendo suporte ao Real",
+        "VIX em alta (17,84) reforçando seletividade"
       ],
       "indfut": [
-        "realização técnica após máxima de 08/09",
-        "pressão de yields e petróleo reduzindo apetite por risco",
-        "suporte setorial em energia/Petro insuficiente",
-        "fluxo recente e cena eleitoral amortecendo a queda",
-        "Delta negativo vs. forte alta do dia anterior"
+        "pesquisa eleitoral AtlasIntel/Bloomberg favorecendo apetite por risco local",
+        "alta de Petrobras e bancos sustentando recuperação técnica",
+        "fluxo estrangeiro positivo (7 sessões) melhorando valuation seletivo",
+        "compressão da curva DI favorecendo ações de duration",
+        "Delta positivo forte vs. realização do dia anterior"
       ]
     },
     "complements": {
       "di_curve": {
-        "short": "13.80-14.00%",
-        "medium": "14.15-14.35%",
-        "long": "14.40-14.65%"
+        "short": "13.60-13.70%",
+        "medium": "13.80-14.15%",
+        "long": "14.10-14.30%"
       },
-      "cds_brazil_5y": "114-125 bps",
-      "ibovespa": "185629 (-0.93%)",
-      "sp500": "-0.48%",
-      "nasdaq": "queda moderada",
-      "brent": "101.21 USD/bbl",
-      "wti": "~95-96 USD/bbl",
-      "vix": "15.7-16.1"
+      "cds_brazil_5y": "114-115 bps",
+      "ibovespa": "188269 (+1.42%)",
+      "sp500": "pressão residual",
+      "nasdaq": "pressão residual",
+      "brent": "107.63 USD/bbl",
+      "wti": "~102-104 USD/bbl",
+      "vix": "17.84"
     },
     "pending": [
-      "Fluxo cambial estrangeiro consolidado 09/09 — aguardando",
+      "Fluxo estrangeiro diário B3 consolidado 09-10/09 — aguardando",
       "Evolução geopolítica Oriente Médio / petróleo — monitorar",
       "IPCA agosto (IBGE) e CPI EUA — sexta-feira",
       "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-09' gerado com consistência ao histórico (transição de viés lateral/positivo em 04/09 e forte alta em 08/09 para moderado negativo). Campos formatados corretamente; dados de B3/Reuters/Valor/Investing; fontes secundárias validadas."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-10' gerado com rigorosa consistência ao último registro (09/09 viés moderado negativo → 10/09 moderado positivo via eleitoral + energia). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/BCB/MarketWatch corroborados; pendentes padronizados."
   },
   "last_3_summaries": [
     {
-      "date": "2026-08-28",
-      "cut_time": "18:51 BRT",
-      "summary": "Fechamento consolidado com viés de risco moderado positivo em consolidação/ampliação técnica: Ibovespa +0,30% a 175.664,62 pts (8ª alta seguida, semana +2,71–3,06%) via Petrobras e seletividade, apesar de tom hawkish de Warsh em Jackson Hole. WDO em alta residual (~+0,57–0,65%, ~...",
-      "bias_hint": "positivo"
-    },
-    {
       "date": "2026-09-04",
       "cut_time": "23:42 BRT",
-      "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação semanal: Ibovespa 185.147 (-0,02%) assegurou 2ª melhor semana do ano (+5,25-5,40%) via retorno de estrangeiros e cena eleitoral, apesar de Payroll EUA hawkish (+162k) que elevou yields e sustento...",
-      "bias_hint": "negativo"
+      "summary": "Fechamento consolidado com viés de risco lateral a moderado positivo em consolidação semanal: Ibovespa 185.147 (-0,02%) assegurou 2ª melhor semana do ano (+5,25-5,40%) via retor...",
+      "bias_hint": "positivo"
     },
     {
       "date": "2026-09-09",
       "cut_time": "21:41 BRT",
-      "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$ 101 e US10y em 4,84%. Delta vs. 08/09: de descolamento positivo (eleitoral + fluxo) para aversão globa...",
+      "summary": "Fechamento consolidado com viés de risco moderado negativo: realização técnica no Ibovespa (-0,93% a 185.629 pts) após alta forte de 08/09, pressionada por petróleo acima de US$...",
       "bias_hint": "negativo"
+    },
+    {
+      "date": "2026-09-10",
+      "cut_time": "22:45 BRT",
+      "summary": "Fechamento consolidado com viés de risco moderado positivo: Ibovespa +1,42% a 188.269 pts descolou do exterior via pesquisa eleitoral (Flávio à frente no 2º turno) e suporte de ...",
+      "bias_hint": "positivo"
     }
   ],
   "notes": "Arquivo de leitura rápida. Sempre validar contra o historico.json completo antes de decisões críticas. Atualizado automaticamente pelo Validator no fechamento."
