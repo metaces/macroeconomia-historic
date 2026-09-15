@@ -3486,5 +3486,47 @@
         "Copom e Fed (16/09) — monitorar"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-14' gerado com rigorosa consistência ao último registro (11/09 viés lateral/moderado negativo → 14/09 moderado negativo via realização + drivers globais/políticos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/MarketWatch/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-15",
+    "cut_time": "19:00 BRT",
+    "summary": "Fechamento com viés de risco moderado misto/negativo residual: alta forte do petróleo e yields Treasuries ~5% elevaram hedge cambial e limitaram recuperação, apesar de Ibovespa +0,54% e CDS baixo. Varejo fraco e crise STF reforçaram cautela; Delta positivo vs realização de 14/09. Super Quarta amanhã domina.",
+    "impacts": {
+        "dolfut": [
+        "alta petróleo (Brent ~+2,7%) elevando demanda por hedge cambial",
+        "yields Treasuries ~5,00% e DXY sustentando proteção",
+        "crise STF / julgamento Moraes elevando prêmio político residual",
+        "varejo fraco limitando alívio doméstico",
+        "antecipação Super Quarta (Fed possível alta) reforçando seletividade"
+        ],
+        "indfut": [
+        "recuperação técnica seletiva via commodities/energia",
+        "yields globais e varejo fraco pressionando bancos/consumo",
+        "CDS baixo (~112 bps) oferecendo amortecimento estrutural",
+        "fluxo estrangeiro positivo no mês mas seletivo",
+        "Delta positivo vs dia anterior insuficiente para reversão ampla"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.60-13.90%",
+        "medium": "13.60-13.90%",
+        "long": "14.10-14.20%"
+        },
+        "cds_brazil_5y": "111.8-112 bps",
+        "ibovespa": "186503 (+0.54%)",
+        "sp500": "7586 (-0.45%)",
+        "nasdaq": "25982 (-0.8%)",
+        "brent": "108.5-110 USD/bbl",
+        "wti": "alta correspondente",
+        "vix": "17.2"
+    },
+    "pending": [
+        "Decisão Copom e Fed (16/09) — aguardando",
+        "Fluxo estrangeiro diário B3 consolidado — aguardando",
+        "Evolução geopolítica petróleo / STF",
+        "IBC-Br e dados atividade — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-15' gerado com consistência narrativa ao histórico (prêmio de risco, DI, commodities, fluxo). Dados de fontes primárias (B3/Investing/Reuters/Valor) + Focus; campos formatados corretamente; Delta destacado."
     }
 ]

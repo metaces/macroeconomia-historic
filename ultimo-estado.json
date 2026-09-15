@@ -1,70 +1,71 @@
 {
-  "generated_at": "2026-09-14 21:57 BRT",
-  "total_records_in_historico": 83,
+  "generated_at": "2026-09-15 19:27 BRT",
+  "total_records_in_historico": 84,
   "last_record": {
-    "date": "2026-09-14",
-    "cut_time": "18:00 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado negativo: Ibovespa −0,91% a 185.501 pts pressionado por Vale, juros futuros e aversão global (petróleo + IA); dólar ~R$5,15 e WDO em alta moderada. Delta vs. 11/09 (lateral/moderado negativo −0,56%): ampliação da realização e hedge residual, apesar de CDS contido.",
+    "date": "2026-09-15",
+    "cut_time": "19:00 BRT",
+    "summary": "Fechamento com viés de risco moderado misto/negativo residual: alta forte do petróleo e yields Treasuries ~5% elevaram hedge cambial e limitaram recuperação, apesar de Ibovespa +0,54% e CDS baixo. Varejo fraco e crise STF reforçaram cautela; Delta positivo vs realização de 14/09. Super Quarta amanhã domina.",
     "impacts": {
       "dolfut": [
-        "alta do petróleo e aversão global sustentando hedge residual",
-        "juros futuros e yields elevados (US10y ~4,96–5,00%)",
-        "cenário político doméstico (STF/pesquisas) elevando proteção seletiva",
-        "CDS em mínimas recentes (~111 bps) limitando alta mais forte",
-        "fluxo seletivo negativo reforçando demanda por proteção"
+        "alta petróleo (Brent ~+2,7%) elevando demanda por hedge cambial",
+        "yields Treasuries ~5,00% e DXY sustentando proteção",
+        "crise STF / julgamento Moraes elevando prêmio político residual",
+        "varejo fraco limitando alívio doméstico",
+        "antecipação Super Quarta (Fed possível alta) reforçando seletividade"
       ],
       "indfut": [
-        "pressão em Vale/mineração e realização técnica",
-        "alta de juros futuros reduzindo apetite por risco",
-        "aversão global (IA + petróleo) e correlação negativa com yields",
-        "ruído político doméstico penalizando valuation seletivo",
-        "Delta negativo vs. sessão anterior"
+        "recuperação técnica seletiva via commodities/energia",
+        "yields globais e varejo fraco pressionando bancos/consumo",
+        "CDS baixo (~112 bps) oferecendo amortecimento estrutural",
+        "fluxo estrangeiro positivo no mês mas seletivo",
+        "Delta positivo vs dia anterior insuficiente para reversão ampla"
       ]
     },
     "complements": {
       "di_curve": {
-        "short": "13.30-13.70%",
-        "medium": "13.80-14.20%",
-        "long": "14.10-14.40%"
+        "short": "13.60-13.90%",
+        "medium": "13.60-13.90%",
+        "long": "14.10-14.20%"
       },
-      "cds_brazil_5y": "111.28 bps",
-      "ibovespa": "185501 (-0.91%)",
-      "sp500": "queda moderada",
-      "nasdaq": "queda moderada",
-      "brent": "105.68 USD/bbl",
+      "cds_brazil_5y": "111.8-112 bps",
+      "ibovespa": "186503 (+0.54%)",
+      "sp500": "7586 (-0.45%)",
+      "nasdaq": "25982 (-0.8%)",
+      "brent": "108.5-110 USD/bbl",
       "wti": "alta correspondente",
-      "vix": "17.1"
+      "vix": "17.2"
     },
     "pending": [
+      "Decisão Copom e Fed (16/09) — aguardando",
       "Fluxo estrangeiro diário B3 consolidado — aguardando",
-      "Leilões e operações do Banco Central — aguardando detalhamento",
-      "Evolução geopolítica Oriente Médio / petróleo — monitorar",
-      "Copom e Fed (16/09) — monitorar"
+      "Evolução geopolítica petróleo / STF",
+      "IBC-Br e dados atividade — monitorar"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-14' gerado com rigorosa consistência ao último registro (11/09 viés lateral/moderado negativo → 14/09 moderado negativo via realização + drivers globais/políticos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/MarketWatch/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-15' gerado com consistência narrativa ao histórico (prêmio de risco, DI, commodities, fluxo). Dados de fontes primárias (B3/Investing/Reuters/Valor) + Focus; campos formatados corretamente; Delta destacado."
   },
-  "vies_risco": "moderado negativo",
-  "delta_vs_anterior": "de lateral/moderado negativo (−0,56% em 11/09) para moderado negativo (−0,91%) via realização em Vale + juros futuros + aversão global (petróleo/IA) + ruído político; CDS contido amorteceu parcialmente",
+  "vies_risco": "moderado misto/negativo residual",
+  "delta_vs_anterior": "de moderado negativo (−0,91% em 14/09) para misto/negativo residual com recuperação técnica (+0,54% Ibovespa); petróleo acelerou (+2,7%) e yields ~5% mantiveram hedge, mas CDS baixo e commodities amorteceram",
   "principais_drivers": [
-    "Pressão em Vale/mineração e realização técnica",
-    "Alta de juros futuros e US10y ~4,96–5,00%",
-    "Aversão global (reviravolta IA + petróleo Brent +1,0–1,2%)",
-    "Cenário político (STF + pesquisas eleitorais)",
-    "Hedge residual no câmbio (dólar ~R$5,15)"
+    "Alta forte do petróleo (Brent ~108,5–110 USD) elevando hedge e prêmio de risco",
+    "Yields Treasuries ~5,00% e aversão global residual",
+    "Crise STF / julgamento Moraes + pesquisas eleitorais",
+    "Varejo brasileiro fraco (−0,8% m/m)",
+    "Antecipação da Super Quarta (Copom corte esperado + Fed possível alta)"
   ],
   "niveis_chave": {
-    "ibovespa": "185501 (-0.91%)",
-    "wdo_aprox": "~5.171 (+0.3-0.5%)",
+    "ibovespa": "186503 (+0.54%)",
+    "wdo_aprox": "~5.172 (+0.15%)",
     "dolar_comercial": "~R$5,15",
-    "di_curto": "13.30-13.70%",
-    "brent": "105.68 USD/bbl",
-    "vix": "17.1"
+    "di_curto": "13.60-13.90%",
+    "brent": "108.5-110 USD/bbl",
+    "vix": "17.2",
+    "cds_brazil_5y": "111.8-112 bps"
   },
   "pending": [
+    "Decisão Copom e Fed (16/09) — aguardando",
     "Fluxo estrangeiro diário B3 consolidado — aguardando",
-    "Leilões e operações do Banco Central — aguardando detalhamento",
-    "Evolução geopolítica Oriente Médio / petróleo — monitorar",
-    "Copom e Fed (16/09) — monitorar"
+    "Evolução geopolítica petróleo / STF",
+    "IBC-Br e dados atividade — monitorar"
   ],
-  "proxima_agenda_critica": "Copom e Fed na Superquarta (16/09)"
+  "proxima_agenda_critica": "Super Quarta – decisões Copom e Fed (16/09)"
 }
