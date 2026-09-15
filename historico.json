@@ -3444,5 +3444,47 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-11' gerado com rigorosa consistência ao último registro (10/09 viés moderado positivo → 11/09 lateral/moderado negativo via realização + dados mistos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de IBGE/BLS/B3/Reuters/Valor/Investing/BCB/@opapoeconomico corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-14",
+    "cut_time": "18:00 BRT",
+    "summary": "Fechamento consolidado com viés de risco moderado negativo: Ibovespa −0,91% a 185.501 pts pressionado por Vale, juros futuros e aversão global (petróleo + IA); dólar ~R$5,15 e WDO em alta moderada. Delta vs. 11/09 (lateral/moderado negativo −0,56%): ampliação da realização e hedge residual, apesar de CDS contido.",
+    "impacts": {
+        "dolfut": [
+        "alta do petróleo e aversão global sustentando hedge residual",
+        "juros futuros e yields elevados (US10y ~4,96–5,00%)",
+        "cenário político doméstico (STF/pesquisas) elevando proteção seletiva",
+        "CDS em mínimas recentes (~111 bps) limitando alta mais forte",
+        "fluxo seletivo negativo reforçando demanda por proteção"
+        ],
+        "indfut": [
+        "pressão em Vale/mineração e realização técnica",
+        "alta de juros futuros reduzindo apetite por risco",
+        "aversão global (IA + petróleo) e correlação negativa com yields",
+        "ruído político doméstico penalizando valuation seletivo",
+        "Delta negativo vs. sessão anterior"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.30-13.70%",
+        "medium": "13.80-14.20%",
+        "long": "14.10-14.40%"
+        },
+        "cds_brazil_5y": "111.28 bps",
+        "ibovespa": "185501 (-0.91%)",
+        "sp500": "queda moderada",
+        "nasdaq": "queda moderada",
+        "brent": "105.68 USD/bbl",
+        "wti": "alta correspondente",
+        "vix": "17.1"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado — aguardando",
+        "Leilões e operações do Banco Central — aguardando detalhamento",
+        "Evolução geopolítica Oriente Médio / petróleo — monitorar",
+        "Copom e Fed (16/09) — monitorar"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-14' gerado com rigorosa consistência ao último registro (11/09 viés lateral/moderado negativo → 14/09 moderado negativo via realização + drivers globais/políticos). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/Reuters/Valor/Investing/MarketWatch/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
     }
 ]
