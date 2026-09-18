@@ -3570,5 +3570,47 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-16' gerado com rigorosa consistência ao último registro (15/09 viés misto/negativo residual → 16/09 moderado negativo via Fed hawkish + realização Petro/Vale). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/Fed/BCB/Investing/MarketWatch/Valor corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-17",
+    "cut_time": "18:30 BRT",
+    "summary": "Fechamento com viés de risco moderado positivo em consolidação seletiva: reajuste de 15% no Bolsa Família gerou volatilidade matinal e pressão fiscal, mas digestão rápida + exterior forte (tech, yields em queda, VIX em forte recuo) e residual do corte de Selic sustentaram recuperação do Ibovespa (+0,24% a 185.992) e recuo do dólar. Delta positivo vs. 16/09 (moderado negativo).",
+    "impacts": {
+        "dolfut": [
+        "reajuste Bolsa Família elevando demanda residual por hedge e curva DI",
+        "exterior positivo (yields −6 bps, VIX −12,8%) reduzindo proteção",
+        "Copom residual dovish limitando alta do WDO",
+        "petróleo em realização oferecendo suporte parcial",
+        "CDS contido (~111,6 bps) amortecendo pressão cambial"
+        ],
+        "indfut": [
+        "recuperação técnica via Vale/commodities e apetite externo",
+        "digestão do fiscal Bolsa Família permitindo compra seletiva",
+        "VIX baixo e S&P/Nasdaq fortes favorecendo valuation",
+        "fluxo estrangeiro seletivo positivo no mês",
+        "Delta positivo vs. realização de 16/09"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.50-13.80%",
+        "medium": "13.60-13.90%",
+        "long": "14.00-14.20%"
+        },
+        "cds_brazil_5y": "111.62 bps",
+        "ibovespa": "185992 (+0.24%)",
+        "sp500": "~7637 (+1.14%)",
+        "nasdaq": "~26418 (+1.69%)",
+        "brent": "104.82 USD/bbl",
+        "wti": "realização correspondente",
+        "vix": "15.44"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 17/09 — aguardando",
+        "Evolução impacto fiscal Bolsa Família / curva DI — monitorar",
+        "Dados atividade/emprego EUA e Focus — adiante",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-17' gerado com rigorosa consistência ao último registro (16/09 viés moderado negativo → 17/09 moderado positivo seletivo via digestão fiscal + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/MarketWatch/Reuters/Investing/WorldGovernmentBonds/Agência Brasil corroborados; pendentes padronizados (v3.0)."
     }
 ]

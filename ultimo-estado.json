@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-16 23:14 BRT",
-  "total_records_in_historico": 85,
+  "generated_at": "2026-09-17 23:13 BRT",
+  "total_records_in_historico": 86,
   "last_record": {
-    "date": "2026-09-16",
-    "cut_time": "19:00 BRT",
-    "summary": "Fechamento consolidado com viés de risco moderado negativo: Fed +25 bps hawkish (sinal de mais aperto) e realização em Petrobras/Vale pressionaram Ibovespa −0,51% a 185.547 pts; Copom −25 bps a 13,75% (cauteloso) ofereceu alívio insuficiente. Brent −2,69% a 105,83; dólar ~R$5,15 e CDS contido. Delta vs. 15/09 (misto/positivo residual +0,54%): ampliação da realização e hedge residual externo.",
+    "date": "2026-09-17",
+    "cut_time": "18:30 BRT",
+    "summary": "Fechamento com viés de risco moderado positivo em consolidação seletiva: reajuste de 15% no Bolsa Família gerou volatilidade matinal e pressão fiscal, mas digestão rápida + exterior forte (tech, yields em queda, VIX em forte recuo) e residual do corte de Selic sustentaram recuperação do Ibovespa (+0,24% a 185.992) e recuo do dólar. Delta positivo vs. 16/09 (moderado negativo).",
     "impacts": {
       "dolfut": [
-        "Fed hawkish (+25 bps + sinal de mais aperto) elevando yields e demanda residual por hedge",
-        "Copom −25 bps cauteloso limitando alívio cambial",
-        "realização petróleo oferecendo suporte parcial insuficiente",
-        "fluxo seletivo e yields ~5% sustentando proteção",
-        "CDS baixo (~112 bps) limitando alta mais forte do WDO"
+        "reajuste Bolsa Família elevando demanda residual por hedge e curva DI",
+        "exterior positivo (yields −6 bps, VIX −12,8%) reduzindo proteção",
+        "Copom residual dovish limitando alta do WDO",
+        "petróleo em realização oferecendo suporte parcial",
+        "CDS contido (~111,6 bps) amortecendo pressão cambial"
       ],
       "indfut": [
-        "realização forte em Petrobras e Vale pressionando Ibovespa",
-        "Fed hawkish e correlação negativa com yields reduzindo apetite",
-        "Copom dovish insuficiente para reverter aversão",
-        "vencimento de opções ampliando oscilação",
-        "Delta negativo vs. sessão anterior"
+        "recuperação técnica via Vale/commodities e apetite externo",
+        "digestão do fiscal Bolsa Família permitindo compra seletiva",
+        "VIX baixo e S&P/Nasdaq fortes favorecendo valuation",
+        "fluxo estrangeiro seletivo positivo no mês",
+        "Delta positivo vs. realização de 16/09"
       ]
     },
     "complements": {
@@ -27,45 +27,45 @@
         "medium": "13.60-13.90%",
         "long": "14.00-14.20%"
       },
-      "cds_brazil_5y": "111.6-112.8 bps",
-      "ibovespa": "185547.66 (-0.51%)",
-      "sp500": "queda moderada pós-Fed",
-      "nasdaq": "queda moderada",
-      "brent": "105.83 USD/bbl (-2.69%)",
+      "cds_brazil_5y": "111.62 bps",
+      "ibovespa": "185992 (+0.24%)",
+      "sp500": "~7637 (+1.14%)",
+      "nasdaq": "~26418 (+1.69%)",
+      "brent": "104.82 USD/bbl",
       "wti": "realização correspondente",
-      "vix": "elevado residual pós-Fed"
+      "vix": "15.44"
     },
     "pending": [
-      "Fluxo estrangeiro diário B3 consolidado 16/09 — aguardando",
-      "Evolução geopolítica / petróleo e repercussão tom Copom — monitorar",
-      "Dados atividade (IBC-Br) e emprego/inflação EUA — adiante",
+      "Fluxo estrangeiro diário B3 consolidado 17/09 — aguardando",
+      "Evolução impacto fiscal Bolsa Família / curva DI — monitorar",
+      "Dados atividade/emprego EUA e Focus — adiante",
       "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-16' gerado com rigorosa consistência ao último registro (15/09 viés misto/negativo residual → 16/09 moderado negativo via Fed hawkish + realização Petro/Vale). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/Fed/BCB/Investing/MarketWatch/Valor corroborados; pendentes padronizados (v3.0)."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-17' gerado com rigorosa consistência ao último registro (16/09 viés moderado negativo → 17/09 moderado positivo seletivo via digestão fiscal + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/MarketWatch/Reuters/Investing/WorldGovernmentBonds/Agência Brasil corroborados; pendentes padronizados (v3.0)."
   },
-  "vies_risco": "moderado negativo",
-  "delta_vs_anterior": "de misto/negativo residual com recuperação técnica (+0,54% em 15/09) para moderado negativo (−0,51% Ibovespa); Fed hawkish e realização Petrobras/Vale dominaram o alívio do corte do Copom (−25 bps a 13,75%)",
+  "vies_risco": "moderado positivo em consolidação seletiva",
+  "delta_vs_anterior": "de moderado negativo (−0,51% Ibovespa em 16/09) para moderado positivo seletivo (+0,24% a 185.992); digestão do reajuste Bolsa Família + exterior forte (tech, yields em queda, VIX −12,8%) prevaleceram sobre a pressão fiscal inicial",
   "principais_drivers": [
-    "Fed +25 bps para 3,75–4,00% (unânime) + sinal de mais aperto em 2026 (hawkish)",
-    "Copom −25 bps para 13,75% (unânime) com tom cauteloso (“serenidade e cautela”)",
-    "Realização forte em Petrobras (−3%+) e Vale (−2%+)",
-    "Brent −2,69% a US$ 105,83",
-    "Yields Treasuries ~5,00% e aversão global residual pós-Fed"
+    "Reajuste de 15% no Bolsa Família (piso R$600 → R$691; impacto R$5,8 bi 2026 / ~R$22 bi 2027) gerando volatilidade matinal",
+    "Digestão positiva do exterior pós-Fed (S&P +1,14%, Nasdaq +1,69%, US10y −6 bps a 4,94%)",
+    "VIX em forte recuo para 15,44 (−12,8%)",
+    "Residual do corte Copom (−25 bps a 13,75%) e CDS contido (111,62 bps)",
+    "Brent em realização a 104,82 USD/bbl (−0,95%)"
   ],
   "niveis_chave": {
-    "ibovespa": "185547.66 (-0.51%)",
-    "wdo_aprox": "~5.166 (-0.09%)",
-    "dolar_comercial": "~R$5,15",
+    "ibovespa": "185992 (+0.24%)",
+    "wdo_aprox": "~5.140 (−0.68%)",
+    "dolar_comercial": "~R$5,1386 (−0,24%)",
     "di_curto": "13.50-13.80%",
-    "brent": "105.83 USD/bbl (-2.69%)",
-    "vix": "elevado residual pós-Fed",
-    "cds_brazil_5y": "111.6-112.8 bps"
+    "brent": "104.82 USD/bbl",
+    "vix": "15.44",
+    "cds_brazil_5y": "111.62 bps"
   },
   "pending": [
-    "Fluxo estrangeiro diário B3 consolidado 16/09 — aguardando",
-    "Evolução geopolítica / petróleo e repercussão tom Copom — monitorar",
-    "Dados atividade (IBC-Br) e emprego/inflação EUA — adiante",
+    "Fluxo estrangeiro diário B3 consolidado 17/09 — aguardando",
+    "Evolução impacto fiscal Bolsa Família / curva DI — monitorar",
+    "Dados atividade/emprego EUA e Focus — adiante",
     "Leilões e operações do Banco Central — aguardando detalhamento"
   ],
-  "proxima_agenda_critica": "Digestão Super Quarta (tom Copom + dot plot Fed) + fluxo B3 + dados atividade"
+  "proxima_agenda_critica": "Digestão do impacto fiscal Bolsa Família + fluxo B3 consolidado + dados atividade/emprego EUA e eventual Focus"
 }
