@@ -3612,5 +3612,47 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-17' gerado com rigorosa consistência ao último registro (16/09 viés moderado negativo → 17/09 moderado positivo seletivo via digestão fiscal + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/MarketWatch/Reuters/Investing/WorldGovernmentBonds/Agência Brasil corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-18",
+    "cut_time": "18:30 BRT",
+    "summary": "Fechamento com viés de risco misto/negativo seletivo: IGP-M 2ª prévia set +1,47%, US10y em 5% e realização em Vale/bancos pressionaram o Ibovespa (−0,41% a 185.229, primeira perda semanal desde agosto). VIX em 14,81 e exterior misto amorteceram. Delta negativo vs. 17/09 (moderado positivo seletivo).",
+    "impacts": {
+        "dolfut": [
+        "IGP-M +1,47% elevando prêmio residual e demanda por hedge",
+        "US10y ~5% sustentando proteção cambial",
+        "Brent em realização oferecendo suporte parcial insuficiente",
+        "CDS contido (~111,7 bps) limitando alta mais forte do WDO",
+        "fluxo pontual de saída estrangeira (16/09) elevando hedge residual"
+        ],
+        "indfut": [
+        "realização forte em Vale e mineradoras pressionando índice",
+        "US yields em alta e correlação negativa reduzindo apetite",
+        "IGP-M e residual fiscal Bolsa Família pesando valuation",
+        "vencimento de opções ampliando oscilação e volume",
+        "Delta negativo vs. consolidação positiva de 17/09"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.50-13.80%",
+        "medium": "13.60-13.90%",
+        "long": "14.00-14.20%"
+        },
+        "cds_brazil_5y": "111.6-111.8 bps",
+        "ibovespa": "185229 (-0.41%)",
+        "sp500": "7650.50 (+0.17%)",
+        "nasdaq": "~26522 (+0.39%)",
+        "brent": "103.87 USD/bbl",
+        "wti": "realização correspondente",
+        "vix": "14.81"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 17-18/09 — aguardando",
+        "Evolução impacto fiscal Bolsa Família / IGP-M final e curva DI — monitorar",
+        "Dados atividade/emprego EUA e Focus — adiante",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-18' gerado com rigorosa consistência ao último registro (17/09 viés moderado positivo seletivo → 18/09 misto/negativo seletivo via IGP-M + yields + realização Vale). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/FGV/MarketWatch/Investing/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
     }
 ]

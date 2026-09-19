@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-17 23:13 BRT",
-  "total_records_in_historico": 86,
+  "generated_at": "2026-09-18 23:37 BRT",
+  "total_records_in_historico": 87,
   "last_record": {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "cut_time": "18:30 BRT",
-    "summary": "Fechamento com viés de risco moderado positivo em consolidação seletiva: reajuste de 15% no Bolsa Família gerou volatilidade matinal e pressão fiscal, mas digestão rápida + exterior forte (tech, yields em queda, VIX em forte recuo) e residual do corte de Selic sustentaram recuperação do Ibovespa (+0,24% a 185.992) e recuo do dólar. Delta positivo vs. 16/09 (moderado negativo).",
+    "summary": "Fechamento com viés de risco misto/negativo seletivo: IGP-M 2ª prévia set +1,47%, US10y em 5% e realização em Vale/bancos pressionaram o Ibovespa (−0,41% a 185.229, primeira perda semanal desde agosto). VIX em 14,81 e exterior misto amorteceram. Delta negativo vs. 17/09 (moderado positivo seletivo).",
     "impacts": {
       "dolfut": [
-        "reajuste Bolsa Família elevando demanda residual por hedge e curva DI",
-        "exterior positivo (yields −6 bps, VIX −12,8%) reduzindo proteção",
-        "Copom residual dovish limitando alta do WDO",
-        "petróleo em realização oferecendo suporte parcial",
-        "CDS contido (~111,6 bps) amortecendo pressão cambial"
+        "IGP-M +1,47% elevando prêmio residual e demanda por hedge",
+        "US10y ~5% sustentando proteção cambial",
+        "Brent em realização oferecendo suporte parcial insuficiente",
+        "CDS contido (~111,7 bps) limitando alta mais forte do WDO",
+        "fluxo pontual de saída estrangeira (16/09) elevando hedge residual"
       ],
       "indfut": [
-        "recuperação técnica via Vale/commodities e apetite externo",
-        "digestão do fiscal Bolsa Família permitindo compra seletiva",
-        "VIX baixo e S&P/Nasdaq fortes favorecendo valuation",
-        "fluxo estrangeiro seletivo positivo no mês",
-        "Delta positivo vs. realização de 16/09"
+        "realização forte em Vale e mineradoras pressionando índice",
+        "US yields em alta e correlação negativa reduzindo apetite",
+        "IGP-M e residual fiscal Bolsa Família pesando valuation",
+        "vencimento de opções ampliando oscilação e volume",
+        "Delta negativo vs. consolidação positiva de 17/09"
       ]
     },
     "complements": {
@@ -27,45 +27,45 @@
         "medium": "13.60-13.90%",
         "long": "14.00-14.20%"
       },
-      "cds_brazil_5y": "111.62 bps",
-      "ibovespa": "185992 (+0.24%)",
-      "sp500": "~7637 (+1.14%)",
-      "nasdaq": "~26418 (+1.69%)",
-      "brent": "104.82 USD/bbl",
+      "cds_brazil_5y": "111.6-111.8 bps",
+      "ibovespa": "185229 (-0.41%)",
+      "sp500": "7650.50 (+0.17%)",
+      "nasdaq": "~26522 (+0.39%)",
+      "brent": "103.87 USD/bbl",
       "wti": "realização correspondente",
-      "vix": "15.44"
+      "vix": "14.81"
     },
     "pending": [
-      "Fluxo estrangeiro diário B3 consolidado 17/09 — aguardando",
-      "Evolução impacto fiscal Bolsa Família / curva DI — monitorar",
+      "Fluxo estrangeiro diário B3 consolidado 17-18/09 — aguardando",
+      "Evolução impacto fiscal Bolsa Família / IGP-M final e curva DI — monitorar",
       "Dados atividade/emprego EUA e Focus — adiante",
       "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-17' gerado com rigorosa consistência ao último registro (16/09 viés moderado negativo → 17/09 moderado positivo seletivo via digestão fiscal + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de B3/MarketWatch/Reuters/Investing/WorldGovernmentBonds/Agência Brasil corroborados; pendentes padronizados (v3.0)."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-18' gerado com rigorosa consistência ao último registro (17/09 viés moderado positivo seletivo → 18/09 misto/negativo seletivo via IGP-M + yields + realização Vale). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/FGV/MarketWatch/Investing/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
   },
-  "vies_risco": "moderado positivo em consolidação seletiva",
-  "delta_vs_anterior": "de moderado negativo (−0,51% Ibovespa em 16/09) para moderado positivo seletivo (+0,24% a 185.992); digestão do reajuste Bolsa Família + exterior forte (tech, yields em queda, VIX −12,8%) prevaleceram sobre a pressão fiscal inicial",
+  "vies_risco": "misto/negativo seletivo",
+  "delta_vs_anterior": "de moderado positivo seletivo (+0,24% Ibovespa em 17/09) para misto/negativo seletivo (−0,41% a 185.229); IGP-M 2ª prévia +1,47% + US10y em 5% + realização Vale prevaleceram sobre VIX baixo e exterior misto",
   "principais_drivers": [
-    "Reajuste de 15% no Bolsa Família (piso R$600 → R$691; impacto R$5,8 bi 2026 / ~R$22 bi 2027) gerando volatilidade matinal",
-    "Digestão positiva do exterior pós-Fed (S&P +1,14%, Nasdaq +1,69%, US10y −6 bps a 4,94%)",
-    "VIX em forte recuo para 15,44 (−12,8%)",
-    "Residual do corte Copom (−25 bps a 13,75%) e CDS contido (111,62 bps)",
-    "Brent em realização a 104,82 USD/bbl (−0,95%)"
+    "IGP-M 2ª prévia setembro +1,47% (FGV) elevando pressão inflacionária de atacado",
+    "US 10y subindo para ~5,00% (+6 bps) reduzindo apetite por risco em emergentes",
+    "Realização em Vale (−1,53%) e mineradoras/bancos",
+    "VIX em forte recuo para 14,81 (−4,08%) amortecendo aversão",
+    "Brent em realização a ~103,87 USD/bbl e CDS contido (~111,7 bps)"
   ],
   "niveis_chave": {
-    "ibovespa": "185992 (+0.24%)",
-    "wdo_aprox": "~5.140 (−0.68%)",
-    "dolar_comercial": "~R$5,1386 (−0,24%)",
+    "ibovespa": "185229 (-0.41%)",
+    "wdo_aprox": "~5.157 (+0.34%)",
+    "dolar_comercial": "~R$5,1451 (+0,11%)",
     "di_curto": "13.50-13.80%",
-    "brent": "104.82 USD/bbl",
-    "vix": "15.44",
-    "cds_brazil_5y": "111.62 bps"
+    "brent": "103.87 USD/bbl",
+    "vix": "14.81",
+    "cds_brazil_5y": "111.6-111.8 bps"
   },
   "pending": [
-    "Fluxo estrangeiro diário B3 consolidado 17/09 — aguardando",
-    "Evolução impacto fiscal Bolsa Família / curva DI — monitorar",
+    "Fluxo estrangeiro diário B3 consolidado 17-18/09 — aguardando",
+    "Evolução impacto fiscal Bolsa Família / IGP-M final e curva DI — monitorar",
     "Dados atividade/emprego EUA e Focus — adiante",
     "Leilões e operações do Banco Central — aguardando detalhamento"
   ],
-  "proxima_agenda_critica": "Digestão do impacto fiscal Bolsa Família + fluxo B3 consolidado + dados atividade/emprego EUA e eventual Focus"
+  "proxima_agenda_critica": "Fluxo B3 consolidado 17-18/09 + IGP-M final + dados atividade/emprego EUA e Focus + monitoramento fiscal Bolsa Família"
 }
