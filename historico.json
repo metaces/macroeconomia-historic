@@ -3654,5 +3654,47 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-18' gerado com rigorosa consistência ao último registro (17/09 viés moderado positivo seletivo → 18/09 misto/negativo seletivo via IGP-M + yields + realização Vale). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/FGV/MarketWatch/Investing/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-22",
+    "cut_time": "18:30 BRT",
+    "summary": "Fechamento com viés de risco positivo seletivo: Ibovespa +0,44% a 187.423 (recuperação Petrobras/Vale), petróleo abaixo de US$100 e exterior estável prevaleceram sobre ata Copom cautelosa e CDS ~121 bps. Dólar ~R$5,10. Delta positivo vs. 18/09 (misto/negativo seletivo).",
+    "impacts": {
+        "dolfut": [
+        "petróleo <100 (Brent ~98,5-99,3) reduzindo prêmio inflacionário e demanda por hedge",
+        "US10y estabilizado ~4,96-4,97% limitando pressão cambial",
+        "ata Copom cautelosa mas ciclo aberto amortecendo alta do WDO",
+        "CDS reprecificado (~121 bps) absorvido por fluxo positivo residual",
+        "dólar à vista caindo a ~R$5,10"
+        ],
+        "indfut": [
+        "recuperação seletiva Petrobras e Vale sustentando índice",
+        "alívio de commodities e exterior perto de máximas elevando apetite",
+        "fluxo estrangeiro positivo no mês/ano absorvendo realização",
+        "ata e pesquisa eleitoral sem ruptura de preço",
+        "Delta positivo vs. consolidação negativa de 18/09"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.50-13.80%",
+        "medium": "13.50-13.90%",
+        "long": "13.90-14.20%"
+        },
+        "cds_brazil_5y": "119-121 bps",
+        "ibovespa": "187423 (+0.44%)",
+        "sp500": "7764 (estável/perto de máxima)",
+        "nasdaq": "renovação de força (+0.5% residual)",
+        "brent": "98.55-99.25 USD/bbl",
+        "wti": "realização correspondente ~90",
+        "vix": "14-15"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 19-22/09 — aguardando",
+        "Evolução curva DI pós-ata/Focus e RPM BC — monitorar",
+        "IPCA-15 e dados atividade/emprego EUA — adiante",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-22' gerado com rigorosa consistência ao último registro (18/09 misto/negativo seletivo → 22/09 positivo seletivo via recuperação índice + petróleo <100 + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/BCB/MarketWatch/Investing/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
     }
 ]
