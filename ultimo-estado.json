@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-09-22 23:09 BRT",
-  "total_records_in_historico": 88,
+  "generated_at": "2026-09-24 23:24 BRT",
+  "total_records_in_historico": 89,
   "last_record": {
-    "date": "2026-09-22",
+    "date": "2026-09-24",
     "cut_time": "18:30 BRT",
-    "summary": "Fechamento com viés de risco positivo seletivo: Ibovespa +0,44% a 187.423 (recuperação Petrobras/Vale), petróleo abaixo de US$100 e exterior estável prevaleceram sobre ata Copom cautelosa e CDS ~121 bps. Dólar ~R$5,10. Delta positivo vs. 18/09 (misto/negativo seletivo).",
+    "summary": "Fechamento com viés de risco negativo seletivo: Ibovespa −0,99% a 183.966, dólar ~R$5,19, petróleo Brent ~106,60 e US10y elevado prevaleceram sobre fluxo residual e exterior misto. RPM BC cauteloso (PIB 1,8%, IPCA 5,2%). Delta negativo vs. 22/09 (positivo seletivo a 187.423 com petróleo <100).",
     "impacts": {
       "dolfut": [
-        "petróleo <100 (Brent ~98,5-99,3) reduzindo prêmio inflacionário e demanda por hedge",
-        "US10y estabilizado ~4,96-4,97% limitando pressão cambial",
-        "ata Copom cautelosa mas ciclo aberto amortecendo alta do WDO",
-        "CDS reprecificado (~121 bps) absorvido por fluxo positivo residual",
-        "dólar à vista caindo a ~R$5,10"
+        "petróleo Brent ~106,60 elevando prêmio inflacionário e demanda por hedge",
+        "US10y ~5,11-5,21% pressionando yields globais e câmbio",
+        "RPM BC cauteloso (IPCA 5,2%, PIB revisado) sustentando prêmio de risco",
+        "dólar comercial a ~R$5,193 (+0,48%)",
+        "CDS ~121 bps absorvido mas sem alívio"
       ],
       "indfut": [
-        "recuperação seletiva Petrobras e Vale sustentando índice",
-        "alívio de commodities e exterior perto de máximas elevando apetite",
-        "fluxo estrangeiro positivo no mês/ano absorvendo realização",
-        "ata e pesquisa eleitoral sem ruptura de preço",
-        "Delta positivo vs. consolidação negativa de 18/09"
+        "aversão a risco global + yields altos comprimindo múltiplos",
+        "petróleo alto pressionando custos e Petrobras/Vale seletivamente",
+        "RPM BC com atividade mais fraca e inflação desancorada",
+        "distribuição técnica após máximas recentes",
+        "Delta negativo vs. recuperação de 22/09"
       ]
     },
     "complements": {
       "di_curve": {
-        "short": "13.50-13.80%",
-        "medium": "13.50-13.90%",
-        "long": "13.90-14.20%"
+        "short": "13.50-13.85% (estimativa pós-RPM)",
+        "medium": "13.60-14.00%",
+        "long": "14.00-14.30%"
       },
-      "cds_brazil_5y": "119-121 bps",
-      "ibovespa": "187423 (+0.44%)",
-      "sp500": "7764 (estável/perto de máxima)",
-      "nasdaq": "renovação de força (+0.5% residual)",
-      "brent": "98.55-99.25 USD/bbl",
-      "wti": "realização correspondente ~90",
-      "vix": "14-15"
+      "cds_brazil_5y": "121 bps",
+      "ibovespa": "183966 (−0.99%)",
+      "sp500": "7704 (−0.02% aprox)",
+      "nasdaq": "misto/leve pressão",
+      "brent": "106.60 USD/bbl",
+      "wti": "correspondente em alta",
+      "vix": "15.7-16"
     },
     "pending": [
-      "Fluxo estrangeiro diário B3 consolidado 19-22/09 — aguardando",
-      "Evolução curva DI pós-ata/Focus e RPM BC — monitorar",
+      "Fluxo estrangeiro diário B3 consolidado 23-24/09 — aguardando",
+      "Evolução curva DI pós-RPM e Focus — monitorar",
       "IPCA-15 e dados atividade/emprego EUA — adiante",
       "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
-    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-22' gerado com rigorosa consistência ao último registro (18/09 misto/negativo seletivo → 22/09 positivo seletivo via recuperação índice + petróleo <100 + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/BCB/MarketWatch/Investing/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-24' gerado com rigorosa consistência ao último registro (22/09 positivo seletivo → 24/09 negativo seletivo via petróleo >106 + yields US elevados + RPM cauteloso). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Investing/Bloomberg/Valor/Reuters/MarketWatch/B3/BC corroborados; pendentes padronizados (v3.0)."
   },
-  "vies_risco": "positivo seletivo",
-  "delta_vs_anterior": "de misto/negativo seletivo (−0,41% Ibovespa em 18/09) para positivo seletivo (+0,44% a 187.423 em 22/09, após +0,74% em 21/09); petróleo <100 + recuperação blue chips + exterior prevaleceram sobre ata cautelosa e CDS ~121 bps",
+  "vies_risco": "negativo seletivo",
+  "delta_vs_anterior": "de positivo seletivo (+0,44% Ibovespa a 187.423 em 22/09, petróleo <100) para negativo seletivo (−0,99% a 183.966 em 24/09); petróleo Brent ~106,60 + US10y elevado + RPM BC cauteloso prevaleceram",
   "principais_drivers": [
-    "Petróleo abaixo de US$100 (Brent ~98,5-99,3) aliviando prêmio inflacionário",
-    "Recuperação seletiva Petrobras/Vale e fluxo estrangeiro positivo",
-    "Exterior estável perto de máximas e US10y ~4,96-4,97%",
-    "Ata Copom cautelosa (ciclo aberto, riscos elevados) sem ruptura de preço"
+    "Petróleo Brent ~US$106,60 elevando prêmio inflacionário",
+    "US10y ~5,11-5,21% e aversão a risco global",
+    "RPM BC cauteloso (PIB 2026 1,8%, IPCA 5,2%)",
+    "Dólar a ~R$5,19 e distribuição técnica no Ibovespa"
   ]
 }

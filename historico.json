@@ -3696,5 +3696,47 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-22' gerado com rigorosa consistência ao último registro (18/09 misto/negativo seletivo → 22/09 positivo seletivo via recuperação índice + petróleo <100 + exterior). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Reuters/B3/BCB/MarketWatch/Investing/WorldGovernmentBonds corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-24",
+    "cut_time": "18:30 BRT",
+    "summary": "Fechamento com viés de risco negativo seletivo: Ibovespa −0,99% a 183.966, dólar ~R$5,19, petróleo Brent ~106,60 e US10y elevado prevaleceram sobre fluxo residual e exterior misto. RPM BC cauteloso (PIB 1,8%, IPCA 5,2%). Delta negativo vs. 22/09 (positivo seletivo a 187.423 com petróleo <100).",
+    "impacts": {
+        "dolfut": [
+        "petróleo Brent ~106,60 elevando prêmio inflacionário e demanda por hedge",
+        "US10y ~5,11-5,21% pressionando yields globais e câmbio",
+        "RPM BC cauteloso (IPCA 5,2%, PIB revisado) sustentando prêmio de risco",
+        "dólar comercial a ~R$5,193 (+0,48%)",
+        "CDS ~121 bps absorvido mas sem alívio"
+        ],
+        "indfut": [
+        "aversão a risco global + yields altos comprimindo múltiplos",
+        "petróleo alto pressionando custos e Petrobras/Vale seletivamente",
+        "RPM BC com atividade mais fraca e inflação desancorada",
+        "distribuição técnica após máximas recentes",
+        "Delta negativo vs. recuperação de 22/09"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.50-13.85% (estimativa pós-RPM)",
+        "medium": "13.60-14.00%",
+        "long": "14.00-14.30%"
+        },
+        "cds_brazil_5y": "121 bps",
+        "ibovespa": "183966 (−0.99%)",
+        "sp500": "7704 (−0.02% aprox)",
+        "nasdaq": "misto/leve pressão",
+        "brent": "106.60 USD/bbl",
+        "wti": "correspondente em alta",
+        "vix": "15.7-16"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 23-24/09 — aguardando",
+        "Evolução curva DI pós-RPM e Focus — monitorar",
+        "IPCA-15 e dados atividade/emprego EUA — adiante",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-24' gerado com rigorosa consistência ao último registro (22/09 positivo seletivo → 24/09 negativo seletivo via petróleo >106 + yields US elevados + RPM cauteloso). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Investing/Bloomberg/Valor/Reuters/MarketWatch/B3/BC corroborados; pendentes padronizados (v3.0)."
     }
 ]
