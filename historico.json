@@ -3738,5 +3738,48 @@
         "Leilões e operações do Banco Central — aguardando detalhamento"
     ],
     "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-24' gerado com rigorosa consistência ao último registro (22/09 positivo seletivo → 24/09 negativo seletivo via petróleo >106 + yields US elevados + RPM cauteloso). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Investing/Bloomberg/Valor/Reuters/MarketWatch/B3/BC corroborados; pendentes padronizados (v3.0)."
+    },
+    {
+    "date": "2026-09-29",
+    "cut_time": "18:30 BRT",
+    "summary": "Fechamento com viés de risco positivo seletivo: Ibovespa +0,46% a 183.828, dólar ~R$5,22 (−0,16%), Brent ~102 (−2%+) e queda dos juros futuros após Caged/desemprego fracos prevaleceram sobre CDS ~130,7 e yields US em máximas. Delta positivo vs. 24/09 (negativo seletivo a 183.966 com Brent ~106,60).",
+    "impacts": {
+        "dolfut": [
+        "queda dos juros futuros após Caged fraco e desemprego 5,3%",
+        "Brent ~102 (−2%+) reduzindo prêmio inflacionário e demanda por hedge",
+        "dólar comercial ~R$5,22 (−0,16%)",
+        "CDS ~130,7 bps e proximidade eleitoral sustentando prêmio residual",
+        "US10y ~5,29% pressionando yields globais mas com descolamento local"
+        ],
+        "indfut": [
+        "queda DI + alívio petróleo suportando múltiplos e fluxo residual",
+        "Caged e desemprego mais fracos reforçando desaceleração da atividade",
+        "descolamento positivo vs. NY e yields elevados",
+        "VIX Brasil em recorde (~32) elevando assimetria pré-eleitoral",
+        "Delta positivo vs. distribuição de 24/09"
+        ]
+    },
+    "complements": {
+        "di_curve": {
+        "short": "13.55-13.70%",
+        "medium": "13.70-14.00%",
+        "long": "14.00-14.25%"
+        },
+        "cds_brazil_5y": "130.7 bps",
+        "ibovespa": "183828 (+0.46%)",
+        "sp500": "7671 (−0.16%)",
+        "nasdaq": "estável/leve pressão",
+        "brent": "102.00 USD/bbl",
+        "wti": "correspondente em recuo",
+        "vix": "16.04"
+    },
+    "pending": [
+        "Fluxo estrangeiro diário B3 consolidado 26-29/09 — aguardando",
+        "Pesquisa Datafolha + debate Globo (quinta) — monitorar",
+        "Evolução curva DI e Focus pós-dados emprego — monitorar",
+        "Dados atividade/emprego EUA e falas Fed — adiante",
+        "Leilões e operações do Banco Central — aguardando detalhamento"
+    ],
+    "validation_summary": "Validação concluída: OK. Novo objeto para date '2026-09-29' gerado com rigorosa consistência ao último registro (24/09 negativo seletivo → 29/09 positivo seletivo via queda DI + Brent <103). Campos formatados como strings com unidades; Delta vs. anterior destacado; dados de Valor/Investing/Reuters/B3/Cboe corroborados; pendentes padronizados (v3.0)."
     }
 ]
